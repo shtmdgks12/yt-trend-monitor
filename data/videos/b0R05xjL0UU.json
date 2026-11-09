@@ -1,0 +1,60 @@
+{
+  "id": "b0R05xjL0UU",
+  "title": "100만원짜리 본체 케이스계의 람보르기니",
+  "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+  "channel_name": "까망이컴퓨터",
+  "published": "2026-11-09T00:30:32+00:00",
+  "analyzed_at": "2026-11-09T22:43:09+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 6029,
+  "analysis": {
+    "summary": "까망이컴퓨터에서 초고가 PC 케이스인 ASUS ROG CRONOX ARGB(ROG Hyperion GR701 계열 패키지 표기)를 언박싱하며 소개하는 영상입니다. 영상에서는 케이스 가격이 약 80만 원에서 100만 원 사이에 달하는 초고가 제품임을 언급하며 '케이스계의 람보르기니'로 비유합니다. 엄청난 크기와 고급스러운 부직포 포장, 패키징 디테일에 감탄하며 개봉을 진행합니다.",
+    "video_type": "언박싱",
+    "sponsored": false,
+    "key_points": [
+      "가격대가 80만 원~100만 원 사이에 달하는 초고가 하이엔드 PC 케이스 언박싱",
+      "커세어 30만 원대 케이스가 포르쉐라면 이 케이스는 람보르기니 우라칸급이라고 비유",
+      "거대한 박스 크기와 부직포 포장, 내부 패키징 디테일에 감탄"
+    ],
+    "products": [
+      {
+        "category": "케이스",
+        "brand": "ASUS",
+        "model": "ROG CRONOX ARGB",
+        "timestamp": "00:01",
+        "t": 1,
+        "sentiment": "긍정",
+        "evaluation": "엄청난 박스 크기와 묵직한 무게, 고급스러운 부직포 마감 등을 보여주며 케이스계의 람보르기니 급 하이엔드 제품으로 평가함.",
+        "price_mentioned": "100만원짜리 / 80만원~100만원 사이",
+        "value_comment": "매우 고가이지만 하이엔드 감성과 퀄리티를 갖춘 플래그십 제품으로 소개됨",
+        "is_our_brand": true
+      },
+      {
+        "category": "케이스",
+        "brand": "CORSAIR",
+        "model": "",
+        "timestamp": "00:13",
+        "t": 13,
+        "sentiment": "중립",
+        "evaluation": "과거 30만 원대 케이스를 포르쉐에 비유하며 비교군으로 가볍게 언급됨.",
+        "price_mentioned": "30(만원)",
+        "value_comment": "",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "ASUS ROG의 플래그십/하이엔드 케이스(ROG Hyperion/CRONOX 계열) 및 프리미엄 라인업에 대한 콘텐츠 관심도가 높으므로, ASUS ROG 고가 컴포넌트(메인보드, 수랭쿨러, 파워 등)와의 풀세트 빌드 협업 제안이 효과적입니다.",
+      "브이로그 및 쇼츠 형태로 하이엔드 부품의 압도적인 패키징이나 실물 비주얼을 다루는 것을 선호하므로, 시각적 임팩트가 큰 플래그십 신제품 샘플 대여 프로모션을 제안하기에 적합합니다.",
+      "커세어 및 ASUS 등 고가 프리미엄 브랜드에 대한 호감과 인지도가 높으므로 당사 취급 하이엔드 브랜드 제품군과의 시너지 견적 구성을 어필할 수 있습니다."
+    ],
+    "trend_tags": [
+      "ASUS",
+      "ROG",
+      "하이엔드케이스",
+      "컴퓨터케이스",
+      "언박싱"
+    ]
+  }
+}

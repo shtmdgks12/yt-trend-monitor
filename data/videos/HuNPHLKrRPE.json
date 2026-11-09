@@ -1,0 +1,172 @@
+{
+  "id": "HuNPHLKrRPE",
+  "title": "2026년 컴퓨터견적 추천 TOP8! 어항과 화이트 전문가 추남이 추천하는 가성비 게임용 PC견적",
+  "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
+  "channel_name": "티와이 시스템",
+  "published": "2026-11-07T06:11:10.173569+00:00",
+  "analyzed_at": "2026-11-09T22:26:52+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 86491,
+  "analysis": {
+    "summary": "어항형 케이스와 화이트 감성을 극대화하면서도 튜닝 비용을 아껴 가성비를 챙긴 8가지 게이밍 PC 견적과 2가지 그래픽카드 제외 존버용 반본체 견적을 소개하는 영상입니다. 100만 원대 보급형 사양부터 600만 원대 초고사양(9800X3D + RTX 5080) 구성까지 다양한 가격대별 실게임 벤치마크 테스트 결과를 함께 제공합니다. 최근 그래픽카드 가격 부담 및 품절 이슈로 인해 문의가 급증한 반본체 구성을 공식 라인업으로 추가해 소비자 선택지를 넓혔습니다. 부대 구성품으로 화이트 콘셉트에 어울리는 FHD/QHD 모니터와 기계식 키보드, 마우스 등 추천 게이밍 기어도 함께 안내합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "어항 케이스 및 화이트 감성 중심의 게이밍 PC 견적 8종과 존버용 반본체 2종 공개",
+      "기존 글카 재활용 유저를 위한 5600/7800X3D 기반 실속형 반본체 라인업 구성",
+      "발로란트, 오버워치, 배틀그라운드, 몬스터헌터 와일즈, 포르자 호라이즌 등 실게임 QHD/FHD 벤치마크 수치 제공",
+      "견적별 콘셉트에 맞춘 FHD/QHD 게이밍 모니터 및 1stPlayer 키보드, 로지텍 마우스 기어 추천"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7-6세대 9800X3D",
+        "timestamp": "09:34",
+        "t": 574,
+        "sentiment": "긍정",
+        "evaluation": "모든 게임 풀옵션 및 원컴 방송, 작업까지 완벽히 소화하는 가성비 끝판왕 PC의 핵심 CPU로 추천합니다.",
+        "price_mentioned": "",
+        "value_comment": "최고 성능 게이밍 PC를 원하는 유저에게 대체 불가능한 원탑 선택지",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7-5세대 7800X3D",
+        "timestamp": "08:25",
+        "t": 505,
+        "sentiment": "긍정",
+        "evaluation": "QHD 풀옵션 환경에서도 200~300프레임 이상을 안정적으로 뽑아내며 트리플A급 게임까지 완벽 정복 가능한 게이밍 특화 CPU입니다.",
+        "price_mentioned": "",
+        "value_comment": "하이엔드 게이밍 PC 및 고성능 반본체 구성에서 가장 인기 있는 모델",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 5-5세대 7500F",
+        "timestamp": "04:52",
+        "t": 292,
+        "sentiment": "긍정",
+        "evaluation": "국내 인기 온라인 게임과 고사양 스팀 게임을 쾌적하게 즐길 수 있는 베스트셀러 가성비 CPU입니다.",
+        "price_mentioned": "",
+        "value_comment": "200만 원대 견적에서 최상의 가격 대비 성능을 보여주는 조합",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 5-4세대 5600",
+        "timestamp": "02:53",
+        "t": 173,
+        "sentiment": "긍정",
+        "evaluation": "현시점 100만 원 초반대 가성비 PC 및 저렴한 존버용 반본체 구성에 가장 적합한 모델입니다.",
+        "price_mentioned": "",
+        "value_comment": "DDR4 기반으로 최저 예산 구성을 실현해 주는 가성비 원탑",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "ROG STRIX B860-G GAMING WIFI",
+        "timestamp": "07:18",
+        "t": 438,
+        "sentiment": "긍정",
+        "evaluation": "인텔 울트라7 270K PLUS와 매칭하여 화이트 어항 케이스에 대장급 비주얼과 고급스러운 감성을 완성해 줍니다.",
+        "price_mentioned": "",
+        "value_comment": "화이트 하이엔드 시스템 빌드에 적합한 프리미엄 보드",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "B850M MAX GAMING WIFI",
+        "timestamp": "11:43",
+        "t": 703,
+        "sentiment": "긍정",
+        "evaluation": "7800X3D 반본체 견적에서 성능을 100% 발휘하면서도 호환성과 안정성이 뛰어난 극가성비 메인보드로 채택되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "7800X3D의 가성비를 극대화할 수 있는 실속형 보드",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME A620M-A",
+        "timestamp": "04:52",
+        "t": 292,
+        "sentiment": "긍정",
+        "evaluation": "7500F와의 조합에서 오래 사용해도 문제없는 탄탄한 내구성과 호환성을 제공합니다.",
+        "price_mentioned": "",
+        "value_comment": "가성비 게이밍 빌드에 적합한 실속형 메인보드",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME A520M-K",
+        "timestamp": "11:10",
+        "t": 670,
+        "sentiment": "긍정",
+        "evaluation": "5600 기반 반본체 견적에서 가격 거품을 덜어내고 안정성을 챙겨주는 기본기 충실한 보드입니다.",
+        "price_mentioned": "",
+        "value_comment": "저예산 빌드 및 알뜰 반본체에 최적인 경제적인 모델",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "TYPC",
+        "model": "가성비 첫번째 PC (7500X3D + RTX 5070)",
+        "timestamp": "01:41",
+        "t": 101,
+        "sentiment": "긍정",
+        "evaluation": "게이밍 킹 조합으로 현존하는 모든 게임을 부드럽게 즐길 수 있는 화이트 어항 PC입니다.",
+        "price_mentioned": "3,340,000원",
+        "value_comment": "케이스와 쿨러 깔맞춤에 10만 원 정도만 투자하여 가성비와 비주얼을 모두 잡음",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "TYPC",
+        "model": "가성비 여덟번째 PC (9800X3D + RTX 5080)",
+        "timestamp": "09:34",
+        "t": 574,
+        "sentiment": "긍정",
+        "evaluation": "디스플레이 수랭 및 고급 튜닝 케이블을 적용하여 화이트 어항 감성과 게이밍 풀옵션 성능을 끝판왕 수준으로 완성한 견적입니다.",
+        "price_mentioned": "6,890,000원",
+        "value_comment": "성능과 감성 모두 최고 등급을 타협 없이 담은 프리미엄 PC",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "TYPC",
+        "model": "가성비 열번째 PC 반본체 (7800X3D)",
+        "timestamp": "11:43",
+        "t": 703,
+        "sentiment": "긍정",
+        "evaluation": "기존에 쓰던 고성능 그래픽카드(40시리즈 등)를 그대로 이식해 최신 X3D 플랫폼으로 업그레이드하기에 최적화된 반본체 견적입니다.",
+        "price_mentioned": "1,690,000원",
+        "value_comment": "글카 가격 폭등 시기에 기존 글카를 살리면서 CPU 성능을 극대화할 수 있는 고효율 구성",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "티와이 시스템(이지션)은 화이트 콘셉트 및 파노라마 어항 케이스 PC 제작에 특화된 거래처이므로, ASUS의 화이트/실버 히트싱크 메인보드(ROG STRIX B860-G, PRIME 시리즈 등)와 백플러그 BTF 지원 보드에 대한 공급 제안이 매우 효과적입니다.",
+      "영상에서 AMD 9800X3D, 7800X3D, 7500F, 5600 등 라이젠 라인업이 완제품과 반본체 전반에 걸쳐 핵심 판매 축을 담당하고 있으므로, 고성능 X3D 라인업의 안정적인 물량 공급과 가성비 모델(7500F/5600)의 대량 패키지 단가 협의를 진행할 필요가 있습니다.",
+      "화이트 튜닝 감성을 중시하는 거래처 특성을 고려하여, 당사 취급 브랜드인 Kingston Fury 화이트 메모리, Corsair 화이트 튜닝 부품 및 NZXT 화이트 수랭쿨러/케이스와의 번들 구성을 제안하면 타사 부품을 당사 유통 라인업으로 전환할 수 있습니다."
+    ],
+    "trend_tags": [
+      "화이트감성",
+      "어항케이스",
+      "게이밍PC견적",
+      "존버용반본체",
+      "9800X3D",
+      "7800X3D",
+      "ASUS메인보드",
+      "가성비PC"
+    ]
+  }
+}

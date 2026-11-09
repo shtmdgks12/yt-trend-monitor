@@ -1,0 +1,147 @@
+{
+  "id": "yTUZyQB0fAc",
+  "title": "[까망이컴퓨터] 이 영상에서 감탄만 몇번했을까요",
+  "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+  "channel_name": "까망이컴퓨터",
+  "published": "2026-11-07T06:12:25.637201+00:00",
+  "analyzed_at": "2026-11-09T22:36:07+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 61568,
+  "analysis": {
+    "summary": "총 견적 약 1,200만 원 상당의 초고사양 하이엔드 PC 조립 및 언박싱 과정을 담은 영상입니다. AMD Ryzen 9 9950X3D CPU와 ASUS ROG Dark Hero 메인보드, ROG Astral RTX 5080, ROG Strix 1200W 파워 등 최상급 부품들의 언박싱과 조립 과정을 보여줍니다. 조립 공임비에 대한 현실적인 견해를 나누며, 여러 개의 디스플레이와 화려한 ARGB LED를 갖춘 완성형 ROG 시스템의 외관을 선보입니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "약 1,200만 원 상당의 올 ROG 컨셉 하이엔드 게이밍 및 작업용 PC 조립",
+      "ASUS ROG Astral RTX 5080, X870E 다크히어로 등 구하기 힘든 프리미엄 부품 구성",
+      "고사양 PC 조립 시 공임비와 직접 조립 간의 기회비용에 대한 솔직한 토크",
+      "메인보드, 쿨러, 케이스 등 총 4곳에 장착된 디스플레이와 화려한 조명 연출"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 9 9950X3D",
+        "timestamp": "00:34",
+        "t": 34,
+        "sentiment": "긍정",
+        "evaluation": "캐시 메모리가 풍부하여 성능이 매우 뛰어나며, 제일 비싼 최상급 CPU로 소개했습니다.",
+        "price_mentioned": "150만원 정도",
+        "value_comment": "가격은 매우 고가이나 최고 사양을 원하는 사용자에게 적합하다고 평가했습니다.",
+        "is_our_brand": true
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "9100 1TB",
+        "timestamp": "00:54",
+        "t": 54,
+        "sentiment": "긍정",
+        "evaluation": "C드라이브용으로 가장 좋은 1TB SSD로 선택되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "KIOXIA",
+        "model": "2TB",
+        "timestamp": "01:00",
+        "t": 60,
+        "sentiment": "긍정",
+        "evaluation": "D드라이브 서브 스토리지용으로 넉넉하게 2TB 제품을 사용했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "G.SKILL",
+        "model": "64GB",
+        "timestamp": "01:03",
+        "t": 63,
+        "sentiment": "긍정",
+        "evaluation": "RGB 감성을 지원하며 총 64GB 구성으로 넉넉한 하이엔드 튜닝 램입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "ROG CROSSHAIR X870E DARK HERO",
+        "timestamp": "01:14",
+        "t": 74,
+        "sentiment": "긍정",
+        "evaluation": "방열판 마감과 디자인이 아름다우며 비싸지만 그만큼 완성도와 감성이 뛰어난 보드라고 극찬했습니다.",
+        "price_mentioned": "약 100만원",
+        "value_comment": "비싸지만 디자인과 기능성을 고려하면 감탄이 나오는 보드라고 언급했습니다.",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "ASUS",
+        "model": "ROG ASTRAL GeForce RTX 5080",
+        "timestamp": "01:48",
+        "t": 108,
+        "sentiment": "긍정",
+        "evaluation": "400W를 소모하며 4개의 팬과 거대한 방열판을 탑재해 묵직하고 고급스러운 외관을 자랑합니다.",
+        "price_mentioned": "380(만원)",
+        "value_comment": "그래픽카드 단품만으로도 매우 고가이나 시스템의 핵심 포인트로 꼽았습니다.",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "ASUS",
+        "model": "ROG STRIX LC IV 360 ARGB LCD",
+        "timestamp": "03:57",
+        "t": 237,
+        "sentiment": "긍정",
+        "evaluation": "헤드에 대형 LCD 액정이 탑재되어 있고 튜브와 라디에이터 마감이 매우 고급스럽다고 평가했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "파워",
+        "brand": "ASUS",
+        "model": "ROG STRIX 1200W PLATINUM",
+        "timestamp": "04:48",
+        "t": 288,
+        "sentiment": "긍정",
+        "evaluation": "안정적인 1200W 고출력 플래티넘 등급 파워로 하이엔드 시스템에 충분한 용량을 제공합니다.",
+        "price_mentioned": "30만원 돈",
+        "value_comment": "기본 STRIX 파워만으로도 충분히 훌륭하며 액정 모델 대비 가격 균형이 좋다고 언급했습니다.",
+        "is_our_brand": true
+      },
+      {
+        "category": "케이스",
+        "brand": "ASUS",
+        "model": "ROG CRONOX ARGB",
+        "timestamp": "05:04",
+        "t": 304,
+        "sentiment": "긍정",
+        "evaluation": "압도적인 크기와 무게(25~30kg 추정)를 자랑하며 자체 디스플레이 및 다수의 팬을 지원하는 최고급 케이스입니다.",
+        "price_mentioned": "100만원 80만원 사이",
+        "value_comment": "고가이지만 슈퍼카에 비유될 정도로 독보적인 위용을 보여준다고 평가했습니다.",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "영상 02:08경 대원씨티에스에 재고가 없어 인텍앤컴퍼니를 통해 물량을 수급했다고 직접 언급했습니다. 하이엔드 및 ROG 라인업 주요 제품(RTX 5080/메인보드/케이스 등)의 재고 현황을 까망이컴퓨터 측에 사전에 공유하여 타 유통사로의 주문 이탈을 방지할 필요가 있습니다.",
+      "1,000만 원 이상의 초고사양 올 ROG 풀세트 견적 조립 수요가 꾸준히 발생하는 채널이므로, ASUS ROG 메인보드(DARK HERO 등), ROG 그래픽카드, ROG 수랭쿨러/파워 등의 패키지 번들 제안이나 VIP 우선 출고 라인 제공이 효과적입니다.",
+      "조립 브이로그 형식으로 부품의 외관 감성과 디스플레이 연출을 적극 조명하므로, 시각적 효과가 뛰어난 대원 유통 브랜드 제품(ASUS LCD 수랭쿨러, CORSAIR 튜닝 메모리/팬 등)의 신제품 샘플 대여나 리뷰 협찬 시 높은 바이럴 효과를 기대할 수 있습니다."
+    ],
+    "trend_tags": [
+      "하이엔드PC",
+      "ASUS_ROG",
+      "RTX5080",
+      "9950X3D",
+      "DarkHero",
+      "1200만원견적",
+      "LCD디스플레이"
+    ]
+  }
+}

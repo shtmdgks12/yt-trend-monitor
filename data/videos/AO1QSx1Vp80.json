@@ -1,0 +1,134 @@
+{
+  "id": "AO1QSx1Vp80",
+  "title": "78X3D, 98X3D의 가격이 크게 내렸네? (11월 CPU 가성비 비교표)",
+  "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
+  "channel_name": "신성조의 pc공방",
+  "published": "2026-11-09T11:05:32+00:00",
+  "analyzed_at": "2026-11-09T23:02:23+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 146348,
+  "analysis": {
+    "summary": "11월 CPU 가성비 비교표를 통해 CPU, 쿨러, 메인보드, 램 가격을 합산한 반본체 기준으로 가성비를 분석한 영상입니다. 주요 이슈로 AMD 라이젠 7 7800X3D(약 37만 원)와 9800X3D(약 58만 원)의 가격이 각각 10%, 8%가량 크게 하락하여 게이밍 CPU로서 가성비가 대폭 상승했다고 강조했습니다. 인텔의 경우 코어 울트라 5 245KF가 작업과 게임을 겸하는 용도로 가성비 1위를 차지했으며, 13/14세대 i7/i9 및 구형 5000 시리즈 라이젠은 최신 그래픽카드와 조합 시 병목 현상이 심하므로 구매를 지양하라고 조언했습니다.",
+    "video_type": "비교/벤치마크",
+    "sponsored": false,
+    "key_points": [
+      "CPU 단독 가격이 아닌 CPU+쿨러+메인보드+RAM을 합친 반본체 기준 가성비 비교",
+      "라이젠 7 7800X3D(37만 원대)와 9800X3D(58만 원대)의 유의미한 가격 인하로 게이밍 가성비 급상승",
+      "인텔 코어 울트라 5 245KF(30만 원대)가 다목적 종합 가성비 1등으로 평가",
+      "라이젠 7500F 및 5600 등 하위/구형 라인업은 현세대 그래픽카드 병목 현상이 심해 추천 제외 권고"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "timestamp": "02:51",
+        "t": 171,
+        "sentiment": "긍정",
+        "evaluation": "최상위 게이밍 CPU로 전월 대비 약 4만 원 하락하여 58만 원대에 진입했으며, 60만 원 이하 가격대에서 최고의 게이밍 성능을 제공합니다.",
+        "price_mentioned": "58만원",
+        "value_comment": "게이밍 기준 가성비 10위권으로 상위권에 랭크되어 고사양 게이머에게 적극 추천",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "timestamp": "05:08",
+        "t": 308,
+        "sentiment": "긍정",
+        "evaluation": "기존 41.6만 원에서 37만 원으로 약 10% 인하되어 현시점 게이밍 CPU 중 1순위로 추천하는 최고의 가성비 제품입니다.",
+        "price_mentioned": "37만원",
+        "value_comment": "게이밍 가성비 4위 수준이나 실제 체감 게이밍 성능 대비 최고의 선택지",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core Ultra 7 265K",
+        "timestamp": "07:34",
+        "t": 454,
+        "sentiment": "긍정",
+        "evaluation": "작업 성능이 매우 뛰어나며 시네벤치 및 다중 작업 용도로 우수하지만, 게이밍 성능은 AMD X3D 시리즈에 밀립니다.",
+        "price_mentioned": "50만원 이하",
+        "value_comment": "종합 가성비 3위로 다용도 고성능 작업용으로 적합",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core Ultra 5 245KF",
+        "timestamp": "12:34",
+        "t": 754,
+        "sentiment": "긍정",
+        "evaluation": "CPU 가격이 30만 원대 초반으로 저렴하며, 듀얼타워 공랭 쿨러로 커버 가능해 작업과 게임을 겸하는 다목적 용도로 최고의 가성비를 보여줍니다.",
+        "price_mentioned": "30만원~31만원",
+        "value_comment": "종합 가성비 1위 달성",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500F",
+        "timestamp": "15:24",
+        "t": 924,
+        "sentiment": "부정",
+        "evaluation": "가격은 10만 원대 중후반으로 싸지만, 현세대 그래픽카드(RTX 4060급 이상) 장착 시 7800X3D 대비 게이밍 프레임 격차가 15~20% 이상 벌어져 추천하지 않습니다.",
+        "price_mentioned": "16만원~20만원",
+        "value_comment": "CPU 단품 가격은 저렴하나 현대 게이밍 환경에서는 성능 하락폭이 커 비추천",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core i5-14600KF",
+        "timestamp": "17:30",
+        "t": 1050,
+        "sentiment": "중립",
+        "evaluation": "DDR4 메모리를 재활용할 때 고려할 수 있는 마지노선 제품이나, 신규 구성으로는 메리트가 떨어집니다.",
+        "price_mentioned": "",
+        "value_comment": "DDR4 기존 시스템 업그레이드용으로만 제한적 가치 있음",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core i3-14100",
+        "timestamp": "22:06",
+        "t": 1326,
+        "sentiment": "긍정",
+        "evaluation": "벌크 기준 15만 원 수준에 내장그래픽과 높은 클럭을 갖춰 사무용, 인강용, 포스기 용도로 무난하고 빠릿하게 사용하기 좋습니다.",
+        "price_mentioned": "15만원",
+        "value_comment": "사무용 엔트리 라인업 중 가성비 우수",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5600",
+        "timestamp": "20:54",
+        "t": 1254,
+        "sentiment": "부정",
+        "evaluation": "출시된 지 4년 이상 지난 구형 아키텍처로, 최신 그래픽카드와 조합 시 병목으로 성능이 40% 가까이 떨어지므로 신규 구매를 절대 추천하지 않습니다.",
+        "price_mentioned": "",
+        "value_comment": "신규 조립 시 가성비 매우 불량",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "크리에이터가 Ryzen 7 7800X3D(37만 원대)와 9800X3D(58만 원대)의 가격 인하를 바탕으로 게이밍 1순위 CPU로 강력 추천하고 있으므로, 당사 유통 AMD Ryzen CPU와 ASRock/ASUS 메인보드 결합 패키지 프로모션을 제안하기에 최적의 시기입니다.",
+      "소비자들 사이에서 인기 있던 Ryzen 5 7500F와 5600에 대해 '최신 그래픽카드 병목'을 이유로 비추천 의견을 강하게 내고 있으므로, 거래처 상담 시 엔트리 게이밍 수요를 7800X3D나 AM5 차세대 플랫폼으로 전환 유도하는 전략이 필요합니다.",
+      "인텔 Core Ultra 5 245KF가 종합 가성비 1위로 부각되고 있으므로, 해당 CPU와 호환되는 당사 유통 ASRock/ASUS Z890 및 B860 메인보드의 재고 확보 및 연계 영업을 강화할 필요가 있습니다."
+    ],
+    "trend_tags": [
+      "CPU가성비",
+      "7800X3D",
+      "9800X3D",
+      "CoreUltra",
+      "반본체견적",
+      "AMD가격인하"
+    ]
+  }
+}
