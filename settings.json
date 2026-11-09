@@ -1,6 +1,17 @@
 {
   "our_company": "대원씨티에스",
-  "our_brands": [],
+  "our_brands": [
+    "AMD / 에이엠디",
+    "ASUS / 에이수스 / 아수스",
+    "MANLI / 만리",
+    "CORSAIR / 커세어",
+    "KINGSTON / 킹스톤",
+    "POWERCOLOR / 파워컬러 / TUL",
+    "SANDISK / 샌디스크",
+    "NZXT / 엔지엑스티 / 앤지엑스티",
+    "ASRock / 애즈락 / 에즈락",
+    "AFOX / AFT / 에이폭스"
+  ],
   "gemini_model": "gemini-3.8-flash",
   "gemini_fallback_model": "gemini-flash-latest",
   "media_resolution": "MEDIA_RESOLUTION_LOW",
