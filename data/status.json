@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-09T11:23:34+09:00",
+  "last_run": "2026-11-09T11:24:38+09:00",
   "channels": [
     {
       "name": "영재컴퓨터",
@@ -13,14 +13,14 @@
       "url": "https://www.youtube.com/@YangCom2014",
       "ok": false,
       "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "name": "신성조의 pc공방",
       "url": "https://www.youtube.com/@sinsungzo",
       "ok": false,
       "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     },
     {
       "name": "고고싱컴퓨터",
@@ -41,7 +41,7 @@
       "url": "https://www.youtube.com/@%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94%EB%82%A8%EC%9E%90",
       "ok": false,
       "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "name": "웰메이드컴퓨터",
@@ -49,6 +49,13 @@
       "ok": false,
       "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",
       "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "까망이컴퓨터",
+      "url": "https://www.youtube.com/@%EA%B9%8C%EB%A7%9D%EC%9D%B4%EC%BB%B4%ED%93%A8%ED%84%B0",
+      "ok": false,
+      "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+      "error": "HTTP Error 500: Internal Server Error"
     }
   ],
   "analyzed": 0,
