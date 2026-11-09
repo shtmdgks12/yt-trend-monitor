@@ -1,0 +1,121 @@
+{
+  "id": "bewAxiFmf70",
+  "title": "2026년 가장 많이 판매된 수랭식 워크스테이션",
+  "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
+  "channel_name": "양컴",
+  "published": "2026-11-07T06:08:38.845729+00:00",
+  "analyzed_at": "2026-11-09T15:29:47+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 29307,
+  "analysis": {
+    "summary": "AMD 라이젠 스레드리퍼 PRO 9965WX와 ASUS PRO WS WRX90E-SAGE SE 메인보드를 기반으로 한 4-Way 멀티 GPU 커스텀 수랭 워크스테이션 조립 빌드 영상입니다. 4개의 RTX 5090 그래픽카드를 커스텀 워터블럭으로 교체 장착하고 외장 모라 라디에이터를 결합하여 고부하 환경에서도 안정적인 쿨링을 유지하도록 구성했습니다. SK하이닉스 ECC/REG DDR5 메모리와 삼성 9100 PRO NVMe SSD, 2000W 듀얼 파워서플라이를 채택하여 딥러닝 및 연산용 하이엔드 시스템을 완성했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "AMD Ryzen Threadripper PRO 9965WX와 ASUS WRX90E 워크스테이션 메인보드 조합",
+      "4장의 RTX 5090 그래픽카드 공랭 쿨러를 탈거하고 커스텀 수랭 블록으로 교체 장착",
+      "외장 라디에이터(MORA)와 17개의 쿨링팬, 듀얼 2000W 파워서플라이를 활용한 극한의 전력 및 쿨링 구성"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRO WS WRX90E-SAGE SE",
+        "timestamp": "00:00",
+        "t": 0,
+        "sentiment": "긍정",
+        "evaluation": "스레드리퍼 PRO 프로세서를 지원하며 4-Way GPU 구성을 위한 풍부한 PCIe 슬롯을 갖춘 하이엔드 워크스테이션 메인보드로 사용되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen Threadripper PRO 9965WX",
+        "timestamp": "00:15",
+        "t": 15,
+        "sentiment": "긍정",
+        "evaluation": "고성능 연산 및 멀티태스킹 워크스테이션을 위한 플래그십 프로세서로 장착되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메모리",
+        "brand": "SK hynix",
+        "model": "DDR5-5600 ECC/REG 256GB(64Gx4)",
+        "timestamp": "00:54",
+        "t": 54,
+        "sentiment": "긍정",
+        "evaluation": "워크스테이션의 데이터 무결성과 대용량 작업을 위해 ECC/REG 256GB 구성으로 탑재되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "9100 PRO M.2 NVMe 4TB",
+        "timestamp": "01:10",
+        "t": 70,
+        "sentiment": "긍정",
+        "evaluation": "초고속 데이터 처리 및 대용량 워크로드를 위해 탑재되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 5090 D7 32GB (4EA)",
+        "timestamp": "01:23",
+        "t": 83,
+        "sentiment": "긍정",
+        "evaluation": "GameRock 기판을 기반으로 공랭 쿨러를 탈거하고 워터블럭을 장착하여 4-Way 병렬 연산 환경을 구축했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "Phanteks",
+        "model": "PRO 2 TG",
+        "timestamp": "02:04",
+        "t": 124,
+        "sentiment": "긍정",
+        "evaluation": "대형 메인보드 및 다중 GPU, 수랭 라인 수용이 용이한 풀타워 케이스로 활용되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "SuperFlower",
+        "model": "2000W (2EA)",
+        "timestamp": "02:32",
+        "t": 152,
+        "sentiment": "긍정",
+        "evaluation": "4개의 플래그십 GPU 및 시스템 전력을 안정적으로 공급하기 위해 2000W 듀얼 파워로 세팅되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "해당 거래처는 AI 딥러닝 및 연산용 4-Way GPU 커스텀 수랭 워크스테이션/서버를 전문 제작하므로, AMD 스레드리퍼 PRO CPU 및 ASUS PRO WS WRX90E-SAGE SE 메인보드의 안정적인 공급 패키지 제안이 효과적입니다.",
+      "멀티 GPU 워크스테이션 구성 시 안정적인 전력 분배와 PCIe 대역폭 지원이 핵심이므로, 대원CTS 취급 고성능 메인보드 및 관련 서버 부품군(NVMe, ECC 메모리 지원 라인업)과의 프로모션 연계를 타진할 수 있습니다."
+    ],
+    "trend_tags": [
+      "스레드리퍼PRO",
+      "WRX90E",
+      "RTX5090",
+      "4WayGPU",
+      "커스텀수랭",
+      "워크스테이션",
+      "딥러닝서버"
+    ]
+  }
+}

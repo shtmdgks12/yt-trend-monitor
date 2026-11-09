@@ -1,1 +1,290 @@
-[]
+[
+  {
+    "id": "bewAxiFmf70",
+    "title": "2026년 가장 많이 판매된 수랭식 워크스테이션",
+    "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
+    "channel_name": "양컴",
+    "published": "2026-11-07T06:08:38.845729+00:00",
+    "analyzed_at": "2026-11-09T15:29:47+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "AMD 라이젠 스레드리퍼 PRO 9965WX와 ASUS PRO WS WRX90E-SAGE SE 메인보드를 기반으로 한 4-Way 멀티 GPU 커스텀 수랭 워크스테이션 조립 빌드 영상입니다. 4개의 RTX 5090 그래픽카드를 커스텀 워터블럭으로 교체 장착하고 외장 모라 라디에이터를 결합하여 고부하 환경에서도 안정적인 쿨링을 유지하도록 구성했습니다. SK하이닉스 ECC/REG DDR5 메모리와 삼성 9100 PRO NVMe SSD, 2000W 듀얼 파워서플라이를 채택하여 딥러닝 및 연산용 하이엔드 시스템을 완성했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "스레드리퍼PRO",
+      "WRX90E",
+      "RTX5090",
+      "4WayGPU",
+      "커스텀수랭",
+      "워크스테이션",
+      "딥러닝서버"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRO WS WRX90E-SAGE SE",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen Threadripper PRO 9965WX",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메모리",
+        "brand": "SK hynix",
+        "model": "DDR5-5600 ECC/REG 256GB(64Gx4)",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "9100 PRO M.2 NVMe 4TB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 5090 D7 32GB (4EA)",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "Phanteks",
+        "model": "PRO 2 TG",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "SuperFlower",
+        "model": "2000W (2EA)",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "OsknGro4Vbo",
+    "title": "RTX5090 이어 빨려나가는 RTX5080 이래서 가격이 올랐나?",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-06T06:09:54.485090+00:00",
+    "analyzed_at": "2026-11-09T15:24:19+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "RTX 5090의 중국 유출 및 AI 수요로 인한 품귀와 가격 폭등에 이어, 하위 모델인 RTX 5080 및 5070 Ti까지 가격이 급격히 상승하고 있습니다. 5080은 220~250만 원대에서 약 300만 원 가까이 치솟았으며 공홈 및 쇼핑몰에서 재고가 빠르게 소진 중입니다. 더불어 중국발 신규 가상화폐 채굴 루머(RTX 5060 Ti 16GB 이상 채굴 투입설)까지 겹치며 추가적인 가격 상승 우려가 커지고 있습니다. 수능 이후 PC 구매를 계획하는 소비자들에게 그래픽카드 가격 인상 전 조기 구매를 권장하고 있습니다.",
+    "video_type": "뉴스/루머",
+    "sponsored": false,
+    "tags": [
+      "RTX5080",
+      "RTX5090",
+      "그래픽카드품귀",
+      "가격폭등",
+      "채굴루머",
+      "수능PC견적"
+    ],
+    "products": [
+      {
+        "category": "그래픽카드",
+        "brand": "ASUS",
+        "model": "PRIME 지포스 RTX 5080 D7 16GB",
+        "sentiment": "부정",
+        "price_mentioned": "2,984,000원",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 5090",
+        "sentiment": "부정",
+        "price_mentioned": "1000만원 육박",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 5070 Ti",
+        "sentiment": "부정",
+        "price_mentioned": "210 만원",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "ASUS",
+        "model": "GeForce GT 1030 2GB",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      }
+    ]
+  },
+  {
+    "id": "-ujQgztj7YU",
+    "title": "11월 월간견적｜조립PC·게이밍컴퓨터 추천｜가격대별 조립컴퓨터 사양과 실제 견적 비교",
+    "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+    "channel_name": "마인드피씨",
+    "published": "2026-10-31T06:10:32.346898+00:00",
+    "analyzed_at": "2026-11-09T15:19:19+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "마인드피씨에서 최근 메모리와 그래픽카드 등 주요 부품 가격 상승세 속에서 가격 부담을 최소화하여 구성한 11월 월간 조립PC 견적 6종을 소개하는 영상입니다. 배그, 아이온2, 스팀 게임 등을 타깃으로 한 라이젠 7500F/7500X3D/7800X3D와 RTX 5060 Ti 기반의 메인스트림~퍼포먼스 견적 TOP 3를 중점적으로 다룹니다. 또한 가성비 온라인 게임 실속 PC(라이젠 5600 + RTX 5050), 인텔 i5-14400F 에디션, 고해상도 게이밍을 위한 QHD 고사양 PC(7800X3D + RTX 5070)까지 용도별 맞춤 라인업을 제시합니다. 전 제품 윈도우/드라이버 세팅 완비, 출장 A/S 무상 지원 및 기존 사용 PC 보상판매 혜택을 강조하고 있습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "11월월간견적",
+      "조립PC추천",
+      "게이밍컴퓨터",
+      "부품가격상승대응",
+      "라이젠X3D",
+      "RTX5060Ti",
+      "RTX5070",
+      "가성비조립PC"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500F",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "Palit",
+        "model": "GeForce RTX 5060 Ti DUAL D7 8GB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "TOP.1 메인스트림 게이밍 PC (7500F + RTX 5060 Ti)",
+        "sentiment": "긍정",
+        "price_mentioned": "1,695,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "TOP.2 X3D 밸런스 게이밍PC (7500X3D + RTX 5060 Ti)",
+        "sentiment": "긍정",
+        "price_mentioned": "1,880,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "TOP.3 퍼포먼스 게이밍 PC (7800X3D + RTX 5060 Ti)",
+        "sentiment": "긍정",
+        "price_mentioned": "2,050,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5600",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "INNO3D",
+        "model": "GeForce RTX 5050 D6 8GB TWIN X2",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "온라인 게임 실속PC (5600 + RTX 5050)",
+        "sentiment": "긍정",
+        "price_mentioned": "1,199,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core i5-14400F",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "인텔 게이밍 에디션PC (i5-14400F + RTX 5060 Ti)",
+        "sentiment": "긍정",
+        "price_mentioned": "1,495,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "MANLI",
+        "model": "GeForce RTX 5070 Nebula D7 12GB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "QHD 고사양 게이밍PC (7800X3D + RTX 5070)",
+        "sentiment": "긍정",
+        "price_mentioned": "2,500,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "KINGSTON",
+        "model": "NV3 M.2 NVMe (500GB)",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME A520M-K",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      }
+    ]
+  }
+]

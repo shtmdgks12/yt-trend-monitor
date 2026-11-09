@@ -1,0 +1,232 @@
+{
+  "id": "-ujQgztj7YU",
+  "title": "11월 월간견적｜조립PC·게이밍컴퓨터 추천｜가격대별 조립컴퓨터 사양과 실제 견적 비교",
+  "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+  "channel_name": "마인드피씨",
+  "published": "2026-10-31T06:10:32.346898+00:00",
+  "analyzed_at": "2026-11-09T15:19:19+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-flash-latest",
+  "tokens": 37534,
+  "analysis": {
+    "summary": "마인드피씨에서 최근 메모리와 그래픽카드 등 주요 부품 가격 상승세 속에서 가격 부담을 최소화하여 구성한 11월 월간 조립PC 견적 6종을 소개하는 영상입니다. 배그, 아이온2, 스팀 게임 등을 타깃으로 한 라이젠 7500F/7500X3D/7800X3D와 RTX 5060 Ti 기반의 메인스트림~퍼포먼스 견적 TOP 3를 중점적으로 다룹니다. 또한 가성비 온라인 게임 실속 PC(라이젠 5600 + RTX 5050), 인텔 i5-14400F 에디션, 고해상도 게이밍을 위한 QHD 고사양 PC(7800X3D + RTX 5070)까지 용도별 맞춤 라인업을 제시합니다. 전 제품 윈도우/드라이버 세팅 완비, 출장 A/S 무상 지원 및 기존 사용 PC 보상판매 혜택을 강조하고 있습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "최근 메모리 및 그래픽카드 단가 상승에도 불구하고 마진 축소 및 특가 공급으로 타사 대비 5~12만 원 저렴한 견적가 구성",
+      "메인스트림(7500F) 대비 프레임 방어 및 고주사율 모니터 활용 시 7500X3D/7800X3D 프로세서의 강점 강조",
+      "퍼포먼스 게이밍 PC의 경우 동일 사양 기준 블랙/화이트 컬러 옵션 동시 운영",
+      "구형 PC 보상판매 프로그램 및 댓글 상담을 통한 추가 할인 프로모션 진행"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500F",
+        "timestamp": "00:55",
+        "t": 55,
+        "sentiment": "긍정",
+        "evaluation": "추가 비용 없이 다양한 최신 게임을 즐길 수 있어 가장 대중적이고 인기가 높은 메인스트림 프로세서로 추천되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "상위 CPU 대비 가성비가 우수함",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "Palit",
+        "model": "GeForce RTX 5060 Ti DUAL D7 8GB",
+        "timestamp": "00:57",
+        "t": 57,
+        "sentiment": "긍정",
+        "evaluation": "배틀그라운드, 로스트아크부터 최신 스팀 게임까지 옵션 타협을 통해 원활히 구동 가능한 메인스트림 표준 그래픽카드로 채택되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "TOP.1 메인스트림 게이밍 PC (7500F + RTX 5060 Ti)",
+        "timestamp": "00:53",
+        "t": 53,
+        "sentiment": "긍정",
+        "evaluation": "월간 견적 중 가장 인기가 높은 베스트셀러 모델로 170만 원 전후 예산대 게이머에게 최적의 선택지입니다.",
+        "price_mentioned": "1,695,000원",
+        "value_comment": "타사 동급 대비 약 7만 원 저렴",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500X3D",
+        "timestamp": "01:46",
+        "t": 106,
+        "sentiment": "긍정",
+        "evaluation": "배그 교전 상황이나 다중 접속 온라인 게임에서 최저 프레임 유지력 및 고주사율 모니터 대응력이 우수합니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "TOP.2 X3D 밸런스 게이밍PC (7500X3D + RTX 5060 Ti)",
+        "timestamp": "01:42",
+        "t": 102,
+        "sentiment": "긍정",
+        "evaluation": "교전 상황 등 프레임 드랍이 심한 게임에서 강력한 프레임 방어력을 보여주는 밸런스형 견적입니다.",
+        "price_mentioned": "1,880,000원",
+        "value_comment": "타사 동급 대비 약 8만 원 저렴",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "timestamp": "02:30",
+        "t": 150,
+        "sentiment": "긍정",
+        "evaluation": "상위 X3D 프로세서로 CPU 연산량이 많은 게임 및 다중 작업/방송 환경에서 탁월한 고프레임 유지력을 제공합니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "TOP.3 퍼포먼스 게이밍 PC (7800X3D + RTX 5060 Ti)",
+        "timestamp": "02:27",
+        "t": 147,
+        "sentiment": "긍정",
+        "evaluation": "상위 CPU와 메인보드, 쿨러 구성을 강화하여 프레임 안정성과 시스템 완성도를 극대화한 견적입니다. 블랙/화이트 선택이 가능합니다.",
+        "price_mentioned": "2,050,000원",
+        "value_comment": "타사 동급 대비 약 10만 원 저렴",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5600",
+        "timestamp": "04:02",
+        "t": 242,
+        "sentiment": "긍정",
+        "evaluation": "100만 원 초반대 실속형 온라인 게임용 PC에 탑재되어 기본 성능과 가격 경쟁력을 만족시키는 CPU입니다.",
+        "price_mentioned": "",
+        "value_comment": "탁월한 가성비",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "INNO3D",
+        "model": "GeForce RTX 5050 D6 8GB TWIN X2",
+        "timestamp": "04:04",
+        "t": 244,
+        "sentiment": "긍정",
+        "evaluation": "롤, 발로란트, FC온라인 등 인기 온라인 게임을 높은 프레임으로 가볍게 구동하기에 적합하여 그래픽카드 단가 부담을 덜어줍니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "온라인 게임 실속PC (5600 + RTX 5050)",
+        "timestamp": "03:59",
+        "t": 239,
+        "sentiment": "긍정",
+        "evaluation": "100만 원 초반대 부담 없는 예산으로 캐주얼 및 온라인 게임을 즐기기에 충분한 구성을 갖췄습니다.",
+        "price_mentioned": "1,199,000원",
+        "value_comment": "타사 동급 대비 약 5만 원 저렴",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core i5-14400F",
+        "timestamp": "04:35",
+        "t": 275,
+        "sentiment": "긍정",
+        "evaluation": "DDR4 메모리와 결합하여 부품 가격 상승기에 전체 시스템 단가를 낮추면서도 우수한 게이밍 성능을 냅니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "인텔 게이밍 에디션PC (i5-14400F + RTX 5060 Ti)",
+        "timestamp": "04:33",
+        "t": 273,
+        "sentiment": "긍정",
+        "evaluation": "최근 메모리 가격 폭등 상황에서 DDR4 메모리를 채택하여 구매 부담을 실질적으로 줄인 인텔 기반 신규 견적입니다.",
+        "price_mentioned": "1,495,000원",
+        "value_comment": "타사 동급 대비 약 6만 원 저렴",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "MANLI",
+        "model": "GeForce RTX 5070 Nebula D7 12GB",
+        "timestamp": "05:07",
+        "t": 307,
+        "sentiment": "긍정",
+        "evaluation": "QHD 고해상도 환경에서 콜 오브 듀티 등 고사양 스팀 게임을 상옵션/고프레임으로 구동하는 핵심 그래픽카드로 소개되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "사전 확보 물량 특별 공급가 적용",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드PC",
+        "model": "QHD 고사양 게이밍PC (7800X3D + RTX 5070)",
+        "timestamp": "05:01",
+        "t": 301,
+        "sentiment": "긍정",
+        "evaluation": "그래픽카드 가격 상승세 속에서도 사전 확보 물량을 통해 경쟁력 있는 가격대로 구성한 QHD 게이밍 종결급 시스템입니다.",
+        "price_mentioned": "2,500,000원",
+        "value_comment": "타사 동급 대비 약 12만 원 저렴",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "KINGSTON",
+        "model": "NV3 M.2 NVMe (500GB)",
+        "timestamp": "01:30",
+        "t": 90,
+        "sentiment": "중립",
+        "evaluation": "메인스트림, X3D 밸런스, 퍼포먼스 및 고사양 견적의 메인 저장장치로 기본 탑재되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME A520M-K",
+        "timestamp": "04:24",
+        "t": 264,
+        "sentiment": "중립",
+        "evaluation": "100만 원 초반 실속PC(라이젠 5600)의 가성비 기반 메인보드로 탑재되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "마인드피씨(와이케이비즈니스)는 전 라인업에서 '타사 대비 최저가(5~12만 원 저렴)'를 핵심 소구점으로 내세우고 있으므로, 대원CTS가 유통하는 AMD 라이젠(5600, 7500F, X3D 시리즈) 및 만리(MANLI) 그래픽카드의 수량별 특별 공급가(볼륨 할인)를 선제적으로 제안하기에 매우 적합합니다.",
+      "QHD 고사양 견적에 MANLI RTX 5070 Nebula가 단독 채택되어 '사전 확보 물량 특별 공급'으로 소개되고 있으므로, 후속 물량 안정적 공급 확약 및 화이트 라인업 확대를 위한 MANLI/ASUS 화이트 에디션 GPU 추가 제안이 유효합니다.",
+      "견적 다수에 킹스톤(KINGSTON) NV3 NVMe SSD가 기본 탑재되고 있으나 500GB 단일 구성이 많으므로, 최근 대용량 게임 트렌드에 맞춘 킹스톤 NV3 1TB 업그레이드 프로모션 단가 지원을 협의할 여지가 큽니다."
+    ],
+    "trend_tags": [
+      "11월월간견적",
+      "조립PC추천",
+      "게이밍컴퓨터",
+      "부품가격상승대응",
+      "라이젠X3D",
+      "RTX5060Ti",
+      "RTX5070",
+      "가성비조립PC"
+    ]
+  }
+}
