@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-09T22:19:33+09:00",
+  "last_run": "2026-11-10T03:59:57+09:00",
   "channels": [
     {
       "name": "영재컴퓨터",
@@ -28,8 +28,8 @@
       "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
       "title": "신성조",
       "via": "RSS",
-      "latest": "2026-11-09T12:30:48+00:00",
-      "new": 2
+      "latest": "2026-11-09T11:05:32+00:00",
+      "new": 0
     },
     {
       "name": "고고싱컴퓨터",
@@ -39,7 +39,7 @@
       "title": "고고싱컴퓨터",
       "via": "RSS",
       "latest": "2026-11-09T10:14:40+00:00",
-      "new": 1
+      "new": 0
     },
     {
       "name": "마인드피씨",
@@ -59,7 +59,7 @@
       "title": "추천하는남자",
       "via": "RSS",
       "latest": "2026-11-09T10:05:17+00:00",
-      "new": 1
+      "new": 0
     },
     {
       "name": "웰메이드컴퓨터",
@@ -79,21 +79,10 @@
       "title": "까망이컴퓨터",
       "via": "RSS",
       "latest": "2026-11-09T00:30:32+00:00",
-      "new": 1
+      "new": 0
     }
   ],
-  "analyzed": 6,
-  "errors": [
-    {
-      "id": "fEDv7wpvi9w",
-      "title": "이거 고치려고 출장기사한테 50은쓴듯",
-      "error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
-    },
-    {
-      "id": "PPFagIXGnLM",
-      "title": "11월 9일 아니 황형.. 오너리스크라니 왜그러시오 나 아직 물려있소",
-      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
-    }
-  ],
-  "queue": 1
+  "analyzed": 1,
+  "errors": [],
+  "queue": 0
 }

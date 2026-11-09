@@ -87,6 +87,27 @@
     ]
   },
   {
+    "id": "fEDv7wpvi9w",
+    "title": "이거 고치려고 출장기사한테 50은쓴듯",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-09T10:14:40+00:00",
+    "analyzed_at": "2026-11-10T04:04:46+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "블루스크린 문제로 출장 수리 기사를 여러 번 불러 50만 원 이상을 지출했으나 증상이 해결되지 않은 시청자의 사연을 소개합니다. 블루스크린 발생 원인은 메모리, CPU, 메인보드, SSD 등 복합적인 하드웨어 및 세부 불량 사유가 수십 가지가 넘는다고 설명합니다. 철저한 부품 테스트 없이 단순히 윈도우 불량으로 단정 짓고 비용을 청구하는 일부 출장 수리 행태를 지적하며 정밀 진단의 중요성을 강조합니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "tags": [
+      "블루스크린",
+      "PC수리",
+      "컴퓨터AS",
+      "하드웨어점검",
+      "고고싱컴퓨터"
+    ],
+    "products": []
+  },
+  {
     "id": "0NacKNI5IdI",
     "title": "컴퓨터 포맷 윈도우 재설치 이것만 보면됨! 컴퓨터 초기설정 드라이버설치 USB 만들기까지",
     "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",

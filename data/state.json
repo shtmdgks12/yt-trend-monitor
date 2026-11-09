@@ -67,7 +67,6 @@
     },
     "UCNCZoEdHHuF76DZ78IBJvlQ": {
       "seen": [
-        "PPFagIXGnLM",
         "AO1QSx1Vp80",
         "Rc5mktwCPCc",
         "yHxANAKLf58",
@@ -83,6 +82,7 @@
         "VaIjTrqiYmc",
         "42O6280WDB0",
         "BeUyFUXhpB0",
+        "PPFagIXGnLM",
         "bkqPdw_efrk",
         "P66jpCFi4HE",
         "6NoegO2rlkE"
@@ -232,17 +232,5 @@
       "since": "2026-11-08T06:12:26.643490+00:00"
     }
   },
-  "queue": [
-    {
-      "id": "fEDv7wpvi9w",
-      "title": "이거 고치려고 출장기사한테 50은쓴듯",
-      "published": "2026-11-09T10:14:40+00:00",
-      "channel_title": "고고싱컴퓨터",
-      "description": "",
-      "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
-      "channel_name": "고고싱컴퓨터",
-      "attempts": 1,
-      "last_error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
-    }
-  ]
+  "queue": []
 }
