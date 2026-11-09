@@ -1,0 +1,45 @@
+name: YouTube Monitor
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # 6시간마다 (한국시간 03:17, 09:17, 15:17, 21:17)
+  workflow_dispatch:          # 웹페이지의 '지금 확인' 버튼 / 수동 실행
+  push:
+    branches: [main]
+    paths: [channels.json, settings.json]   # 채널 추가·설정 변경 시 즉시 실행
+
+permissions:
+  contents: write
+
+concurrency:
+  group: yt-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 새 영상 확인 및 분석
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: python scripts/monitor.py
+
+      - name: 결과 저장
+        if: always()
+        run: |
+          git config user.name "yt-monitor-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then echo "변경 없음"; exit 0; fi
+          git commit -m "data: 분석 결과 업데이트 $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M')"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
