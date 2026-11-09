@@ -388,9 +388,10 @@ def e(s):
     return html.escape(str(s or ""), quote=False)
 
 
-def tg_message(rec, site_url):
+def tg_message(rec, site_url, manual=False):
     a = rec["analysis"]
-    lines = [f"🆕 <b>{e(rec['channel_name'])}</b> 새 영상", f"<b>{e(rec['title'])}</b>", ""]
+    head = "🔍 수동 분석" if manual else "🆕 새 영상"
+    lines = [f"{head} · <b>{e(rec['channel_name'])}</b>", f"<b>{e(rec['title'])}</b>", ""]
     if a.get("summary"):
         lines += [f"📝 {e(a['summary'])}", ""]
     prods = a.get("products") or []
@@ -426,6 +427,117 @@ def site_url_default():
             return f"https://{owner.lower()}.github.io/"
         return f"https://{owner.lower()}.github.io/{name}/"
     return ""
+
+
+def store_record(v, ch, analysis, model, usage, short, index, manual=False):
+    rec = {
+        "id": v["id"],
+        "title": v["title"],
+        "channel_id": v.get("channel_id") or "",
+        "channel_name": ch.get("name") or v.get("channel_name") or "",
+        "published": v.get("published") or now_iso(),
+        "analyzed_at": now_iso(),
+        "is_short": short,
+        "manual": manual,
+        "model": model,
+        "tokens": usage.get("totalTokenCount"),
+        "analysis": analysis,
+    }
+    save_json(VIDEOS / f"{v['id']}.json", rec)
+    index[:] = [r for r in index if r["id"] != rec["id"]]  # 재분석 시 기존 항목 교체
+    index.insert(0, {
+        "id": rec["id"], "title": rec["title"], "channel_id": rec["channel_id"],
+        "channel_name": rec["channel_name"], "published": rec["published"],
+        "analyzed_at": rec["analyzed_at"], "is_short": short, "manual": manual,
+        "summary": analysis["summary"], "video_type": analysis["video_type"],
+        "sponsored": analysis["sponsored"], "tags": analysis["trend_tags"],
+        "products": [{k: p[k] for k in ("category", "brand", "model", "sentiment",
+                                        "price_mentioned", "is_our_brand")}
+                     for p in analysis["products"]],
+    })
+    return rec
+
+
+# ───────────────────────── 수동 분석 (링크 직접 입력) ─────────────────────────
+VID_RE = re.compile(r"(?:v=|youtu\.be/|/shorts/|/live/|/embed/|/v/)([A-Za-z0-9_-]{11})")
+
+
+def extract_video_ids(text):
+    ids = []
+    for tok in re.split(r"[\s,]+", text or ""):
+        tok = tok.strip()
+        if not tok:
+            continue
+        m = VID_RE.search(tok) or re.fullmatch(r"([A-Za-z0-9_-]{11})", tok)
+        if m and m.group(1) not in ids:
+            ids.append(m.group(1))
+    return ids
+
+
+def fetch_video_meta(vid):
+    """영상 제목·채널·업로드일 조회 (oEmbed + 시청 페이지)"""
+    meta = {"id": vid, "title": vid, "channel_name": "", "channel_id": "", "published": "", "description": ""}
+    try:
+        _, body, _ = http("https://www.youtube.com/oembed?format=json&url="
+                          + urllib.parse.quote(f"https://www.youtube.com/watch?v={vid}"), timeout=20)
+        o = json.loads(body)
+        meta.update(title=o.get("title") or vid, channel_name=o.get("author_name") or "")
+    except Exception as ex:
+        log(f"   (oEmbed 조회 실패: {ex})")
+    try:
+        _, page, _ = http(f"https://www.youtube.com/watch?v={vid}", timeout=30)
+        m = re.search(r'"channelId":"(UC[\w-]{22})"', page) or re.search(r'itemprop="channelId" content="(UC[\w-]{22})"', page)
+        if m:
+            meta["channel_id"] = m.group(1)
+        m = (re.search(r'<meta itemprop="(?:datePublished|uploadDate)" content="([^"]+)"', page)
+             or re.search(r'"(?:publishDate|uploadDate)":"([^"]+)"', page))
+        if m:
+            d = m.group(1)
+            d = d if "T" in d else d + "T00:00:00+09:00"
+            try:
+                d = dt.datetime.fromisoformat(d.replace("Z", "+00:00")).astimezone(dt.timezone.utc).isoformat()
+            except ValueError:
+                pass
+            meta["published"] = d
+        m = re.search(r'"shortDescription":"((?:[^"\\]|\\.)*)"', page)
+        if m:
+            meta["description"] = json.loads('"' + m.group(1) + '"')[:1500]
+    except Exception as ex:
+        log(f"   (시청 페이지 조회 실패: {ex})")
+    return meta
+
+
+def run_manual(text):
+    settings = {**DEFAULT_SETTINGS, **load_json(ROOT / "settings.json", {})}
+    channels = load_json(ROOT / "channels.json", [])
+    state = load_json(DATA / "state.json", {"resolved": {}, "channels": {}, "queue": []})
+    index = load_json(DATA / "index.json", [])
+    site = site_url_default()
+    by_cid = {state["resolved"].get(c.get("url", "").strip()): c for c in channels}
+    ids = extract_video_ids(text)
+    if not ids:
+        log("❌ 영상 링크를 찾지 못했습니다:", text)
+        tg_send(f"⚠️ 수동 분석: 영상 링크를 인식하지 못했습니다.\n<code>{e(text[:200])}</code>")
+        return 1
+    fails = 0
+    for vid in ids[:10]:
+        v = fetch_video_meta(vid)
+        ch = by_cid.get(v["channel_id"]) or {"name": v["channel_name"]}
+        log(f"🔎 수동 분석: [{v['channel_name']}] {v['title']}")
+        try:
+            analysis, model, usage = analyze(v, ch, settings)
+            mark_our_brands(analysis, settings.get("our_brands"))
+        except GeminiError as ex:
+            fails += 1
+            log(f"   ⛔ 실패: {ex}")
+            tg_send(f"⚠️ 수동 분석 실패\n{e(v['title'])}\n<code>{e(str(ex)[:200])}</code>\nhttps://youtu.be/{vid}")
+            continue
+        rec = store_record(v, ch, analysis, model, usage, is_short(vid), index, manual=True)
+        tg_send(tg_message(rec, site, manual=True))
+        log(f"   ✅ 완료 (제품 {len(analysis['products'])}개, 토큰 {usage.get('totalTokenCount')})")
+    index.sort(key=lambda r: r["published"], reverse=True)
+    save_json(DATA / "index.json", index)
+    return 1 if fails == len(ids[:10]) else 0
 
 
 def main():
@@ -509,29 +621,7 @@ def main():
                 tg_send(f"⚠️ 분석 실패: <b>{e(v['channel_name'])}</b>\n{e(v['title'])}\n"
                         f"<code>{e(v['last_error'][:200])}</code>\nhttps://youtu.be/{v['id']}")
             continue
-        rec = {
-            "id": v["id"],
-            "title": v["title"],
-            "channel_id": v["channel_id"],
-            "channel_name": ch.get("name") or v["channel_name"],
-            "published": v["published"],
-            "analyzed_at": now_iso(),
-            "is_short": short,
-            "model": model,
-            "tokens": usage.get("totalTokenCount"),
-            "analysis": analysis,
-        }
-        save_json(VIDEOS / f"{v['id']}.json", rec)
-        index.insert(0, {
-            "id": rec["id"], "title": rec["title"], "channel_id": rec["channel_id"],
-            "channel_name": rec["channel_name"], "published": rec["published"],
-            "analyzed_at": rec["analyzed_at"], "is_short": short,
-            "summary": analysis["summary"], "video_type": analysis["video_type"],
-            "sponsored": analysis["sponsored"], "tags": analysis["trend_tags"],
-            "products": [{k: p[k] for k in ("category", "brand", "model", "sentiment",
-                                            "price_mentioned", "is_our_brand")}
-                         for p in analysis["products"]],
-        })
+        rec = store_record(v, ch, analysis, model, usage, short, index)
         known.add(v["id"])
         queue.pop(v["id"], None)
         done += 1
@@ -551,4 +641,7 @@ def main():
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "test-telegram":
         sys.exit(0 if tg_send("✅ 유튜브 트렌드 모니터 텔레그램 연결 테스트 성공!") else 1)
+    manual = os.environ.get("VIDEO_URLS", "").strip()
+    if manual:
+        sys.exit(run_manual(manual))
     main()
