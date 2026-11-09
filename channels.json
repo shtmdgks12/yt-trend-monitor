@@ -30,5 +30,13 @@
     "memo": "100~200만원대 주력",
     "enabled": true,
     "added": "2026-11-09"
+  },
+  {
+    "name": "마인드피씨",
+    "url": "https://www.youtube.com/@%EB%A7%88%EC%9D%B8%EB%93%9C%ED%94%BC%EC%94%A8-e4z",
+    "type": "조립pc업체",
+    "memo": "사업자명 와이케이비즈니스 / 가성비 견적 주력",
+    "enabled": true,
+    "added": "2026-11-09"
   }
 ]
