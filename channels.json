@@ -54,5 +54,13 @@
     "memo": "서버, 워크스테이션 주력 - 나라장터 조달용으로만 데스크탑 제작",
     "enabled": true,
     "added": "2026-11-09"
+  },
+  {
+    "name": "까망이컴퓨터",
+    "url": "https://www.youtube.com/@%EA%B9%8C%EB%A7%9D%EC%9D%B4%EC%BB%B4%ED%93%A8%ED%84%B0",
+    "type": "조립pc업체",
+    "memo": "브이로그 식 영상 업로드",
+    "enabled": true,
+    "added": "2026-11-09"
   }
 ]
