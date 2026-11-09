@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-09T10:29:30+09:00",
+  "last_run": "2026-11-09T11:19:30+09:00",
   "channels": [
     {
       "name": "영재컴퓨터",
@@ -34,6 +34,13 @@
       "url": "https://www.youtube.com/@%EB%A7%88%EC%9D%B8%EB%93%9C%ED%94%BC%EC%94%A8-e4z",
       "ok": false,
       "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "티와이 시스템",
+      "url": "https://www.youtube.com/@%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94%EB%82%A8%EC%9E%90",
+      "ok": false,
+      "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
       "error": "HTTP Error 404: Not Found"
     }
   ],
