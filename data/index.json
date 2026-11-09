@@ -1,5 +1,68 @@
 [
   {
+    "id": "Rc5mktwCPCc",
+    "title": "램 값 너무비싸 DDR3는 어때?? (9700K에 마개조 보드로 D3 써보쟈!)",
+    "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
+    "channel_name": "신성조의 pc공방",
+    "published": "2026-11-07T06:09:16.639349+00:00",
+    "analyzed_at": "2026-11-09T16:48:05+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "메모리 가격 부담을 줄이기 위해 알리익스프레스 직구 메인보드(SOYO H311M 광룡)와 중고 i7-9700K, 저렴한 DDR3(16GB 3.4만원) 조합의 실사용 가성비를 14600KF+DDR4 시스템과 비교 테스트했습니다. 9700K에 DDR3를 물린 견적은 핵심 부품 기준 약 21만 원대로 저렴하지만, DDR4 대비 최소 프레임이 18% 이상 하락하고 14600KF 대비로는 최대 40% 가까이 성능이 떨어졌습니다. 또한 H311M 보드에 8레인 기반 지포스 그래픽카드(영상 내 5060Ti) 장착 시 PCIe 버전이 강등되는 치명적 버그가 발생하여 게임이 불가능한 수준이었으나, 16레인 기반 라데온 그래픽카드 장착 시에는 안정화되었습니다. 최종적으로 DDR3 개조 시스템은 램 오버 불가 및 성능 격차로 인해 '대실패(재미용)'로 평가하며, 구형 시스템 억지 재활용보다 최신 플랫폼(14600KF 등) 구성을 권장했습니다.",
+    "video_type": "비교/벤치마크",
+    "sponsored": false,
+    "tags": [
+      "DDR3마개조",
+      "i7 9700K",
+      "14600KF",
+      "PCIe대역폭이슈",
+      "라데온16레인",
+      "구형업그레이드주의"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "SOYO",
+        "model": "H311M-V3H 광룡",
+        "sentiment": "부정",
+        "price_mentioned": "5만9천원~6만9천원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "코어 i7-9700K / 9700KF",
+        "sentiment": "중립",
+        "price_mentioned": "중고 약 12만원 (업자 13~14만원)",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "코어 i5-14600KF",
+        "sentiment": "긍정",
+        "price_mentioned": "벌크 중고 약 23만원",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "Samsung",
+        "model": "DDR3 8GB PC3-12800U (1600MHz)",
+        "sentiment": "부정",
+        "price_mentioned": "2개 3만4천원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      }
+    ]
+  },
+  {
     "id": "bewAxiFmf70",
     "title": "2026년 가장 많이 판매된 수랭식 워크스테이션",
     "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
@@ -282,6 +345,46 @@
         "brand": "ASUS",
         "model": "PRIME A520M-K",
         "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      }
+    ]
+  },
+  {
+    "id": "9i_x7RisNkw",
+    "title": "리사 수가 대한민국에! 2026 AMD GAMERS DAY",
+    "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",
+    "channel_name": "웰메이드컴퓨터",
+    "published": "2026-10-30T06:11:47.927647+00:00",
+    "analyzed_at": "2026-11-09T16:42:50+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "용산 드래곤시티 호텔에서 열린 2026 AMD GAMERS DAY 행사 현장을 스케치한 영상입니다. AMD CEO 리사 수와 잭 후인 수석 부사장의 스피치에서 게이밍 PC 시장의 중요성과 한국 게이머의 높은 성능 요구, FSR 및 AM5/AM4 X3D 라인업에 대한 언급이 있었습니다. 웰메이드컴퓨터는 부스에 Ryzen 7 9800X3D와 Radeon RX 9070 XT 기반의 라라랜드 시연 PC를 세팅하고 귀무자 WoS를 구동했습니다. 평소 B2B 워크스테이션 전문 업체이지만 리사 수 방문 행사에 초청받아 참가한 소감을 전했습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "tags": [
+      "AMD",
+      "리사수",
+      "GAMERS_DAY",
+      "9800X3D",
+      "RX9070XT",
+      "라라랜드",
+      "워크스테이션"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "AMD",
+        "model": "Radeon RX 9070 XT",
+        "sentiment": "긍정",
         "price_mentioned": "",
         "is_our_brand": true
       }

@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-09T15:07:23+09:00",
+  "last_run": "2026-11-09T16:33:29+09:00",
   "channels": [
     {
       "name": "영재컴퓨터",
@@ -8,8 +8,8 @@
       "channel_id": "UCaOwfLJxMjZ8RCBwg8_c90A",
       "title": "YJMOD x 영재컴퓨터",
       "via": "채널 페이지",
-      "latest": "2026-11-09T03:08:00.820268+00:00",
-      "new": 1
+      "latest": "2026-11-09T02:34:06.376548+00:00",
+      "new": 0
     },
     {
       "name": "양컴",
@@ -18,8 +18,8 @@
       "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
       "title": "양컴",
       "via": "채널 페이지",
-      "latest": "2026-11-07T06:08:38.845729+00:00",
-      "new": 1
+      "latest": "2026-11-07T07:34:43.875929+00:00",
+      "new": 0
     },
     {
       "name": "신성조의 pc공방",
@@ -28,8 +28,8 @@
       "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
       "title": "신성조",
       "via": "채널 페이지",
-      "latest": "2026-11-07T06:09:16.639349+00:00",
-      "new": 1
+      "latest": "2026-11-07T07:35:21.423495+00:00",
+      "new": 0
     },
     {
       "name": "고고싱컴퓨터",
@@ -38,8 +38,8 @@
       "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
       "title": "고고싱컴퓨터",
       "via": "채널 페이지",
-      "latest": "2026-11-06T06:09:54.485090+00:00",
-      "new": 1
+      "latest": "2026-11-06T07:35:58.977134+00:00",
+      "new": 0
     },
     {
       "name": "마인드피씨",
@@ -48,8 +48,8 @@
       "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
       "title": "마인드피씨",
       "via": "채널 페이지",
-      "latest": "2026-10-31T06:10:32.346898+00:00",
-      "new": 1
+      "latest": "2026-10-31T07:36:36.472222+00:00",
+      "new": 0
     },
     {
       "name": "티와이 시스템",
@@ -58,8 +58,8 @@
       "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
       "title": "추천하는남자",
       "via": "채널 페이지",
-      "latest": "2026-11-07T06:11:10.173569+00:00",
-      "new": 1
+      "latest": "2026-11-07T07:37:14.052816+00:00",
+      "new": 0
     },
     {
       "name": "웰메이드컴퓨터",
@@ -68,8 +68,8 @@
       "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",
       "title": "웰메이드컴퓨터 TV",
       "via": "채널 페이지",
-      "latest": "2026-10-30T06:11:47.927647+00:00",
-      "new": 1
+      "latest": "2026-10-30T07:37:51.615731+00:00",
+      "new": 0
     },
     {
       "name": "까망이컴퓨터",
@@ -78,22 +78,12 @@
       "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
       "title": "까망이컴퓨터",
       "via": "채널 페이지",
-      "latest": "2026-11-07T06:12:25.637201+00:00",
-      "new": 1
+      "latest": "2026-11-07T07:38:29.272376+00:00",
+      "new": 0
     }
   ],
-  "analyzed": 3,
+  "analyzed": 2,
   "errors": [
-    {
-      "id": "9i_x7RisNkw",
-      "title": "리사 수가 대한민국에! 2026 AMD GAMERS DAY",
-      "error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
-    },
-    {
-      "id": "Rc5mktwCPCc",
-      "title": "램 값 너무비싸 DDR3는 어때?? (9700K에 마개조 보드로 D3 써보쟈!)",
-      "error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
-    },
     {
       "id": "HuNPHLKrRPE",
       "title": "2026년 컴퓨터견적 추천 TOP8! 어항과 화이트 전문가 추남이 추천하는 가성비 게임용 PC견적",
@@ -110,5 +100,5 @@
       "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quo"
     }
   ],
-  "queue": 5
+  "queue": 3
 }

@@ -1,0 +1,63 @@
+{
+  "id": "9i_x7RisNkw",
+  "title": "리사 수가 대한민국에! 2026 AMD GAMERS DAY",
+  "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",
+  "channel_name": "웰메이드컴퓨터",
+  "published": "2026-10-30T06:11:47.927647+00:00",
+  "analyzed_at": "2026-11-09T16:42:50+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 24293,
+  "analysis": {
+    "summary": "용산 드래곤시티 호텔에서 열린 2026 AMD GAMERS DAY 행사 현장을 스케치한 영상입니다. AMD CEO 리사 수와 잭 후인 수석 부사장의 스피치에서 게이밍 PC 시장의 중요성과 한국 게이머의 높은 성능 요구, FSR 및 AM5/AM4 X3D 라인업에 대한 언급이 있었습니다. 웰메이드컴퓨터는 부스에 Ryzen 7 9800X3D와 Radeon RX 9070 XT 기반의 라라랜드 시연 PC를 세팅하고 귀무자 WoS를 구동했습니다. 평소 B2B 워크스테이션 전문 업체이지만 리사 수 방문 행사에 초청받아 참가한 소감을 전했습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "key_points": [
+      "AMD CEO 리사 수와 잭 후인 수석 부사장 방한 및 게이머즈 데이 기조연설",
+      "한국 게이머들의 고성능 추구 및 X3D 프로세서와 FSR 기술에 대한 기대감 언급",
+      "웰메이드컴퓨터 부스에서 Ryzen 7 9800X3D + Radeon RX 9070 XT 구성의 라라랜드 PC 전시 및 게임 시연",
+      "B2B 워크스테이션 중심 업체이지만 이번 AMD 행사에 파트너사로 정식 초청 참여"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "timestamp": "01:18",
+        "t": 78,
+        "sentiment": "긍정",
+        "evaluation": "행사장 전시 부스에 라라랜드 데모 PC로 세팅되어 게임 구동에 활용되었으며, 최고의 게이밍 성능을 요구하는 한국 유저들에게 최적화된 프로세서로 주목받았습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "AMD",
+        "model": "Radeon RX 9070 XT",
+        "timestamp": "01:21",
+        "t": 81,
+        "sentiment": "긍정",
+        "evaluation": "9800X3D와 함께 라라랜드 시스템으로 구성되어 귀무자 WoS 시연 PC에 탑재되었으며, 사파이어 니트로 패키지 제품이 행사 중 소개되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "웰메이드컴퓨터는 B2B 워크스테이션/서버 전문사이지만 AMD 본사 및 공식 파트너사로서의 강력한 네트워크를 유지하고 있으므로, Threadripper/EPYC 기반 서버뿐만 아니라 조달/기업용 고성능 AM5(Ryzen 9000/X3D) 시스템 라인업 제안이 유효합니다.",
+      "영상에서 AMD 라라랜드(Ryzen + Radeon) 부스 구성을 직접 진행한 만큼, 대원씨티에스가 유통하는 AMD CPU 및 Radeon 그래픽카드(PowerColor/ASRock 등)의 프로모션 번들 및 워크스테이션용 라데온 프로/상위 라인업 공급 협의를 타진하기 좋은 기회입니다.",
+      "B2B 및 공공 조달 데스크탑 제작 시 X3D 라인업 및 고안정성 메인보드(ASUS/ASRock) 솔루션을 패키지로 제안하여 기업/공공 연구용 고성능 PC 시장 공략을 지원할 수 있습니다."
+    ],
+    "trend_tags": [
+      "AMD",
+      "리사수",
+      "GAMERS_DAY",
+      "9800X3D",
+      "RX9070XT",
+      "라라랜드",
+      "워크스테이션"
+    ]
+  }
+}
