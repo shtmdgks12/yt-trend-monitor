@@ -38,5 +38,13 @@
     "memo": "사업자명 와이케이비즈니스 / 가성비 견적 주력",
     "enabled": true,
     "added": "2026-11-09"
+  },
+  {
+    "name": "티와이 시스템",
+    "url": "https://www.youtube.com/@%EC%B6%94%EC%B2%9C%ED%95%98%EB%8A%94%EB%82%A8%EC%9E%90",
+    "type": "조립 pc 업체",
+    "memo": "하이엔드 주력 / 주식회사 이지션 - 티와이 시스템",
+    "enabled": true,
+    "added": "2026-11-09"
   }
 ]
