@@ -163,7 +163,7 @@ def is_short(video_id):
 
 # ───────────────────────── Gemini 분석 ─────────────────────────
 def build_prompt(video, channel, settings):
-    brands = ", ".join(settings.get("our_brands") or []) or "(미지정)"
+    brands = brands_for_prompt(settings.get("our_brands"))
     return f"""당신은 PC 부품 유통사 '{settings.get('our_company', '')}'의 영업 담당자를 돕는 분석가입니다.
 아래 유튜브 영상을 시청하고(음성·화면 자막·화면에 보이는 제품명/가격표 포함) 결과를 한국어 JSON으로만 답하세요.
 
@@ -175,12 +175,13 @@ def build_prompt(video, channel, settings):
 
 규칙:
 - 영상에 실제로 나온 내용만 쓰세요. 추측한 모델명·가격은 쓰지 마세요.
+- brand는 공식 영문 표기로 통일하세요(예: '에이수스'→'ASUS', '리안리'→'Lian Li', '마이크로닉스'→'Micronics'). 한국 브랜드라 영문 표기가 없으면 한글 그대로.
 - 제품은 가능한 한 정확한 모델명(예: 'RTX 5070 Ti', 'Ryzen 7 9800X3D', 'B850M')까지 적고, 모르면 시리즈명까지만 적으세요.
 - category는 다음 중 하나: {', '.join(CATEGORIES)}
 - timestamp는 처음 등장/집중 설명 시점 'mm:ss' 또는 'h:mm:ss' (모르면 빈 문자열)
 - sentiment는 '긍정' | '중립' | '부정'
 - price_mentioned는 영상에서 언급/표시된 가격을 원문 그대로(예: '89만원대', '$549'). 없으면 빈 문자열
-- is_our_brand: 우리 회사 취급 브랜드에 해당하면 true
+- is_our_brand: 우리 회사 취급 브랜드에 해당하면 true (괄호 안은 같은 브랜드의 다른 표기)
 - sales_insights: 이 거래처의 성격(메모)을 고려해, 우리 영업사원이 이 거래처에 제안·대화할 때 쓸 수 있는 구체적 포인트 2~4개
 - 같은 제품을 여러 번 언급하면 하나로 합치세요. 제품 언급이 없으면 products는 빈 배열.
 
@@ -321,18 +322,51 @@ def normalize(r):
     }
 
 
+def _norm(s):
+    """대소문자·공백·기호 무시: 'Lian-Li' == 'lian li' == 'LIANLI'"""
+    return re.sub(r"[\s\-_.·/&]+", "", str(s or "")).lower()
+
+
+def brand_groups(brands):
+    """our_brands 항목 → [[대표이름, 별칭...], ...]
+    "Lian Li / 리안리" 처럼 '/' 로 구분하거나 ["Lian Li", "리안리"] 목록으로 적을 수 있음"""
+    groups = []
+    for b in brands or []:
+        names = b if isinstance(b, list) else str(b).split("/")
+        names = [n.strip() for n in names if n and str(n).strip()]
+        if names:
+            groups.append(names)
+    return groups
+
+
+def brands_for_prompt(brands):
+    groups = brand_groups(brands)
+    if not groups:
+        return "(미지정)"
+    return ", ".join(g[0] + (f"(={'/'.join(g[1:])})" if len(g) > 1 else "") for g in groups)
+
+
 def mark_our_brands(record, brands):
-    """AI 판단과 별개로 브랜드 목록과 직접 대조해 자사 취급 여부 보정"""
-    low = [b.lower() for b in brands or [] if b]
+    """AI 판단과 별개로 브랜드 목록과 직접 대조해 자사 취급 여부 보정 + 브랜드 표기 통일"""
+    groups = brand_groups(brands)
     for p in record["products"]:
-        text = f"{p['brand']} {p['model']}".lower()
-        if any(b in text for b in low):
-            p["is_our_brand"] = True
+        b_norm = _norm(p["brand"])
+        text = _norm(f"{p['brand']} {p['model']}")
+        for g in groups:
+            aliases = [_norm(n) for n in g if _norm(n)]
+            # 2글자 이하 별칭은 오탐 방지를 위해 브랜드 칸과 정확히 같을 때만 인정
+            hit = any((a == b_norm) or (len(a) > 2 and (a in text)) for a in aliases)
+            if hit:
+                p["is_our_brand"] = True
+                if b_norm in aliases or not p["brand"]:
+                    p["brand"] = g[0]  # 대표 이름으로 통일 → 트렌드 집계가 한글/영문으로 갈리지 않음
+                break
 
 
 # ───────────────────────── 텔레그램 ─────────────────────────
 def tg_send(text):
-    token, chat = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
+    token = re.sub(r"^\s*<?\s*(bot)?|\s*>?\s*$", "", os.environ.get("TELEGRAM_BOT_TOKEN") or "")
+    chat = re.sub(r"\s+", "", os.environ.get("TELEGRAM_CHAT_ID") or "")
     if not token or not chat:
         log("   (텔레그램 미설정 — 알림 생략)")
         return False
