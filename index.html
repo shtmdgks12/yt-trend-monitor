@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0f172a">
+<title>조립PC 트렌드 모니터</title>
+<style>
+:root{
+  --bg:#f6f7f9; --panel:#fff; --ink:#0f172a; --sub:#5b6474; --line:#e4e7ec;
+  --accent:#2563eb; --accent-soft:#e8efff; --pos:#16794a; --pos-soft:#e5f5ec;
+  --neg:#b42318; --neg-soft:#fdecea; --neu:#5b6474; --neu-soft:#eef0f3;
+  --star:#b45309; --star-soft:#fff4e0; --shadow:0 1px 2px rgba(16,24,40,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#0b1020; --panel:#141a2b; --ink:#e7eaf0; --sub:#9aa3b5; --line:#262e44;
+    --accent:#6ea0ff; --accent-soft:#1c2a4d; --pos:#5ad19a; --pos-soft:#15301f;
+    --neg:#ff8a80; --neg-soft:#3a1a1a; --neu:#9aa3b5; --neu-soft:#20283b;
+    --star:#f5b453; --star-soft:#3a2a10; --shadow:none; }
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",sans-serif;-webkit-text-size-adjust:100%}
+a{color:var(--accent);text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+header{position:sticky;top:0;z-index:20;background:var(--panel);border-bottom:1px solid var(--line)}
+.top{max-width:1100px;margin:0 auto;padding:12px 16px 0;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.top h1{font-size:17px;margin:0;font-weight:700;letter-spacing:-.2px}
+.top .meta{font-size:12px;color:var(--sub);margin-left:auto}
+nav{max-width:1100px;margin:0 auto;padding:0 16px;display:flex;gap:4px;overflow-x:auto}
+nav button{border:0;background:none;padding:10px 12px;color:var(--sub);border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap;font-weight:600}
+nav button.on{color:var(--ink);border-color:var(--accent)}
+main{max-width:1100px;margin:0 auto;padding:16px 16px 80px}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+.filters input[type=search]{flex:1 1 220px;min-width:0}
+input[type=search],input[type=text],input[type=url],input[type=password],select,textarea{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-height:38px}
+textarea{width:100%;min-height:60px;resize:vertical}
+label.chk{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--sub);padding:0 4px}
+.btn{border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:8px 14px;cursor:pointer;min-height:38px;font-weight:600}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.sm{padding:4px 10px;min-height:30px;font-size:13px}
+.btn:disabled{opacity:.5;cursor:default}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);overflow:hidden;cursor:pointer;display:flex;flex-direction:column}
+.card:hover{border-color:var(--accent)}
+.thumb{position:relative;aspect-ratio:16/9;background:var(--neu-soft)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.badge{display:inline-flex;align-items:center;gap:3px;font-size:11.5px;font-weight:600;padding:2px 7px;border-radius:999px;background:var(--neu-soft);color:var(--neu);white-space:nowrap}
+.badge.pos{background:var(--pos-soft);color:var(--pos)} .badge.neg{background:var(--neg-soft);color:var(--neg)}
+.badge.star{background:var(--star-soft);color:var(--star)} .badge.acc{background:var(--accent-soft);color:var(--accent)}
+.thumb .badges{position:absolute;left:8px;top:8px;display:flex;gap:4px}
+.thumb .badges .badge{background:rgba(15,23,42,.78);color:#fff}
+.card .body{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.ch{font-size:12.5px;color:var(--sub);display:flex;justify-content:space-between;gap:8px}
+.card h3{font-size:15px;margin:0;line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card p{margin:0;font-size:13.5px;color:var(--sub);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:auto;padding-top:4px}
+.empty{background:var(--panel);border:1px dashed var(--line);border-radius:12px;padding:40px 20px;text-align:center;color:var(--sub)}
+/* detail */
+.overlay{position:fixed;inset:0;background:rgba(2,6,23,.55);z-index:50;display:none;align-items:flex-start;justify-content:center;overflow-y:auto;padding:24px 12px}
+.overlay.open{display:flex}
+.sheet{background:var(--panel);border-radius:14px;max-width:860px;width:100%;box-shadow:0 20px 50px rgba(0,0,0,.25);overflow:hidden}
+.sheet .head{padding:16px 18px;border-bottom:1px solid var(--line);display:flex;gap:12px;align-items:flex-start}
+.sheet .head h2{font-size:18px;margin:2px 0 4px;line-height:1.35}
+.sheet .close{margin-left:auto;flex:none}
+.sheet section{padding:14px 18px;border-bottom:1px solid var(--line)}
+.sheet section:last-child{border:0}
+.sheet h4{margin:0 0 8px;font-size:13px;color:var(--sub);font-weight:700;letter-spacing:.2px}
+.video{aspect-ratio:16/9;width:100%;border:0;display:block;background:#000}
+ul.tight{margin:0;padding-left:18px} ul.tight li{margin:3px 0}
+.insight{background:var(--accent-soft);border-radius:10px;padding:12px 14px}
+.insight li{margin:4px 0}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--sub);font-weight:700;white-space:nowrap}
+.tblwrap{overflow-x:auto}
+.prodcards{display:none}
+@media (max-width:640px){
+  .tblwrap{display:none} .prodcards{display:flex;flex-direction:column;gap:8px}
+  .pc{border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+  .pc .row1{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-bottom:4px}
+  .pc .name{font-weight:700}
+  .pc .ev{font-size:13.5px;color:var(--sub)}
+  .overlay{padding:0}
+  .sheet{border-radius:0;min-height:100%}
+  .grid{grid-template-columns:1fr}
+}
+/* trends */
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:760px){.cols{grid-template-columns:1fr}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.panel h3{margin:0 0 10px;font-size:15px}
+.bar{display:grid;grid-template-columns:110px 1fr 36px;gap:8px;align-items:center;font-size:13.5px;margin:6px 0}
+.bar .track{height:10px;background:var(--neu-soft);border-radius:999px;overflow:hidden}
+.bar .fill{height:100%;background:var(--accent);border-radius:999px}
+.bar .lbl{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bar .n{text-align:right;color:var(--sub);font-variant-numeric:tabular-nums}
+.sent{display:flex;height:8px;border-radius:999px;overflow:hidden;min-width:60px;background:var(--neu-soft)}
+.sent i{display:block;height:100%}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:12px}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.kpi b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+.kpi span{font-size:12.5px;color:var(--sub)}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:var(--panel)}
+.seg button{border:0;background:none;padding:6px 12px;cursor:pointer;color:var(--sub);font-weight:600}
+.seg button.on{background:var(--accent-soft);color:var(--accent)}
+/* channels */
+.chlist{display:flex;flex-direction:column;gap:8px}
+.chrow{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;gap:12px;align-items:flex-start;flex-wrap:wrap}
+.chrow .info{flex:1 1 240px;min-width:0}
+.chrow .info b{font-size:15px}
+.chrow .info div{font-size:13px;color:var(--sub);word-break:break-all}
+.form{display:grid;gap:8px;grid-template-columns:1fr 1fr}
+.form .full{grid-column:1/-1}
+@media (max-width:640px){.form{grid-template-columns:1fr}}
+.note{font-size:13px;color:var(--sub)}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#0f172a;color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;z-index:99;display:none;max-width:90vw}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
+details summary{cursor:pointer;font-weight:600}
+</style>
+</head>
+<body>
+<header>
+  <div class="top">
+    <h1>조립PC 트렌드 모니터</h1>
+    <span class="meta" id="lastRun">불러오는 중…</span>
+  </div>
+  <nav>
+    <button data-tab="feed" class="on">영상 피드</button>
+    <button data-tab="trend">제품 트렌드</button>
+    <button data-tab="channels">채널 관리</button>
+  </nav>
+</header>
+
+<main>
+  <!-- 피드 -->
+  <div id="tab-feed">
+    <div class="filters">
+      <input type="search" id="q" placeholder="제목·제품·요약 검색 (예: 9800X3D, 5070)">
+      <select id="fCh"><option value="">전체 채널</option></select>
+      <select id="fCat"><option value="">전체 카테고리</option></select>
+      <label class="chk"><input type="checkbox" id="fOur"> 자사 브랜드 언급만</label>
+    </div>
+    <div id="feed" class="grid"></div>
+  </div>
+
+  <!-- 트렌드 -->
+  <div id="tab-trend" hidden>
+    <div class="filters" style="align-items:center">
+      <div class="seg" id="period">
+        <button data-d="7">7일</button><button data-d="30" class="on">30일</button><button data-d="90">90일</button><button data-d="0">전체</button>
+      </div>
+      <select id="tCh"><option value="">전체 채널</option></select>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <div class="cols">
+      <div class="panel"><h3>카테고리별 언급</h3><div id="tCat"></div></div>
+      <div class="panel"><h3>브랜드별 언급</h3><div id="tBrand"></div></div>
+    </div>
+    <div class="panel" style="margin-top:12px">
+      <h3>많이 언급된 제품</h3>
+      <div class="filters" style="margin-bottom:6px"><select id="tCat2"><option value="">전체 카테고리</option></select></div>
+      <div class="tblwrap" style="display:block"><table id="tModels"></table></div>
+    </div>
+    <div class="panel" style="margin-top:12px"><h3>트렌드 키워드</h3><div id="tTags" class="chips"></div></div>
+  </div>
+
+  <!-- 채널 관리 -->
+  <div id="tab-channels" hidden>
+    <div class="panel" style="margin-bottom:12px">
+      <h3>채널 추가</h3>
+      <div class="form">
+        <input type="url" id="nUrl" class="full" placeholder="유튜브 채널 링크 (예: https://www.youtube.com/@채널명)">
+        <input type="text" id="nName" placeholder="거래처명 (예: ○○컴퓨터)">
+        <input type="text" id="nTag" placeholder="구분 (예: 조립PC 업체, 리뷰어)">
+        <textarea id="nMemo" class="full" placeholder="거래처 성격 메모 — AI가 영업 시사점을 만들 때 참고합니다. (예: 100~200만원대 게이밍 견적 주력, AMD 선호, 화이트 감성 케이스 강세)"></textarea>
+        <div class="full" style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn primary" id="addBtn">추가하고 저장</button>
+          <button class="btn" id="runBtn">지금 확인 실행</button>
+        </div>
+      </div>
+      <p class="note" id="authNote"></p>
+    </div>
+    <div class="chlist" id="chlist"></div>
+    <div class="panel" style="margin-top:12px">
+      <details>
+        <summary>연결 설정 (GitHub 토큰)</summary>
+        <p class="note">채널 추가·삭제와 '지금 확인' 버튼은 GitHub 토큰이 있어야 동작합니다. 토큰은 이 브라우저에만 저장되고 다른 곳으로 전송되지 않습니다(GitHub API 제외).</p>
+        <div class="form">
+          <input type="text" id="sRepo" placeholder="저장소 (예: myid/yt-trend-monitor)">
+          <input type="password" id="sToken" placeholder="GitHub 토큰 (github_pat_…)">
+          <div class="full" style="display:flex;gap:8px;flex-wrap:wrap">
+            <button class="btn primary" id="saveAuth">저장</button>
+            <button class="btn" id="clearAuth">이 기기에서 삭제</button>
+          </div>
+        </div>
+      </details>
+    </div>
+  </div>
+</main>
+
+<div class="overlay" id="ov"><div class="sheet" id="sheet"></div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const S = { index: [], channels: [], status: null, period: 30 };
+const store = {
+  get(k){ try { return localStorage.getItem(k) } catch(e){ return null } },
+  set(k,v){ try { v==null ? localStorage.removeItem(k) : localStorage.setItem(k,v) } catch(e){} }
+};
+
+function toast(msg, ms=3000){ const t=$("#toast"); t.textContent=msg; t.style.display="block"; clearTimeout(t._h); t._h=setTimeout(()=>t.style.display="none", ms); }
+function fmtDate(iso){ if(!iso) return ""; const d=new Date(iso); return d.toLocaleDateString("ko-KR",{month:"numeric",day:"numeric"})+" "+d.toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit",hour12:false}); }
+function ago(iso){ const m=(Date.now()-new Date(iso))/6e4; if(m<60) return Math.max(1,Math.round(m))+"분 전"; if(m<1440) return Math.round(m/60)+"시간 전"; return Math.round(m/1440)+"일 전"; }
+function sentBadge(s){ return s==="긍정"?'<span class="badge pos">긍정</span>':s==="부정"?'<span class="badge neg">부정</span>':'<span class="badge">중립</span>'; }
+function prodName(p){ return [p.brand,p.model].filter(Boolean).join(" ") || p.category; }
+
+async function getJSON(path){
+  const r = await fetch(path + (path.includes("?")?"&":"?") + "t=" + Date.now());
+  if(!r.ok) throw new Error(path+" "+r.status);
+  return r.json();
+}
+
+async function load(){
+  const [idx, ch, st] = await Promise.allSettled([getJSON("data/index.json"), getJSON("channels.json"), getJSON("data/status.json")]);
+  S.index = idx.status==="fulfilled" ? idx.value : [];
+  S.channels = ch.status==="fulfilled" ? ch.value : [];
+  S.status = st.status==="fulfilled" ? st.value : null;
+  $("#lastRun").textContent = S.status ? `마지막 확인 ${ago(S.status.last_run)} · 영상 ${S.index.length}개` + (S.status.queue?` · 분석 대기 ${S.status.queue}`:"") : "아직 실행 기록 없음";
+  fillSelects(); renderFeed(); renderTrend(); renderChannels(); openFromHash();
+}
+
+function fillSelects(){
+  const chs = [...new Map(S.index.map(v=>[v.channel_id, v.channel_name])).entries()];
+  for (const sel of ["#fCh","#tCh"]) { const el=$(sel), cur=el.value; el.innerHTML='<option value="">전체 채널</option>'+chs.map(([id,n])=>`<option value="${esc(id)}">${esc(n)}</option>`).join(""); el.value=cur; }
+  const cats = [...new Set(S.index.flatMap(v=>v.products.map(p=>p.category)))].sort();
+  for (const sel of ["#fCat","#tCat2"]) { const el=$(sel), cur=el.value; el.innerHTML='<option value="">전체 카테고리</option>'+cats.map(c=>`<option>${esc(c)}</option>`).join(""); el.value=cur; }
+}
+
+// ───── 피드 ─────
+function renderFeed(){
+  const q=$("#q").value.trim().toLowerCase(), ch=$("#fCh").value, cat=$("#fCat").value, our=$("#fOur").checked;
+  const list = S.index.filter(v=>{
+    if(ch && v.channel_id!==ch) return false;
+    if(cat && !v.products.some(p=>p.category===cat)) return false;
+    if(our && !v.products.some(p=>p.is_our_brand)) return false;
+    if(q){ const hay=(v.title+" "+v.summary+" "+v.channel_name+" "+(v.tags||[]).join(" ")+" "+v.products.map(prodName).join(" ")).toLowerCase(); if(!q.split(/\s+/).every(w=>hay.includes(w))) return false; }
+    return true;
+  });
+  if(!S.index.length){ $("#feed").innerHTML=`<div class="empty" style="grid-column:1/-1">아직 분석된 영상이 없습니다.<br>'채널 관리' 탭에서 거래처 채널을 추가하면 다음 확인 때부터 분석이 시작됩니다.</div>`; return; }
+  if(!list.length){ $("#feed").innerHTML=`<div class="empty" style="grid-column:1/-1">조건에 맞는 영상이 없습니다.</div>`; return; }
+  $("#feed").innerHTML = list.map(v=>{
+    const ours=v.products.filter(p=>p.is_our_brand).length;
+    const chips=v.products.slice(0,5).map(p=>`<span class="badge ${p.is_our_brand?"star":""}">${p.is_our_brand?"★ ":""}${esc(prodName(p))}</span>`).join("")+(v.products.length>5?`<span class="badge">+${v.products.length-5}</span>`:"");
+    return `<article class="card" data-id="${esc(v.id)}">
+      <div class="thumb"><img loading="lazy" src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" alt="">
+        <div class="badges">${v.is_short?'<span class="badge">쇼츠</span>':""}<span class="badge">${esc(v.video_type||"")}</span>${v.sponsored?'<span class="badge">협찬</span>':""}</div></div>
+      <div class="body">
+        <div class="ch"><span>${esc(v.channel_name)}</span><span>${fmtDate(v.published)}</span></div>
+        <h3>${esc(v.title)}</h3>
+        <p>${esc(v.summary)}</p>
+        <div class="chips">${ours?`<span class="badge star">자사 ${ours}</span>`:""}${chips}</div>
+      </div></article>`;
+  }).join("");
+}
+$("#feed").addEventListener("click", e=>{ const c=e.target.closest(".card"); if(c) location.hash="v="+c.dataset.id; });
+["#q","#fCh","#fCat","#fOur"].forEach(s=>$(s).addEventListener("input", renderFeed));
+
+// ───── 상세 ─────
+async function openDetail(id){
+  const sheet=$("#sheet"); $("#ov").classList.add("open"); document.body.style.overflow="hidden";
+  sheet.innerHTML=`<section>불러오는 중…</section>`;
+  let r; try { r = await getJSON(`data/videos/${encodeURIComponent(id)}.json`); } catch(e){ sheet.innerHTML=`<section>분석 데이터를 찾을 수 없습니다. <button class="btn sm" onclick="closeDetail()">닫기</button></section>`; return; }
+  const a=r.analysis, yt=t=>`https://www.youtube.com/watch?v=${encodeURIComponent(r.id)}${t!=null?"&t="+t+"s":""}`;
+  const rows=a.products.map(p=>`<tr>
+      <td>${p.is_our_brand?'<span class="badge star">★ 자사</span><br>':""}<span class="badge">${esc(p.category)}</span></td>
+      <td><b>${esc(prodName(p))}</b>${p.timestamp?`<br><a href="${yt(p.t)}" target="_blank" rel="noopener">▶ ${esc(p.timestamp)}</a>`:""}</td>
+      <td>${sentBadge(p.sentiment)}<div>${esc(p.evaluation)}</div></td>
+      <td>${esc(p.price_mentioned)||'<span style="color:var(--sub)">-</span>'}${p.value_comment?`<div class="note">${esc(p.value_comment)}</div>`:""}</td></tr>`).join("");
+  const cards=a.products.map(p=>`<div class="pc"><div class="row1">${p.is_our_brand?'<span class="badge star">★ 자사</span>':""}<span class="badge">${esc(p.category)}</span>${sentBadge(p.sentiment)}${p.price_mentioned?`<span class="badge acc">${esc(p.price_mentioned)}</span>`:""}</div>
+      <div class="name">${esc(prodName(p))} ${p.timestamp?`<a href="${yt(p.t)}" target="_blank" rel="noopener" style="font-weight:400;font-size:13px">▶ ${esc(p.timestamp)}</a>`:""}</div>
+      <div class="ev">${esc(p.evaluation)}${p.value_comment?" · "+esc(p.value_comment):""}</div></div>`).join("");
+  sheet.innerHTML=`
+    <div class="head"><div style="min-width:0">
+      <div class="ch" style="justify-content:flex-start;gap:10px"><span>${esc(r.channel_name)}</span><span>${fmtDate(r.published)} 업로드</span></div>
+      <h2>${esc(r.title)}</h2>
+      <div class="chips"><span class="badge acc">${esc(a.video_type)}</span>${a.sponsored?'<span class="badge">협찬/광고 포함</span>':""}${(a.trend_tags||[]).map(t=>`<span class="badge">#${esc(t)}</span>`).join("")}</div>
+    </div><button class="btn sm close" onclick="closeDetail()">닫기</button></div>
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(r.id)}" allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+    ${a.sales_insights?.length?`<section><h4>영업 시사점</h4><div class="insight"><ul class="tight">${a.sales_insights.map(s=>`<li>${esc(s)}</li>`).join("")}</ul></div></section>`:""}
+    <section><h4>요약</h4><p style="margin:0 0 8px">${esc(a.summary)}</p>${a.key_points?.length?`<ul class="tight">${a.key_points.map(s=>`<li>${esc(s)}</li>`).join("")}</ul>`:""}</section>
+    <section><h4>언급 제품 (${a.products.length})</h4>${a.products.length?`
+      <div class="tblwrap"><table><thead><tr><th>구분</th><th>제품</th><th>평가</th><th>가격·가성비</th></tr></thead><tbody>${rows}</tbody></table></div>
+      <div class="prodcards">${cards}</div>`:`<p class="note">언급된 제품이 없습니다.</p>`}</section>
+    <section class="note">분석 ${fmtDate(r.analyzed_at)} · ${esc(r.model||"")} · <a href="${yt()}" target="_blank" rel="noopener">유튜브에서 보기</a> · AI 분석이므로 모델명·가격은 영상에서 한 번 더 확인하세요.</section>`;
+}
+function closeDetail(){ $("#ov").classList.remove("open"); document.body.style.overflow=""; if(location.hash.startsWith("#v=")) history.replaceState(null,"",location.pathname+location.search); }
+$("#ov").addEventListener("click", e=>{ if(e.target.id==="ov") closeDetail(); });
+document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeDetail(); });
+function openFromHash(){ const m=location.hash.match(/^#v=([\w-]+)/); if(m) openDetail(m[1]); }
+window.addEventListener("hashchange", openFromHash);
+
+// ───── 트렌드 ─────
+function bars(el, entries, max){ const top=entries[0]?.[1]||1; el.innerHTML = entries.length? entries.slice(0,max).map(([k,n])=>`<div class="bar"><span class="lbl" title="${esc(k)}">${esc(k)}</span><div class="track"><div class="fill" style="width:${(n/top*100).toFixed(1)}%"></div></div><span class="n">${n}</span></div>`).join("") : '<p class="note">데이터 없음</p>'; }
+function countBy(arr, f){ const m=new Map(); for(const x of arr){ const k=f(x); if(k) m.set(k,(m.get(k)||0)+1); } return [...m.entries()].sort((a,b)=>b[1]-a[1]); }
+function renderTrend(){
+  const since = S.period ? Date.now()-S.period*864e5 : 0, ch=$("#tCh").value, cat2=$("#tCat2").value;
+  const vids = S.index.filter(v=>new Date(v.published)>=since && (!ch||v.channel_id===ch));
+  const prods = vids.flatMap(v=>v.products.map(p=>({...p, vid:v.id, ch:v.channel_name})));
+  const ours = prods.filter(p=>p.is_our_brand).length;
+  $("#kpis").innerHTML = [["분석 영상",vids.length],["제품 언급",prods.length],["자사 브랜드 언급",ours],["긍정 비율", prods.length? Math.round(prods.filter(p=>p.sentiment==="긍정").length/prods.length*100)+"%":"-"]]
+    .map(([l,v])=>`<div class="kpi"><b>${v}</b><span>${l}</span></div>`).join("");
+  bars($("#tCat"), countBy(prods,p=>p.category), 12);
+  bars($("#tBrand"), countBy(prods,p=>p.brand), 12);
+  const m=new Map();
+  for(const p of prods.filter(p=>!cat2||p.category===cat2)){ if(!p.model) continue; const k=(p.brand+" "+p.model).trim().toLowerCase();
+    const o=m.get(k)||{name:prodName(p),cat:p.category,our:p.is_our_brand,n:0,pos:0,neg:0,neu:0,chs:new Set(),prices:[]};
+    o.n++; o[p.sentiment==="긍정"?"pos":p.sentiment==="부정"?"neg":"neu"]++; o.chs.add(p.ch); if(p.price_mentioned) o.prices.push(p.price_mentioned); o.our=o.our||p.is_our_brand; m.set(k,o); }
+  const rows=[...m.values()].sort((a,b)=>b.n-a.n||b.chs.size-a.chs.size).slice(0,30);
+  $("#tModels").innerHTML = rows.length ? `<thead><tr><th>제품</th><th>언급</th><th>평가 분포</th><th>채널</th><th>언급 가격</th></tr></thead><tbody>${rows.map(o=>`<tr>
+      <td>${o.our?'<span class="badge star">★</span> ':""}<b>${esc(o.name)}</b><div class="note">${esc(o.cat)}</div></td><td>${o.n}</td>
+      <td><div class="sent" title="긍정 ${o.pos} · 중립 ${o.neu} · 부정 ${o.neg}"><i style="width:${o.pos/o.n*100}%;background:var(--pos)"></i><i style="width:${o.neu/o.n*100}%;background:var(--sub);opacity:.4"></i><i style="width:${o.neg/o.n*100}%;background:var(--neg)"></i></div><div class="note">👍${o.pos} 👎${o.neg}</div></td>
+      <td>${o.chs.size}<div class="note">${esc([...o.chs].slice(0,3).join(", "))}</div></td>
+      <td class="note">${esc([...new Set(o.prices)].slice(0,3).join(" / "))||"-"}</td></tr>`).join("")}</tbody>` : '<tr><td class="note">데이터 없음</td></tr>';
+  const tags=countBy(vids.flatMap(v=>v.tags||[]),t=>t).slice(0,30);
+  $("#tTags").innerHTML = tags.length? tags.map(([t,n])=>`<span class="badge acc">#${esc(t)} ${n}</span>`).join("") : '<p class="note">데이터 없음</p>';
+}
+$("#period").addEventListener("click", e=>{ const b=e.target.closest("button"); if(!b) return; S.period=+b.dataset.d; [...$("#period").children].forEach(x=>x.classList.toggle("on",x===b)); renderTrend(); });
+["#tCh","#tCat2"].forEach(s=>$(s).addEventListener("input", renderTrend));
+
+// ───── 채널 관리 (GitHub API) ─────
+function guessRepo(){ const h=location.hostname; if(h.endsWith(".github.io")){ const o=h.split(".")[0]; const seg=location.pathname.split("/").filter(Boolean)[0]; return seg? `${o}/${seg}` : `${o}/${h}`; } return ""; }
+const auth = () => ({ repo: store.get("gh_repo") || guessRepo(), token: store.get("gh_token") || "" });
+function updateAuthNote(){ const a=auth(); $("#sRepo").value=a.repo; $("#authNote").innerHTML = a.token ? `연결됨: <b>${esc(a.repo)}</b> — 저장하면 1~2분 안에 자동 확인이 실행됩니다.` : `⚠️ 채널을 저장하려면 아래 <b>연결 설정</b>에 GitHub 토큰을 한 번 입력해 주세요.`; }
+async function gh(path, opt={}){
+  const a=auth(); if(!a.token||!a.repo) throw new Error("연결 설정(저장소·토큰)이 필요합니다");
+  const r = await fetch(`https://api.github.com/repos/${a.repo}${path}`, {...opt, headers:{"Authorization":"Bearer "+a.token,"Accept":"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28",...(opt.headers||{})}});
+  if(!r.ok){ const t=await r.text(); throw new Error(`GitHub ${r.status}: ${t.slice(0,140)}`); }
+  return r.status===204 ? null : r.json();
+}
+const b64 = s => btoa(String.fromCharCode(...new TextEncoder().encode(s)));
+const unb64 = s => new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g,"")), c=>c.charCodeAt(0)));
+async function saveChannels(mutate, msg){
+  const f = await gh("/contents/channels.json");
+  const list = JSON.parse(unb64(f.content)); mutate(list);
+  await gh("/contents/channels.json",{method:"PUT",body:JSON.stringify({message:msg,content:b64(JSON.stringify(list,null,2)+"\n"),sha:f.sha})});
+  S.channels=list; renderChannels();
+}
+function normUrl(u){ u=u.trim(); if(!u) return ""; if(u.startsWith("@")) return "https://www.youtube.com/"+u; if(!/^https?:\/\//.test(u)) u="https://"+u; return u.replace(/^(https?:\/\/)(m\.)?youtube\.com/,"$1www.youtube.com").replace(/\/(videos|featured|shorts|streams|about)\/?$/,"").replace(/\?.*$/,""); }
+$("#addBtn").onclick = async ()=>{
+  const url=normUrl($("#nUrl").value); if(!/youtube\.com\/(@|channel\/|c\/|user\/)/.test(url)) return toast("유튜브 채널 링크를 확인해 주세요 (예: https://www.youtube.com/@채널명)");
+  if(S.channels.some(c=>normUrl(c.url)===url)) return toast("이미 등록된 채널입니다");
+  const item={name:$("#nName").value.trim()||url.split("/").pop(), url, type:$("#nTag").value.trim(), memo:$("#nMemo").value.trim(), enabled:true, added:new Date().toISOString().slice(0,10)};
+  $("#addBtn").disabled=true;
+  try { await saveChannels(l=>l.push(item), `채널 추가: ${item.name}`); ["#nUrl","#nName","#nTag","#nMemo"].forEach(s=>$(s).value=""); toast("저장됨 — 1~2분 뒤 첫 분석이 시작됩니다"); }
+  catch(e){ toast(e.message,6000); } finally { $("#addBtn").disabled=false; }
+};
+$("#runBtn").onclick = async ()=>{ try { await gh("/actions/workflows/monitor.yml/dispatches",{method:"POST",body:JSON.stringify({ref:"main"})}); toast("확인 실행을 요청했습니다. 몇 분 뒤 새로고침하세요."); } catch(e){ toast(e.message,6000); } };
+$("#saveAuth").onclick = ()=>{ store.set("gh_repo",$("#sRepo").value.trim()); if($("#sToken").value.trim()) store.set("gh_token",$("#sToken").value.trim()); $("#sToken").value=""; updateAuthNote(); toast("이 기기에 저장했습니다"); };
+$("#clearAuth").onclick = ()=>{ store.set("gh_token",null); updateAuthNote(); toast("토큰을 삭제했습니다"); };
+
+function renderChannels(){
+  updateAuthNote();
+  const st = new Map((S.status?.channels||[]).map(c=>[c.url,c]));
+  const cnt = countBy(S.index, v=>v.channel_id);
+  const cntMap = new Map(cnt);
+  if(!S.channels.length){ $("#chlist").innerHTML='<div class="empty">등록된 채널이 없습니다. 위에서 거래처 채널을 추가해 주세요.</div>'; return; }
+  $("#chlist").innerHTML = S.channels.map((c,i)=>{ const s=st.get(c.url)||{}; const ok = s.ok ? '<span class="dot" style="background:var(--pos)"></span>정상' : s.error ? `<span class="dot" style="background:var(--neg)"></span>오류: ${esc(s.error)}` : '<span class="dot" style="background:var(--sub)"></span>다음 실행 때 확인';
+    return `<div class="chrow"><div class="info"><b>${esc(c.name)}</b> ${c.type?`<span class="badge">${esc(c.type)}</span>`:""} ${c.enabled===false?'<span class="badge neg">일시정지</span>':""}
+      <div><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.url)}</a></div>
+      ${c.memo?`<div>📝 ${esc(c.memo)}</div>`:""}
+      <div>${ok} · 분석 영상 ${cntMap.get(s.channel_id)||0}개</div></div>
+      <div style="display:flex;gap:6px"><button class="btn sm" data-act="toggle" data-i="${i}">${c.enabled===false?"재개":"일시정지"}</button><button class="btn sm" data-act="memo" data-i="${i}">메모</button><button class="btn sm" data-act="del" data-i="${i}">삭제</button></div></div>`; }).join("");
+}
+$("#chlist").addEventListener("click", async e=>{
+  const b=e.target.closest("button[data-act]"); if(!b) return; const i=+b.dataset.i, c=S.channels[i];
+  const match = l => l.findIndex(x=>x.url===c.url);
+  try {
+    if(b.dataset.act==="del"){ if(!confirm(`'${c.name}' 채널을 목록에서 삭제할까요? (이미 분석된 영상은 남습니다)`)) return; await saveChannels(l=>{const k=match(l); if(k>=0) l.splice(k,1);}, `채널 삭제: ${c.name}`); toast("삭제했습니다"); }
+    if(b.dataset.act==="toggle"){ await saveChannels(l=>{const k=match(l); if(k>=0) l[k].enabled = l[k].enabled===false;}, `채널 상태 변경: ${c.name}`); toast("변경했습니다"); }
+    if(b.dataset.act==="memo"){ const m=prompt("거래처 성격 메모", c.memo||""); if(m==null) return; await saveChannels(l=>{const k=match(l); if(k>=0) l[k].memo=m.trim();}, `메모 수정: ${c.name}`); toast("저장했습니다 — 다음 분석부터 반영"); }
+  } catch(err){ toast(err.message,6000); }
+});
+
+// ───── 탭 ─────
+function setTab(t){ document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("on",b.dataset.tab===t)); ["feed","trend","channels"].forEach(x=>$("#tab-"+x).hidden = x!==t); store.set("tab",t); }
+document.querySelector("nav").addEventListener("click", e=>{ const b=e.target.closest("button[data-tab]"); if(b) setTab(b.dataset.tab); });
+setTab(store.get("tab")||"feed");
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "our_company": "대원씨티에스",
+  "our_brands": [],
+  "gemini_model": "gemini-3.8-flash",
+  "gemini_fallback_model": "gemini-flash-latest",
+  "media_resolution": "MEDIA_RESOLUTION_LOW",
+  "initial_backfill": 1,
+  "max_per_run": 8,
+  "max_age_days": 14,
+  "skip_shorts": false
+}
