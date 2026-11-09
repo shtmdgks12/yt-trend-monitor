@@ -1,12 +1,12 @@
 {
-  "last_run": "2026-11-09T11:24:38+09:00",
+  "last_run": "2026-11-09T12:44:36+09:00",
   "channels": [
     {
       "name": "영재컴퓨터",
       "url": "https://www.youtube.com/@%EC%98%81%EC%9E%AC%EC%BB%B4%ED%93%A8%ED%84%B0YJMOD",
       "ok": false,
       "channel_id": "UCaOwfLJxMjZ8RCBwg8_c90A",
-      "error": "HTTP Error 404: Not Found"
+      "error": "HTTP Error 500: Internal Server Error"
     },
     {
       "name": "양컴",
@@ -55,7 +55,7 @@
       "url": "https://www.youtube.com/@%EA%B9%8C%EB%A7%9D%EC%9D%B4%EC%BB%B4%ED%93%A8%ED%84%B0",
       "ok": false,
       "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
-      "error": "HTTP Error 500: Internal Server Error"
+      "error": "HTTP Error 404: Not Found"
     }
   ],
   "analyzed": 0,
