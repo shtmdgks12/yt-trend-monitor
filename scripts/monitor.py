@@ -87,6 +87,8 @@ def save_json(path, obj):
 
 def http(url, data=None, headers=None, timeout=60, method=None):
     h = {"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8"}
+    if "youtube.com" in url:
+        h["Cookie"] = "SOCS=CAI; CONSENT=YES+"  # 쿠키 동의 화면 회피
     h.update(headers or {})
     req = urllib.request.Request(url, data=data, headers=h, method=method)
     with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -126,9 +128,115 @@ def resolve_channel_id(url):
     raise ValueError(f"채널 ID를 찾지 못했습니다: {url}")
 
 
+class StepError(Exception):
+    pass
+
+
+def fetch_feed_rss(channel_id, tries=4):
+    """YouTube RSS는 2025~2026년 들어 200/404/500을 무작위로 돌려주는 일이 잦아 여러 번 재시도"""
+    last = None
+    for i in range(tries):
+        try:
+            _, body, _ = http(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}", timeout=30)
+            return parse_feed(body)
+        except (urllib.error.HTTPError, urllib.error.URLError, ET.ParseError) as ex:
+            last = ex
+            time.sleep(3 + i * 4)
+    raise StepError(f"RSS {last}")
+
+
+REL_UNITS = [(r"(\d+)\s*(?:초|second)", 1), (r"(\d+)\s*(?:분|minute)", 60), (r"(\d+)\s*(?:시간|hour)", 3600),
+             (r"(\d+)\s*(?:일|day)", 86400), (r"(\d+)\s*(?:주|week)", 604800),
+             (r"(\d+)\s*(?:개월|달|month)", 2592000), (r"(\d+)\s*(?:년|year)", 31536000)]
+
+
+def rel_to_iso(text):
+    now = dt.datetime.now(dt.timezone.utc)
+    for pat, sec in REL_UNITS:
+        m = re.search(pat, text or "", re.I)
+        if m:
+            return (now - dt.timedelta(seconds=int(m.group(1)) * sec)).isoformat()
+    return now.isoformat()
+
+
+def _text(node):
+    if isinstance(node, str):
+        return node
+    if isinstance(node, dict):
+        if "simpleText" in node:
+            return node["simpleText"]
+        if "runs" in node:
+            return "".join(r.get("text", "") for r in node["runs"])
+        if "content" in node:
+            return _text(node["content"])
+    return ""
+
+
+def _walk(o):
+    if isinstance(o, dict):
+        yield o
+        for v in o.values():
+            yield from _walk(v)
+    elif isinstance(o, list):
+        for v in o:
+            yield from _walk(v)
+
+
+def parse_videos_page(page):
+    """채널 /videos 페이지의 ytInitialData에서 최근 영상 목록 추출 (구·신 레이아웃 모두)"""
+    m = re.search(r"(?:var ytInitialData|window\[\"ytInitialData\"\])\s*=\s*(\{.*?\});\s*</script>", page, re.S)
+    if not m:
+        raise StepError("채널 페이지에서 영상 목록을 찾지 못함")
+    data = json.loads(m.group(1))
+    title = ""
+    for node in _walk(data):
+        if not title and "channelMetadataRenderer" in node:
+            title = node["channelMetadataRenderer"].get("title", "")
+    out, seen = [], set()
+    for node in _walk(data):
+        vid, ttl, rel = None, "", ""
+        if "videoRenderer" in node and isinstance(node["videoRenderer"], dict):
+            r = node["videoRenderer"]
+            vid, ttl, rel = r.get("videoId"), _text(r.get("title")), _text(r.get("publishedTimeText"))
+        elif "lockupViewModel" in node and isinstance(node["lockupViewModel"], dict):
+            r = node["lockupViewModel"]
+            if "VIDEO" not in str(r.get("contentType", "VIDEO")):
+                continue
+            vid = r.get("contentId")
+            md = r.get("metadata", {}).get("lockupMetadataViewModel", {})
+            ttl = _text(md.get("title"))
+            rows = json.dumps(md.get("metadata", {}), ensure_ascii=False)
+            mm = re.search(r'"content":\s*"([^"]*(?:전|ago)[^"]*)"', rows)
+            rel = mm.group(1) if mm else ""
+        if vid and re.fullmatch(r"[A-Za-z0-9_-]{11}", vid) and vid not in seen:
+            seen.add(vid)
+            out.append({"id": vid, "title": ttl, "published": rel_to_iso(rel), "approx": True,
+                        "channel_title": title, "description": ""})
+    if not out:
+        raise StepError("채널 페이지에 영상이 없음")
+    return title, out[:15]
+
+
+def fetch_feed_page(channel_id):
+    try:
+        _, page, _ = http(f"https://www.youtube.com/channel/{channel_id}/videos", timeout=30)
+    except urllib.error.HTTPError as ex:
+        raise StepError(f"채널 페이지 {ex}")
+    return parse_videos_page(page)
+
+
 def fetch_feed(channel_id):
-    _, body, _ = http(f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}")
-    return parse_feed(body)
+    """1순위 RSS(정확한 업로드 시각) → 실패 시 채널 페이지(대략적 시각)"""
+    try:
+        t, entries = fetch_feed_rss(channel_id)
+        return t, entries, "RSS"
+    except StepError as rss_err:
+        log(f"   RSS 실패({rss_err}) → 채널 페이지로 대체")
+        try:
+            t, entries = fetch_feed_page(channel_id)
+            return t, entries, "채널 페이지"
+        except StepError as page_err:
+            raise StepError(f"{rss_err} / {page_err}")
 
 
 def parse_feed(xml_text):
@@ -557,25 +665,33 @@ def main():
         url = ch["url"].strip()
         st = {"name": ch.get("name") or url, "url": url, "ok": False}
         try:
-            cid = state["resolved"].get(url) or resolve_channel_id(url)
+            cid = state["resolved"].get(url)
+            if not cid:
+                try:
+                    cid = resolve_channel_id(url)
+                except Exception as ex:
+                    raise StepError(f"채널 주소 확인 실패({ex}) — 링크가 맞는지 확인해 주세요")
             state["resolved"][url] = cid
             st["channel_id"] = cid
-            title, entries = fetch_feed(cid)
-            st.update(title=title, ok=True, latest=entries[0]["published"] if entries else None)
+            title, entries, via = fetch_feed(cid)
+            st.update(title=title, ok=True, via=via, latest=entries[0]["published"] if entries else None)
+            time.sleep(1)
             cs = state["channels"].setdefault(cid, {"seen": [], "initialized": False})
             seen = set(cs["seen"])
             fresh = []
             if not cs["initialized"]:
                 fresh = entries[: settings["initial_backfill"]]
                 cs["initialized"] = True
+                cs["since"] = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=1)).isoformat()
                 log(f"📺 {st['name']}: 첫 등록 — 최근 {len(fresh)}개만 분석, 나머지는 기준점으로 저장")
             else:
                 for v in entries:
                     if v["id"] in seen or v["id"] in known:
                         continue
                     pub = dt.datetime.fromisoformat(v["published"].replace("Z", "+00:00"))
-                    if pub < cutoff:
-                        continue
+                    since = cs.get("since")
+                    if pub < cutoff or (since and pub < dt.datetime.fromisoformat(since)):
+                        continue  # 등록 이전 영상(쇼츠·라이브 등 목록 차이로 처음 보이는 것)은 건너뜀
                     fresh.append(v)
             for v in fresh:
                 if v["id"] not in known and v["id"] not in queue:
@@ -602,6 +718,14 @@ def main():
             log(f"⏸ 이번 실행 한도({settings['max_per_run']}개) 도달 — 나머지는 다음 실행에서 처리")
             break
         ch = by_cid.get(v["channel_id"], {"name": v["channel_name"]})
+        if v.get("approx"):  # 채널 페이지로 찾은 영상 → 정확한 업로드 시각·설명 보강
+            meta = fetch_video_meta(v["id"])
+            for k in ("published", "description"):
+                if meta.get(k):
+                    v[k] = meta[k]
+            if meta.get("title") and meta["title"] != v["id"]:
+                v["title"] = meta["title"]
+            v["approx"] = False
         log(f"🔎 분석: [{v['channel_name']}] {v['title']}")
         short = is_short(v["id"])
         if short and settings["skip_shorts"]:
