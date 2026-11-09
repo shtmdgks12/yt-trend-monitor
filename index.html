@@ -116,6 +116,9 @@ th{font-size:12px;color:var(--sub);font-weight:700;white-space:nowrap}
 .form .full{grid-column:1/-1}
 @media (max-width:640px){.form{grid-template-columns:1fr}}
 .note{font-size:13px;color:var(--sub)}
+.quick{display:flex;gap:8px;margin-bottom:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px}
+.quick input{flex:1;min-width:0;border:0;background:transparent;padding:8px 6px}
+.quick input:focus{outline:none}
 .toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#0f172a;color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;z-index:99;display:none;max-width:90vw}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px;vertical-align:middle}
 details summary{cursor:pointer;font-weight:600}
@@ -137,6 +140,10 @@ details summary{cursor:pointer;font-weight:600}
 <main>
   <!-- 피드 -->
   <div id="tab-feed">
+    <div class="quick">
+      <input type="url" id="mUrl" placeholder="유튜브 영상 링크 붙여넣기">
+      <button class="btn primary" id="mBtn">바로 분석</button>
+    </div>
     <div class="filters">
       <input type="search" id="q" placeholder="제목·제품·요약 검색 (예: 9800X3D, 5070)">
       <select id="fCh"><option value="">전체 채널</option></select>
@@ -258,7 +265,7 @@ function renderFeed(){
     const chips=v.products.slice(0,5).map(p=>`<span class="badge ${p.is_our_brand?"star":""}">${p.is_our_brand?"★ ":""}${esc(prodName(p))}</span>`).join("")+(v.products.length>5?`<span class="badge">+${v.products.length-5}</span>`:"");
     return `<article class="card" data-id="${esc(v.id)}">
       <div class="thumb"><img loading="lazy" src="https://i.ytimg.com/vi/${esc(v.id)}/mqdefault.jpg" alt="">
-        <div class="badges">${v.is_short?'<span class="badge">쇼츠</span>':""}<span class="badge">${esc(v.video_type||"")}</span>${v.sponsored?'<span class="badge">협찬</span>':""}</div></div>
+        <div class="badges">${v.manual?'<span class="badge">수동</span>':""}${v.is_short?'<span class="badge">쇼츠</span>':""}<span class="badge">${esc(v.video_type||"")}</span>${v.sponsored?'<span class="badge">협찬</span>':""}</div></div>
       <div class="body">
         <div class="ch"><span>${esc(v.channel_name)}</span><span>${fmtDate(v.published)}</span></div>
         <h3>${esc(v.title)}</h3>
@@ -359,6 +366,20 @@ $("#addBtn").onclick = async ()=>{
   try { await saveChannels(l=>l.push(item), `채널 추가: ${item.name}`); ["#nUrl","#nName","#nTag","#nMemo"].forEach(s=>$(s).value=""); toast("저장됨 — 1~2분 뒤 첫 분석이 시작됩니다"); }
   catch(e){ toast(e.message,6000); } finally { $("#addBtn").disabled=false; }
 };
+$("#mBtn").onclick = async ()=>{
+  const raw=$("#mUrl").value.trim();
+  const ids=[...raw.matchAll(/(?:v=|youtu\.be\/|\/shorts\/|\/live\/|\/embed\/)([A-Za-z0-9_-]{11})/g)].map(m=>m[1]);
+  if(!ids.length) return toast("유튜브 영상 링크를 확인해 주세요 (예: https://youtu.be/…)");
+  if(!auth().token){ setTab("channels"); $("details").open=true; return toast("먼저 연결 설정에 GitHub 토큰을 입력해 주세요",5000); }
+  $("#mBtn").disabled=true;
+  try {
+    await gh("/actions/workflows/monitor.yml/dispatches",{method:"POST",body:JSON.stringify({ref:"main",inputs:{video_urls:ids.map(i=>"https://youtu.be/"+i).join(" ")}})});
+    $("#mUrl").value=""; toast(`분석 요청 완료 (${ids.length}개) — 2~4분 뒤 텔레그램으로 알려드립니다`,5000);
+    pollFor(ids[0]);
+  } catch(e){ toast(e.message,6000); } finally { $("#mBtn").disabled=false; }
+};
+$("#mUrl").addEventListener("keydown", e=>{ if(e.key==="Enter") $("#mBtn").click(); });
+function pollFor(id, n=0){ if(n>20) return; setTimeout(async()=>{ try{ const idx=await getJSON("data/index.json"); const hit=idx.find(v=>v.id===id); if(hit && (!S.index.find(v=>v.id===id) || S.index.find(v=>v.id===id).analyzed_at!==hit.analyzed_at)){ await load(); toast("분석 결과가 도착했습니다"); location.hash="v="+id; return; } }catch(e){} pollFor(id,n+1); }, 30000); }
 $("#runBtn").onclick = async ()=>{ try { await gh("/actions/workflows/monitor.yml/dispatches",{method:"POST",body:JSON.stringify({ref:"main"})}); toast("확인 실행을 요청했습니다. 몇 분 뒤 새로고침하세요."); } catch(e){ toast(e.message,6000); } };
 $("#saveAuth").onclick = ()=>{ store.set("gh_repo",$("#sRepo").value.trim()); if($("#sToken").value.trim()) store.set("gh_token",$("#sToken").value.trim()); $("#sToken").value=""; updateAuthNote(); toast("이 기기에 저장했습니다"); };
 $("#clearAuth").onclick = ()=>{ store.set("gh_token",null); updateAuthNote(); toast("토큰을 삭제했습니다"); };
