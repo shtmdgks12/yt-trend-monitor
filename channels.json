@@ -22,5 +22,13 @@
     "memo": "가성비 분석 업체 / 판매량 많지 않으나 조회수 높음",
     "enabled": true,
     "added": "2026-11-09"
+  },
+  {
+    "name": "고고싱컴퓨터",
+    "url": "https://www.youtube.com/@%EA%B3%A0%EA%B3%A0%EC%8B%B1%EC%BB%B4%ED%93%A8%ED%84%B0",
+    "type": "조립pc업체",
+    "memo": "100~200만원대 주력",
+    "enabled": true,
+    "added": "2026-11-09"
   }
 ]
