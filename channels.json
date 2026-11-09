@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "name": "영재컴퓨터",
+    "url": "https://www.youtube.com/@%EC%98%81%EC%9E%AC%EC%BB%B4%ED%93%A8%ED%84%B0YJMOD",
+    "type": "조립pc 업체",
+    "memo": "하이엔드 및 서버 빌드 업체",
+    "enabled": true,
+    "added": "2026-11-09"
+  }
+]
