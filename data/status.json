@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-10T16:16:01+09:00",
+  "last_run": "2026-11-10T22:08:55+09:00",
   "channels": [
     {
       "name": "영재컴퓨터",
@@ -7,8 +7,8 @@
       "ok": true,
       "channel_id": "UCaOwfLJxMjZ8RCBwg8_c90A",
       "title": "YJMOD x 영재컴퓨터",
-      "via": "채널 페이지",
-      "latest": "2026-11-09T07:16:38.041967+00:00",
+      "via": "RSS",
+      "latest": "2026-11-09T02:30:29+00:00",
       "new": 0
     },
     {
@@ -17,9 +17,9 @@
       "ok": true,
       "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
       "title": "양컴",
-      "via": "채널 페이지",
-      "latest": "2026-11-07T07:17:15.850752+00:00",
-      "new": 0
+      "via": "RSS",
+      "latest": "2026-11-10T09:41:22+00:00",
+      "new": 1
     },
     {
       "name": "신성조의 pc공방",
@@ -27,9 +27,9 @@
       "ok": true,
       "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
       "title": "신성조",
-      "via": "채널 페이지",
-      "latest": "2026-11-09T11:17:53.676600+00:00",
-      "new": 0
+      "via": "RSS",
+      "latest": "2026-11-10T12:29:38+00:00",
+      "new": 1
     },
     {
       "name": "고고싱컴퓨터",
@@ -37,9 +37,9 @@
       "ok": true,
       "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
       "title": "고고싱컴퓨터",
-      "via": "채널 페이지",
-      "latest": "2026-11-06T07:18:31.502000+00:00",
-      "new": 0
+      "via": "RSS",
+      "latest": "2026-11-10T08:45:08+00:00",
+      "new": 1
     },
     {
       "name": "마인드피씨",
@@ -47,8 +47,8 @@
       "ok": true,
       "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
       "title": "마인드피씨",
-      "via": "채널 페이지",
-      "latest": "2026-10-31T07:19:09.301889+00:00",
+      "via": "RSS",
+      "latest": "2026-10-30T09:30:05+00:00",
       "new": 0
     },
     {
@@ -57,8 +57,8 @@
       "ok": true,
       "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
       "title": "추천하는남자",
-      "via": "채널 페이지",
-      "latest": "2026-11-09T10:19:47.094001+00:00",
+      "via": "RSS",
+      "latest": "2026-11-09T10:05:17+00:00",
       "new": 0
     },
     {
@@ -67,8 +67,8 @@
       "ok": true,
       "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",
       "title": "웰메이드컴퓨터 TV",
-      "via": "채널 페이지",
-      "latest": "2026-10-30T07:20:25.023080+00:00",
+      "via": "RSS",
+      "latest": "2026-11-06T11:00:24+00:00",
       "new": 0
     },
     {
@@ -77,12 +77,33 @@
       "ok": true,
       "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
       "title": "까망이컴퓨터",
-      "via": "채널 페이지",
-      "latest": "2026-11-07T07:21:02.885762+00:00",
-      "new": 0
+      "via": "RSS",
+      "latest": "2026-11-09T22:00:10+00:00",
+      "new": 1
     }
   ],
   "analyzed": 0,
-  "errors": [],
-  "queue": 0
+  "errors": [
+    {
+      "id": "y3kNgsaiKOE",
+      "title": "총 견적 1200만원 컴퓨터의 실물 비주얼",
+      "error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    },
+    {
+      "id": "IwcHtWi_9io",
+      "title": "리안리 비전 풀세트 컴퓨터를 차 안에서 조립한다고?",
+      "error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    },
+    {
+      "id": "EVJzwzBeScE",
+      "title": "RTX 5090 4장 수랭식 워크스테이션",
+      "error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    },
+    {
+      "id": "jwicXk1dRM8",
+      "title": "11월 10일  1분기 인텔 CPU 출시  AMD는 아직 정확한 발표가 없는데. 2분기인가?",
+      "error": "HTTP 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The caller does not have permission\",\n    \"status\": \"PERMISSION_DENIED\"\n  }\n}\n"
+    }
+  ],
+  "queue": 3
 }
