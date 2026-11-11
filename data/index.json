@@ -1,5 +1,218 @@
 [
   {
+    "id": "YUCBVIV4jTY",
+    "title": "[까망이컴퓨터] 요즘엔 힙한 레트로 케이스",
+    "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+    "channel_name": "까망이컴퓨터",
+    "published": "2026-11-11T10:00:25+00:00",
+    "analyzed_at": "2026-11-11T22:36:23+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "과거 90~2000년대 감성을 재현한 레트로 디자인의 PC 케이스를 활용해 최신 하이엔드 수랭 PC를 조립하고 세부 디테일을 살펴보는 영상입니다. 레트로 감성을 살리기 위해 구형 삼성 DVD 멀티(ODD) 드라이브를 장착하고 터보 버튼, 7세그먼트 디스플레이, 전면 열쇠 잠금 등의 요소를 소개합니다. 마이크로닉스에서 정식 수입했던 케이스이나 추가 수입 계획이 없어 프리미엄이 붙은 상황을 언급하며, 통풍 구조상 공랭보다는 수랭 쿨러 사용이 적합하다고 평가합니다. 완성 후 레트로 외형과 화려한 내부 화이트 튜닝의 반전 매력을 확인하며 작동을 테스트합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "레트로PC",
+      "슬리퍼PC",
+      "마이크로닉스",
+      "CD롬",
+      "수랭쿨러",
+      "화이트튜닝"
+    ],
+    "products": [
+      {
+        "category": "케이스",
+        "brand": "Micronics",
+        "model": "레트로 케이스",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "주변기기",
+        "brand": "Samsung",
+        "model": "DVD 멀티 ODD",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "vQOTe3bIuhE",
+    "title": "제로팬 기능을 끄려고 하는 이유?",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-11T09:34:49+00:00",
+    "analyzed_at": "2026-11-11T22:29:27+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "그래픽카드의 제로팬 기능을 인위적으로 끄는 것은 쿨러 팬 수명을 단축시킬 수 있어 권장하지 않는다고 설명합니다. 온도를 낮추기 위해 제로팬을 끄려는 목적이라면, 제로팬 해제보다는 게임 내 프레임 제한 설정을 거는 것이 훨씬 효과적이라고 조언합니다. 프레임 제한을 통해 GPU 사용률과 소비 전력을 낮추면 온도 역시 자연스럽게 함께 내려간다고 강조합니다.",
+    "video_type": "튜토리얼",
+    "sponsored": false,
+    "tags": [
+      "제로팬",
+      "그래픽카드쿨링",
+      "프레임제한",
+      "GPU온도관리",
+      "소비전력"
+    ],
+    "products": [
+      {
+        "category": "그래픽카드",
+        "brand": "",
+        "model": "9070XT",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "mnf5bU_YxnY",
+    "title": "11월 컴퓨터견적 추천｜조립PC·게이밍컴퓨터 추천｜가격대별 가성비 조립컴퓨터 총정리",
+    "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+    "channel_name": "마인드피씨",
+    "published": "2026-11-11T08:00:15+00:00",
+    "analyzed_at": "2026-11-11T22:23:10+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "마인드피씨에서 11월 기준 용도와 예산에 맞춘 조립 PC 견적 8종을 비교 및 추천하는 영상입니다. 사무용 엔트리 모델인 58만 원대 오피스 스탠다드 PC부터 가성비 온라인 게임용, FHD/QHD 고사양 게이밍 PC(최대 253만 원)까지 라인업을 세분화하여 안내합니다. 특히 배틀그라운드 등 CPU 영향이 큰 게임과 QHD 고사양 스팀 게임 환경에 맞춰 3D V-캐시 탑재 CPU 및 고성능 그래픽카드 구성을 합리적으로 선택할 수 있는 가이드를 제공합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "월간추천견적",
+      "가성비조립PC",
+      "RyzenX3D",
+      "QHD게이밍",
+      "KingstonNV3",
+      "MANLI",
+      "배틀그라운드PC"
+    ],
+    "products": [
+      {
+        "category": "완제품PC",
+        "brand": "MindPC",
+        "model": "오피스 스탠다드 PC",
+        "sentiment": "긍정",
+        "price_mentioned": "589,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5500GT",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME A520M-K",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "MindPC",
+        "model": "인텔 라이트 게이밍 PC",
+        "sentiment": "중립",
+        "price_mentioned": "1,050,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "MindPC",
+        "model": "온라인 게임 실속 PC",
+        "sentiment": "긍정",
+        "price_mentioned": "1,199,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5600",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "MindPC",
+        "model": "메인스트림 게이밍 PC",
+        "sentiment": "긍정",
+        "price_mentioned": "1,695,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500F",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "SSD",
+        "brand": "KINGSTON",
+        "model": "NV3 M.2 NVMe (500GB)",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "MindPC",
+        "model": "인텔 게이밍 에디션 PC",
+        "sentiment": "긍정",
+        "price_mentioned": "1,495,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "MindPC",
+        "model": "X3D 밸런스 게이밍 PC",
+        "sentiment": "긍정",
+        "price_mentioned": "1,880,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "MindPC",
+        "model": "퍼포먼스 게이밍 PC",
+        "sentiment": "긍정",
+        "price_mentioned": "2,050,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "MindPC",
+        "model": "QHD 고사양 게이밍 PC",
+        "sentiment": "긍정",
+        "price_mentioned": "2,530,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "MANLI",
+        "model": "GeForce RTX 5070 NEBULA D7 12GB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      }
+    ]
+  },
+  {
     "id": "EVJzwzBeScE",
     "title": "RTX 5090 4장 수랭식 워크스테이션",
     "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
