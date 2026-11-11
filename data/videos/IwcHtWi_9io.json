@@ -1,0 +1,100 @@
+{
+  "id": "IwcHtWi_9io",
+  "title": "리안리 비전 풀세트 컴퓨터를 차 안에서 조립한다고?",
+  "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+  "channel_name": "고고싱컴퓨터",
+  "published": "2026-11-10T08:45:08+00:00",
+  "analyzed_at": "2026-11-11T10:20:08+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 86664,
+  "analysis": {
+    "summary": "고고싱컴퓨터가 차량(고싱카)에서 주문 고객의 결제 당일 납품을 위해 강원도 원주로 이동하여 차 안에서 조립 라이브를 진행한 콘텐츠입니다. 리안리 O11 비전 컴팩트 케이스와 AMD 라이젠 9800X3D, 화이트 부품들로 구성된 고사양 PC를 좁은 차량 내부에서 조립하며 모니터 케이블 누락, 테더링 폰 발열, 팬 소음 등 다양한 돌발 변수를 해결했습니다. 조립 과정 중 실시간 방송을 통해 최근 CPU 및 주요 부품 가격 상승 동향에 대해 시청자들과 소통하며 저녁 늦게 조립을 마무리했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "고싱카를 활용해 결제 당일 현지(원주) 출장 조립 및 납품 시도",
+      "리안리 비전 컴팩트 케이스 기반의 풀 화이트 게이밍 PC 조립",
+      "차량 내 협소한 공간과 테더링 스마트폰 발열 등 열악한 환경 극복",
+      "팬 장력 과다로 인한 블레이드 간섭 소음 해결 팁 공유",
+      "CPU, 메인보드, 그래픽카드 등 전반적인 PC 부품 가격 상승세에 대한 견해 전달"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "timestamp": "07:03",
+        "t": 423,
+        "sentiment": "긍정",
+        "evaluation": "고성능 게이밍 빌드의 핵심 CPU로 탑재되었으며, 최근 품귀 및 가격 상승 이슈의 중심 모델로 언급되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "CPU 가격이 1~2만 원 오르는 것보다 그래픽카드 단가 영향이 크다는 의견을 제시했습니다.",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "B650 AORUS ELITE-P ICE",
+        "timestamp": "08:08",
+        "t": 488,
+        "sentiment": "긍정",
+        "evaluation": "화이트 테마에 고양이 일러스트가 프린팅된 독특한 디자인이며, 원터치 방식의 SSD 방열판 탈부착 설계가 매우 편리하다고 호평했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "Lian Li",
+        "model": "O11 Vision Compact",
+        "timestamp": "05:28",
+        "t": 328,
+        "sentiment": "중립",
+        "evaluation": "차량 내부와 같은 협소한 장소에서 조립하기에는 손이 많이 가고 조립 난이도가 꽤 높은 콤팩트 어항형 케이스라고 평가했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스팬",
+        "brand": "Lian Li",
+        "model": "UNI FAN SL120",
+        "timestamp": "06:08",
+        "t": 368,
+        "sentiment": "중립",
+        "evaluation": "비닐 포장이 많아 언박싱에 시간이 많이 걸리며, 나사를 너무 세게 조이면 프레임 왜곡으로 블레이드 간섭 소음이 발생할 수 있어 미세 장력 조절이 필요하다고 설명했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "TeamGroup",
+        "model": "T-Force Delta DDR5 (32GB)",
+        "timestamp": "06:54",
+        "t": 414,
+        "sentiment": "중립",
+        "evaluation": "화이트 튜닝 시스템 구성에 맞춰 32GB 용량으로 세팅되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "100~200만원대 주력 거래처이지만 본 영상처럼 AMD 9800X3D 기반의 하이엔드 튜닝 PC 조립 및 라이브 방송 수요가 확인되므로, 당사 유통 AMD CPU 및 화이트 콘셉트 메인보드(ASRock, ASUS 등) 연계 공급 제안이 유효합니다.",
+      "화이트 어항형 튜닝 시스템 제작 빈도가 높으므로, 리안리 대비 조립 편의성과 마감이 우수한 NZXT 화이트 수랭쿨러 및 케이스 라인업을 대안으로 적극 제안해 볼 수 있습니다.",
+      "영상 중반 CPU와 메인보드 등 전반적인 부품 가격 상승에 대해 소비자와 실시간으로 소통하고 있으므로, 단가 변동기 안정적인 공급가 보장 및 프로모션 단가 정보 공유가 거래처 신뢰 확보에 큰 도움이 될 것입니다."
+    ],
+    "trend_tags": [
+      "출장조립",
+      "차량내조립",
+      "9800X3D",
+      "화이트감성PC",
+      "어항케이스",
+      "쿨러소음해결",
+      "부품가격인상"
+    ]
+  }
+}

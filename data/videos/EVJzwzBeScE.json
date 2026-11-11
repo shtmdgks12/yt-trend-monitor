@@ -1,0 +1,86 @@
+{
+  "id": "EVJzwzBeScE",
+  "title": "RTX 5090 4장 수랭식 워크스테이션",
+  "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
+  "channel_name": "양컴",
+  "published": "2026-11-10T09:41:22+00:00",
+  "analyzed_at": "2026-11-11T10:20:51+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 10708,
+  "analysis": {
+    "summary": "초고성능 4-Way 멀티 GPU 워크스테이션을 커스텀 수랭 방식으로 빌드하는 쇼츠 영상입니다. AMD 스레드리퍼 플랫폼 메인보드와 워터블록을 장착한 4장의 지포스 RTX 그래픽카드를 조립합니다. 대형 외장 라디에이터(모라)와 펌프 시스템을 연결하여 고발열을 제어하는 딥러닝/AI 워크스테이션 완성 과정을 보여줍니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "AMD 스레드리퍼 기반 Pro Series 메인보드에 CPU 및 커스텀 워터블록 장착",
+      "지포스 RTX GameRock 그래픽카드 분해 및 커스텀 수랭 워터블록 개조",
+      "4장의 수랭 그래픽카드 장착 및 퀵디스커넥트 피팅/매니폴드 연결",
+      "9열 대형 외장 라디에이터 시스템을 통한 4-Way GPU 발열 제어"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "Pro WS 시리즈",
+        "timestamp": "00:00",
+        "t": 0,
+        "sentiment": "긍정",
+        "evaluation": "멀티 GPU 및 대역폭 지원을 위한 고성능 워크스테이션 메인보드로 안정적인 구성을 보여줍니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen Threadripper",
+        "timestamp": "00:05",
+        "t": 5,
+        "sentiment": "긍정",
+        "evaluation": "멀티 GPU 워크스테이션 구성을 위한 고성능 다코어 프로세서가 탑재되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "Palit",
+        "model": "GeForce RTX GameRock",
+        "timestamp": "00:29",
+        "t": 29,
+        "sentiment": "긍정",
+        "evaluation": "커스텀 수랭 블록을 장착하여 4-Way 병렬 연산 환경에서도 발열을 안정적으로 해소하도록 빌드되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "Super Flower",
+        "model": "LEADEX Platinum",
+        "timestamp": "00:55",
+        "t": 55,
+        "sentiment": "긍정",
+        "evaluation": "고전력 멀티 GPU 환경을 안정적으로 구동하기 위한 고용량 플래티넘 인증 파워서플라이입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "양컴은 고난도 4-Way 커스텀 수랭 워크스테이션 및 AI 서버 제작 역량이 뛰어나므로, 대원씨티에스 유통의 AMD 스레드리퍼 CPU와 ASUS Pro WS 워크스테이션 메인보드 공급 협력에 적합합니다.",
+      "대용량 메모리 장착이 필수적인 서버/워크스테이션 특성을 고려해 킹스톤(Kingston) 서버용 ECC Registered 메모리 공급 번들링을 제안할 수 있습니다.",
+      "멀티 GPU 연산 시스템 구축 수요가 꾸준하므로 워크스테이션 및 서버 라인업을 대상으로 한 안정적인 물량 배정 및 맞춤형 견적 지원이 유효합니다."
+    ],
+    "trend_tags": [
+      "워크스테이션",
+      "커스텀수랭",
+      "4-WayGPU",
+      "스레드리퍼",
+      "AI서버",
+      "모라"
+    ]
+  }
+}

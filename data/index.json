@@ -1,5 +1,154 @@
 [
   {
+    "id": "EVJzwzBeScE",
+    "title": "RTX 5090 4장 수랭식 워크스테이션",
+    "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
+    "channel_name": "양컴",
+    "published": "2026-11-10T09:41:22+00:00",
+    "analyzed_at": "2026-11-11T10:20:51+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "초고성능 4-Way 멀티 GPU 워크스테이션을 커스텀 수랭 방식으로 빌드하는 쇼츠 영상입니다. AMD 스레드리퍼 플랫폼 메인보드와 워터블록을 장착한 4장의 지포스 RTX 그래픽카드를 조립합니다. 대형 외장 라디에이터(모라)와 펌프 시스템을 연결하여 고발열을 제어하는 딥러닝/AI 워크스테이션 완성 과정을 보여줍니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "워크스테이션",
+      "커스텀수랭",
+      "4-WayGPU",
+      "스레드리퍼",
+      "AI서버",
+      "모라"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "Pro WS 시리즈",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen Threadripper",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "Palit",
+        "model": "GeForce RTX GameRock",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "Super Flower",
+        "model": "LEADEX Platinum",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "IwcHtWi_9io",
+    "title": "리안리 비전 풀세트 컴퓨터를 차 안에서 조립한다고?",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-10T08:45:08+00:00",
+    "analyzed_at": "2026-11-11T10:20:08+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "고고싱컴퓨터가 차량(고싱카)에서 주문 고객의 결제 당일 납품을 위해 강원도 원주로 이동하여 차 안에서 조립 라이브를 진행한 콘텐츠입니다. 리안리 O11 비전 컴팩트 케이스와 AMD 라이젠 9800X3D, 화이트 부품들로 구성된 고사양 PC를 좁은 차량 내부에서 조립하며 모니터 케이블 누락, 테더링 폰 발열, 팬 소음 등 다양한 돌발 변수를 해결했습니다. 조립 과정 중 실시간 방송을 통해 최근 CPU 및 주요 부품 가격 상승 동향에 대해 시청자들과 소통하며 저녁 늦게 조립을 마무리했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "출장조립",
+      "차량내조립",
+      "9800X3D",
+      "화이트감성PC",
+      "어항케이스",
+      "쿨러소음해결",
+      "부품가격인상"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "B650 AORUS ELITE-P ICE",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "Lian Li",
+        "model": "O11 Vision Compact",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스팬",
+        "brand": "Lian Li",
+        "model": "UNI FAN SL120",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "TeamGroup",
+        "model": "T-Force Delta DDR5 (32GB)",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "y3kNgsaiKOE",
+    "title": "총 견적 1200만원 컴퓨터의 실물 비주얼",
+    "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+    "channel_name": "까망이컴퓨터",
+    "published": "2026-11-09T22:00:10+00:00",
+    "analyzed_at": "2026-11-11T10:16:28+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "총 견적 1,200만 원 상당의 초고가 하이엔드 조립 PC의 실물 비주얼과 구동 상태를 점검하는 영상입니다. 시스템 내부 쿨러, 파워 등 총 4곳에 탑재된 하드웨어 디스플레이와 화려한 RGB 팬의 조화를 확인하며 감탄합니다. 조립 완료 후 소프트웨어 연동을 통해 각 디스플레이를 제어할 수 있음을 확인합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "하이엔드PC",
+      "1200만원견적",
+      "ASUS ROG",
+      "디스플레이튜닝",
+      "RGB커스텀"
+    ],
+    "products": [
+      {
+        "category": "기타",
+        "brand": "ASUS",
+        "model": "ROG 시리즈",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      }
+    ]
+  },
+  {
     "id": "AO1QSx1Vp80",
     "title": "78X3D, 98X3D의 가격이 크게 내렸네? (11월 CPU 가성비 비교표)",
     "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
