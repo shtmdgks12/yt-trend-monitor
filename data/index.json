@@ -1,5 +1,147 @@
 [
   {
+    "id": "uQu2l8KPXx0",
+    "title": "169만원대 게이밍PC, 이 구성을 추천하는 이유",
+    "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+    "channel_name": "마인드피씨",
+    "published": "2026-11-12T08:34:29+00:00",
+    "analyzed_at": "2026-11-14T10:25:39+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "마인드피씨에서 배틀그라운드와 스팀 게임을 원활하게 즐기고자 하는 사용자에게 가장 많이 판매되는 169만 원대 '메인스트림 게이밍 PC'를 추천합니다. 라이젠 7500F 프로세서와 RTX 5060 Ti(영상 표기 기준), DDR5 메모리, 킹스톤 NV3 SSD로 균형 잡힌 구성을 갖췄습니다. 옵션 조절을 통해 고사양 스팀 게임도 원활히 구동 가능하며, AM5 플랫폼 기반으로 향후 CPU 업그레이드 확장성까지 확보된 제품입니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "라이젠7500F",
+      "RTX5060Ti",
+      "킹스톤NV3",
+      "메인스트림PC",
+      "가성비게이밍PC",
+      "AM5"
+    ],
+    "products": [
+      {
+        "category": "완제품PC",
+        "brand": "마인드피씨",
+        "model": "메인스트림 게이밍PC",
+        "sentiment": "긍정",
+        "price_mentioned": "1,695,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500F",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "SSD",
+        "brand": "KINGSTON",
+        "model": "NV3 M.2 NVMe (500GB)",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "B650M K",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "PALIT",
+        "model": "GeForce RTX 5060 Ti DUAL D7 8GB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "ZJw9j-lwVPQ",
+    "title": "58만원대 사무용 컴퓨터, 이 정도면 충분합니다",
+    "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+    "channel_name": "마인드피씨",
+    "published": "2026-11-12T05:44:26+00:00",
+    "analyzed_at": "2026-11-14T10:19:11+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "마인드피씨에서 58만원대로 구성할 수 있는 가성비 오피스 PC 견적을 소개하는 영상입니다. AMD 라이젠 5 5500GT 내장그래픽과 DDR4 16GB 메모리를 탑재하여 사무, 인터넷 서핑, 유튜브 시청용으로 최적화했습니다. 별도의 외장 그래픽카드 없이 589,000원에 구성 가능한 사무용 스탠다드 PC입니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "사무용PC",
+      "가성비견적",
+      "라이젠5500GT",
+      "내장그래픽",
+      "A520",
+      "50만원대PC"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5500GT",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME A520M-K EXECTS",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메모리",
+        "brand": "팀그룹",
+        "model": "DDR4-3200 CL22 16GB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "킹덤",
+        "model": "KINGDOM M4 NVMe 256GB",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "잘만",
+        "model": "EcoMax 500W 83+",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "앱코",
+        "model": "사일런스 마스터 미니 블랙",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드피씨",
+        "model": "오피스 스탠다드 PC",
+        "sentiment": "긍정",
+        "price_mentioned": "589,000원",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
     "id": "YUCBVIV4jTY",
     "title": "[까망이컴퓨터] 요즘엔 힙한 레트로 케이스",
     "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",

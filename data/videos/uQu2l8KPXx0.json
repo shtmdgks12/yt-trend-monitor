@@ -1,0 +1,97 @@
+{
+  "id": "uQu2l8KPXx0",
+  "title": "169만원대 게이밍PC, 이 구성을 추천하는 이유",
+  "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+  "channel_name": "마인드피씨",
+  "published": "2026-11-12T08:34:29+00:00",
+  "analyzed_at": "2026-11-14T10:25:39+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 7745,
+  "analysis": {
+    "summary": "마인드피씨에서 배틀그라운드와 스팀 게임을 원활하게 즐기고자 하는 사용자에게 가장 많이 판매되는 169만 원대 '메인스트림 게이밍 PC'를 추천합니다. 라이젠 7500F 프로세서와 RTX 5060 Ti(영상 표기 기준), DDR5 메모리, 킹스톤 NV3 SSD로 균형 잡힌 구성을 갖췄습니다. 옵션 조절을 통해 고사양 스팀 게임도 원활히 구동 가능하며, AM5 플랫폼 기반으로 향후 CPU 업그레이드 확장성까지 확보된 제품입니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "배틀그라운드 및 고사양 스팀 게임 구동에 최적화된 169만 원대 추천 견적",
+      "라이젠 7500F와 RTX 5060 Ti, DDR5 메모리 탑재로 높은 판매량을 기록 중인 메인스트림 구성",
+      "AM5 소켓 플랫폼을 지원하여 추후 고성능 CPU로의 업그레이드 호환성 용이"
+    ],
+    "products": [
+      {
+        "category": "완제품PC",
+        "brand": "마인드피씨",
+        "model": "메인스트림 게이밍PC",
+        "timestamp": "00:06",
+        "t": 6,
+        "sentiment": "긍정",
+        "evaluation": "꾸준히 가장 많이 판매되고 있는 주력 모델로 게임과 성능의 밸런스가 뛰어납니다.",
+        "price_mentioned": "1,695,000원",
+        "value_comment": "160만 원대 후반에 FHD/QHD 게이밍 및 스팀 게임을 쾌적하게 커버하는 가성비 구성",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500F",
+        "timestamp": "00:11",
+        "t": 11,
+        "sentiment": "긍정",
+        "evaluation": "RTX 5060 Ti 그래픽카드와 조합되어 강력한 게이밍 퍼포먼스를 발휘하며, AM5 플랫폼으로 향후 업그레이드 선택지가 넓습니다.",
+        "price_mentioned": "",
+        "value_comment": "게이밍 가성비 구성에서 가장 인기 있는 메인스트림 CPU",
+        "is_our_brand": true
+      },
+      {
+        "category": "SSD",
+        "brand": "KINGSTON",
+        "model": "NV3 M.2 NVMe (500GB)",
+        "timestamp": "00:06",
+        "t": 6,
+        "sentiment": "긍정",
+        "evaluation": "견적 기본 구성품으로 탑재되어 안정적인 속도와 무상 3년 보증을 제공합니다.",
+        "price_mentioned": "",
+        "value_comment": "가성비 견적에 최적화된 보급형 PCIe 4.0 NVMe SSD",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "B650M K",
+        "timestamp": "00:06",
+        "t": 6,
+        "sentiment": "중립",
+        "evaluation": "견적 상세 스펙에 기가바이트 B650M K 피씨디렉트 제품으로 표기되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "AM5 보급형 실속 구성",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "PALIT",
+        "model": "GeForce RTX 5060 Ti DUAL D7 8GB",
+        "timestamp": "00:06",
+        "t": 6,
+        "sentiment": "긍정",
+        "evaluation": "라이젠 7500F와 함께 게이밍 그래픽 성능을 담당하는 듀얼팬 모델입니다.",
+        "price_mentioned": "",
+        "value_comment": "메인스트림 게이밍 성능 확보를 위한 핵심 부품",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "마인드피씨의 최고 인기 판매 모델(169만 원대 견적)에 당사 유통 품목인 AMD 라이젠 7500F와 킹스톤 NV3 SSD가 기본 채택되어 있어, 두 부품의 안정적인 물량 공급 및 패키지 번들 단가 협의가 효과적입니다.",
+      "현재 메인보드로 기가바이트 B650M K가 사용 중이므로, 동급 가격대와 레이아웃을 갖춘 당사 유통 ASRock B650M-HDV/M.2 또는 ASUS B650 라인업으로의 교체 편성을 제안할 만합니다.",
+      "AM5 플랫폼 기반 업그레이드 확장성을 영상에서 적극 강조하고 있으므로, 상위 라인업인 7800X3D/9800X3D 견적 연계 시 자사 메모리(Kingston/Micron 등)와의 연계 프로모션을 제안할 수 있습니다."
+    ],
+    "trend_tags": [
+      "라이젠7500F",
+      "RTX5060Ti",
+      "킹스톤NV3",
+      "메인스트림PC",
+      "가성비게이밍PC",
+      "AM5"
+    ]
+  }
+}
