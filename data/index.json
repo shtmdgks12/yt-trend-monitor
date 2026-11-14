@@ -1,5 +1,226 @@
 [
   {
+    "id": "5KgUfaBTNvI",
+    "title": "PC 월간 견적 (11월) (가장 욕을 먹지 않는 견적의 표준!! 자신있게 보여드립니다)",
+    "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
+    "channel_name": "신성조의 pc공방",
+    "published": "2026-11-14T13:16:46+00:00",
+    "analyzed_at": "2026-11-15T03:58:54+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "신성조 채널에서 11월 월간 PC 견적 가이드를 진행하며, 예산대별(180만 원대 보급형 게이밍부터 1,700만 원대 최고급 하이엔드/작업용 PC까지) 최적의 부품 구성을 상세히 설명했습니다. 최근 메모리, SSD, 그래픽카드 가격이 전반적으로 급등하고 품절 사태가 이어지는 시장 상황을 반영해 대체 가능한 부품과 현실적인 구매 팁을 제시했습니다. 특히 순수 게이밍에서는 AMD 7800X3D와 9800X3D의 가성비 및 프레임 방어 능력을 강력 추천했고, 복합 작업용으로는 인텔 울트라 265K/285K 라인업을 추천했습니다. 그래픽카드는 가성비 측면에서 RTX 4060 Ti 및 라데온 RX 7700 XT/7800 XT의 메리트를 강조했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "11월PC견적",
+      "AMD 7800X3D",
+      "9800X3D",
+      "Core Ultra 265K",
+      "RTX4070TiSuper",
+      "RX7800XT",
+      "ASUS TUF",
+      "NZXT 크라켄"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core i5-12400F",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "차액 약 6만 원(7500X3D 대비)",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core Ultra 7 265K / 265KF",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core Ultra 9 285K",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "TUF Gaming B650M-PLUS II",
+        "sentiment": "긍정",
+        "price_mentioned": "차액 약 9만 원",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "ProArt B760-CREATOR",
+        "sentiment": "긍정",
+        "price_mentioned": "30만 원대 후반",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "ROG STRIX B760-G GAMING WIFI",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "B650M K / B650M AORUS ELITE",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 4060",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 4070 Ti Super",
+        "sentiment": "긍정",
+        "price_mentioned": "220~230만 원대",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "AMD",
+        "model": "Radeon RX 7700 XT / RX 7800 XT",
+        "sentiment": "긍정",
+        "price_mentioned": "110만 원 안쪽",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 4080 Super",
+        "sentiment": "부정",
+        "price_mentioned": "320~330만 원 이상",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 4090",
+        "sentiment": "중립",
+        "price_mentioned": "최저 1,200만 원(본체 구성가)",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "990 PRO 1TB / 2TB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "SK hynix",
+        "model": "Platinum P41 1TB / 2TB",
+        "sentiment": "중립",
+        "price_mentioned": "45만 원 이상(2TB)",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "Western Digital",
+        "model": "WD Black SN850X (SanDisk 라이선스)",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "DeepCool",
+        "model": "AG620 / AG400",
+        "sentiment": "긍정",
+        "price_mentioned": "6만 원 이하",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "NZXT",
+        "model": "Kraken Plus 360",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "CORSAIR",
+        "model": "Nautilus 360 ARGB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "파워",
+        "brand": "Micronics",
+        "model": "Classic II Full Change 600W / 700W / 850W",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "Seasonic",
+        "model": "VERTEX / FOCUS GX-850",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "tZWMmvdYd4U",
+    "title": "부품들 가격상승한다는데  안무서운 이유",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-14T09:43:44+00:00",
+    "analyzed_at": "2026-11-15T03:56:50+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "최근 CPU 및 메인보드, 메모리, 그래픽카드 등 주요 부품들의 가격 상승에 대한 질문에 답변하는 쇼츠 영상입니다. 진행자는 CPU뿐만 아니라 메인보드, 메모리, 그래픽카드 가격도 소폭 상승하고 있다고 설명합니다. 메인보드나 CPU에서 5~10% 수준인 1~2만 원 인상은 과거에 비해 그래픽카드 가격 변동폭에 비하면 체감상 크지 않다고 언급합니다. 전반적인 부품 가격이 소폭 상승세이지만 다른 부품의 상승폭은 그래픽카드에 비하면 눈에 띄지 않는 수준이라고 평합니다.",
+    "video_type": "뉴스/루머",
+    "sponsored": false,
+    "tags": [
+      "가격인상",
+      "PC부품시황",
+      "메인보드가격",
+      "CPU가격"
+    ],
+    "products": []
+  },
+  {
     "id": "uQu2l8KPXx0",
     "title": "169만원대 게이밍PC, 이 구성을 추천하는 이유",
     "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
