@@ -1,0 +1,109 @@
+{
+  "id": "K2KOFNfnPyA",
+  "title": "공식이 뭘 알아? // 리안리 공식 추천과 뭐가 다른지 비교해봤습니다!",
+  "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+  "channel_name": "고고싱컴퓨터",
+  "published": "2026-11-15T08:12:05+00:00",
+  "analyzed_at": "2026-11-16T03:59:32+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 53274,
+  "analysis": {
+    "summary": "리안리 O11 VISION COMPACT 케이스에서 측면 라디에이터 설치 시 배기 vs 흡기 및 샌드위치 팬 구성에 따른 온도 변화를 테스트했습니다. 테스트 결과 CPU 온도 유지에는 측면 흡기 방식이 약 2~7도 낮아 유리하지만, GPU 평균 온도 측면에서는 측면 배기 방식이 약 7도 낮아 더 효율적인 것으로 나타났습니다. 샌드위치 팬 구성은 CPU 최대 온도를 약 1.2~2.3도 정도 낮춰주지만 추가 비용 대비 드라마틱한 차이는 아니라고 분석했습니다. 최종적으로 어항 케이스 구조상 사용자의 우선순위(CPU 온도 중시 vs GPU 온도 중시) 및 예산에 맞춰 흡기/배기와 샌드위치 여부를 선택할 것을 권장했습니다.",
+    "video_type": "비교/벤치마크",
+    "sponsored": false,
+    "key_points": [
+      "리안리 O11 VISION COMPACT 케이스 대상 4가지 쿨링 세팅 벤치마크 진행 (측면 배기/흡기 x 샌드위치 유/무)",
+      "CPU 온도는 측면 흡기 세팅에서 최대 온도가 약 84~86도로 배기(90~91도) 대비 낮게 유지됨",
+      "GPU 온도는 반대로 측면 배기 세팅에서 평균 온도가 약 52~57도로 흡기(약 58~59도)보다 유리함",
+      "샌드위치 팬 구성은 1~2도 내외의 온도 하락 효과가 있으나 팬 추가 비용 대비 효율은 사용자의 선택 영역"
+    ],
+    "products": [
+      {
+        "category": "케이스",
+        "brand": "Lian Li",
+        "model": "O11 VISION COMPACT",
+        "timestamp": "00:00",
+        "t": 0,
+        "sentiment": "긍정",
+        "evaluation": "상단 유리 구성의 컴팩트 어항 케이스임에도 불구하고 테스트 결과 전반적인 발열 해소 능력이 준수한 수준으로 나타남.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9850X3D",
+        "timestamp": "01:54",
+        "t": 114,
+        "sentiment": "중립",
+        "evaluation": "벤치마크 테스트용 CPU로 사용되었으며, 쿨링 방향 및 샌드위치 구성에 따라 84도에서 91도 사이의 온도를 기록함.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 5080",
+        "timestamp": "01:11",
+        "t": 71,
+        "sentiment": "중립",
+        "evaluation": "약 360W 전력을 소모하는 테스트 환경에서 측면 배기 시 평균 온도가 더 낮게 유지되는 특성을 보임.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "Lian Li",
+        "model": "HydroShift LCD II LCD-S 360",
+        "timestamp": "07:20",
+        "t": 440,
+        "sentiment": "중립",
+        "evaluation": "벤치마크 시스템에 장착된 3열 수냉쿨러로 측면 흡기/배기 테스트에 활용됨.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스팬",
+        "brand": "Lian Li",
+        "model": "UNI FAN TL FLEX 120",
+        "timestamp": "07:20",
+        "t": 440,
+        "sentiment": "중립",
+        "evaluation": "테스트 시스템 팬 구성 및 샌드위치 구성 테스트에 사용됨.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스팬",
+        "brand": "Noctua",
+        "model": "NF-A14x25 G2 PWM Sx2-PP chromax.black",
+        "timestamp": "02:38",
+        "t": 158,
+        "sentiment": "중립",
+        "evaluation": "온도와 소음을 극단적으로 잡기 위한 풀 녹투아 세팅 예시로 언급됨.",
+        "price_mentioned": "403,560원",
+        "value_comment": "7팩 구성 시 팬 가격만 94만원에 달해 지갑에 큰 부담이 됨.",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "고고싱컴퓨터는 100~200만원대 주력 매장이지만 하이엔드 어항 케이스 및 고성능 쿨링 빌드 튜닝에 대한 기술적 이해도와 관심이 매우 높음",
+      "어항 케이스 조립 시 고객 문의가 잦은 쿨링 세팅 이슈를 다루고 있으므로, 당사 취급 제품인 CORSAIR, NZXT의 어항형 케이스 및 수냉쿨러 제안 시 내부 쿨링 가이드/방향성 솔루션을 함께 제공하면 영업적 신뢰 확보에 유리함",
+      "Ryzen 7 9800X3D 등 고발열 고성능 CPU 취급 시 공랭/수냉 및 케이스 통풍 구조에 민감한 거래처이므로, 쿨링 호환성이 뛰어난 메인보드(ASUS, ASRock) 및 수냉쿨러 번들 프로모션을 기획하여 제안 가능"
+    ],
+    "trend_tags": [
+      "어항케이스",
+      "라디에이터샌드위치",
+      "흡기배기테스트",
+      "O11Vision",
+      "PC쿨링세팅"
+    ]
+  }
+}

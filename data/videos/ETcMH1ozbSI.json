@@ -1,0 +1,85 @@
+{
+  "id": "ETcMH1ozbSI",
+  "title": "배그 프레임 높이고 싶다면, CPU부터 확인하세요!",
+  "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+  "channel_name": "마인드피씨",
+  "published": "2026-11-15T07:18:28+00:00",
+  "analyzed_at": "2026-11-16T03:56:47+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 6612,
+  "analysis": {
+    "summary": "마인드피씨에서 배틀그라운드 등 고프레임 게이밍을 위한 '퍼포먼스 게이밍 PC' 견적을 추천하는 영상입니다. AMD 라이젠 7 7800X3D와 RTX 5060 Ti 조합으로 구성되어 있으며 판매가는 2,050,000원으로 소개되었습니다. 기존 X3D 밸런스 견적(7500X3D 기반) 대비 CPU 성능을 높이고 Wi-Fi 및 블루투스를 지원하는 점이 특징입니다. 다만 플레이하는 게임과 그래픽 옵션에 따라 7500X3D로도 충분할 수 있으므로 무조건 상위 CPU가 정답은 아니라고 설명합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "배틀그라운드 고프레임 환경을 위한 7800X3D 기반 퍼포먼스 게이밍 PC 추천",
+      "RTX 5060 Ti 그래픽카드와 조합되어 판매 가격 2,050,000원 책정",
+      "이전 7500X3D 구성 대비 CPU 성능 향상 및 Wi-Fi/블루투스 지원 메인보드 탑재",
+      "즐기는 게임과 옵션 타깃에 맞춰 7500X3D와 7800X3D 중 합리적 선택 권장"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "timestamp": "00:08",
+        "t": 8,
+        "sentiment": "긍정",
+        "evaluation": "배틀그라운드에서 높은 프레임을 원할 때 적합한 고성능 게이밍 CPU로 추천되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "고프레임 게이밍을 위한 상위 라인업 CPU",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "PALIT",
+        "model": "지포스 RTX 5060 Ti DUAL D7 8GB",
+        "timestamp": "00:12",
+        "t": 12,
+        "sentiment": "중립",
+        "evaluation": "7800X3D와 조합되어 퍼포먼스 게이밍 PC의 그래픽카드로 사용되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드피씨",
+        "model": "퍼포먼스 게이밍 PC (7800X3D + RTX 5060 Ti)",
+        "timestamp": "00:08",
+        "t": 8,
+        "sentiment": "긍정",
+        "evaluation": "7800X3D 기반으로 CPU 성능을 극대화하고 Wi-Fi와 블루투스를 기본 지원하는 추천 견적입니다.",
+        "price_mentioned": "2,050,000원",
+        "value_comment": "판매가 2,050,000원 책정",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500X3D",
+        "timestamp": "00:23",
+        "t": 23,
+        "sentiment": "중립",
+        "evaluation": "게임과 옵션에 따라 7800X3D 대신 7500X3D로도 충분할 수 있어 합리적 선택지로 비교 언급되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "게임 및 옵션 타깃에 따라 충분히 가성비를 낼 수 있는 대안",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "마인드피씨는 배그 등 고프레임 게이밍용으로 AMD X3D 라인업(7800X3D, 7500X3D) 중심의 조립 견적을 적극 프로모션 중이므로 대원씨티에스의 라이젠 프로세서 공급 안정성과 가격 경쟁력 유지가 핵심입니다.",
+      "견적에 Wi-Fi/블루투스 지원 보드가 포함된 만큼, 대원씨티에스 취급 브랜드인 ASRock이나 ASUS의 Wi-Fi 탑재 B650/B850 메인보드 번들 프로모션을 제안하기 적합합니다.",
+      "가성비 견적을 주력으로 하는 거래처이므로 7500X3D와 7800X3D 각각에 맞춘 대원씨티에스 취급 메모리(Kingston/Micron 등) 및 SSD 번들 특가 패키지를 제안할 수 있습니다."
+    ],
+    "trend_tags": [
+      "라이젠 7800X3D",
+      "RTX 5060 Ti",
+      "배그 견적",
+      "게이밍 PC",
+      "가성비 견적"
+    ]
+  }
+}
