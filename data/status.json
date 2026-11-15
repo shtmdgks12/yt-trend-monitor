@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-15T03:50:36+09:00",
+  "last_run": "2026-11-15T10:13:06+09:00",
   "channels": [
     {
       "name": "영재컴퓨터",
@@ -17,8 +17,8 @@
       "ok": true,
       "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
       "title": "양컴",
-      "via": "RSS",
-      "latest": "2026-11-10T09:41:22+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-11-07T01:13:55.257826+00:00",
       "new": 0
     },
     {
@@ -27,9 +27,9 @@
       "ok": true,
       "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
       "title": "신성조",
-      "via": "RSS",
-      "latest": "2026-11-14T13:16:46+00:00",
-      "new": 1
+      "via": "채널 페이지",
+      "latest": "2026-11-14T14:14:33.003408+00:00",
+      "new": 0
     },
     {
       "name": "고고싱컴퓨터",
@@ -37,9 +37,9 @@
       "ok": true,
       "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
       "title": "고고싱컴퓨터",
-      "via": "RSS",
-      "latest": "2026-11-14T09:43:44+00:00",
-      "new": 1
+      "via": "채널 페이지",
+      "latest": "2026-11-13T01:15:11.017449+00:00",
+      "new": 0
     },
     {
       "name": "마인드피씨",
@@ -47,8 +47,8 @@
       "ok": true,
       "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
       "title": "마인드피씨",
-      "via": "RSS",
-      "latest": "2026-11-13T08:04:12+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-11-12T01:15:49.716097+00:00",
       "new": 0
     },
     {
@@ -57,8 +57,8 @@
       "ok": true,
       "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
       "title": "추천하는남자",
-      "via": "RSS",
-      "latest": "2026-11-13T08:30:17+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-11-14T01:16:27.411925+00:00",
       "new": 0
     },
     {
@@ -67,8 +67,8 @@
       "ok": true,
       "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",
       "title": "웰메이드컴퓨터 TV",
-      "via": "RSS",
-      "latest": "2026-11-06T11:00:24+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-11-01T01:17:05.260445+00:00",
       "new": 0
     },
     {
@@ -77,12 +77,12 @@
       "ok": true,
       "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
       "title": "까망이컴퓨터",
-      "via": "RSS",
-      "latest": "2026-11-13T08:22:30+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-11-14T01:17:43.283883+00:00",
       "new": 0
     }
   ],
-  "analyzed": 2,
+  "analyzed": 0,
   "errors": [],
   "queue": 0
 }
