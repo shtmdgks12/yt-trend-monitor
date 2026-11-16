@@ -1,0 +1,71 @@
+{
+  "id": "hkKKbJU0MEw",
+  "title": "리안리 비전 공식이 그랬다구요!!",
+  "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+  "channel_name": "고고싱컴퓨터",
+  "published": "2026-11-15T08:13:16+00:00",
+  "analyzed_at": "2026-11-17T00:21:20+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 6621,
+  "analysis": {
+    "summary": "어항형 케이스(리안리 O11 VISION)에서 측면 라디에이터 장착 시 흡기와 배기, 샌드위치 팬 구성에 따른 CPU 및 GPU 온도 차이를 비교 테스트한 영상입니다. 테스트 결과 측면 흡기 구성 시 CPU 최대 온도가 약 84~86도로 배기 구성(90~91도) 대비 확연히 낮게 유지되는 것을 확인했습니다. GPU 온도는 측면 배기 시 평균 온도가 소폭 낮았으나 최대 온도 차이는 미미하여, 전체적인 시스템 쿨링 밸런스 측면에서 측면 흡기 세팅의 유효성을 검증했습니다.",
+    "video_type": "비교/벤치마크",
+    "sponsored": false,
+    "key_points": [
+      "어항 케이스 측면 라디에이터 설치 시 흡기 vs 배기 쿨링 성능 비교",
+      "측면 흡기 세팅 시 CPU 온도가 배기 대비 약 5~7도 낮아지는 효과 확인",
+      "측면 배기 시 GPU 평균 온도가 소폭 낮아지나 최대 온도 차이는 미미함"
+    ],
+    "products": [
+      {
+        "category": "케이스",
+        "brand": "Lian Li",
+        "model": "O11 VISION",
+        "timestamp": "00:00",
+        "t": 0,
+        "sentiment": "중립",
+        "evaluation": "어항 구조로 측면 쿨러/라디에이터 장착 방식(흡기/배기/샌드위치)에 따라 시스템 온도 편차가 발생하는 케이스입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "timestamp": "00:29",
+        "t": 29,
+        "sentiment": "긍정",
+        "evaluation": "테스트 시스템에 사용되었으며 측면 흡기 구성 시 최대 84.6도 수준으로 안정적인 온도를 보여줍니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 4080",
+        "timestamp": "00:27",
+        "t": 27,
+        "sentiment": "중립",
+        "evaluation": "테스트 시스템에 탑재되어 흡배기 세팅별로 최대 62~63도 수준의 안정적인 발열 억제력을 유지했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "고고싱컴퓨터는 100~200만원대 주력 매장이지만 어항 케이스 및 하이엔드 튜닝 시스템 쿨링에 대한 테스트 콘텐츠를 활발히 제작하므로, AMD Ryzen X3D 프로세서와 대원 취급 쿨러 제품군의 쿨링 가이드 번들 프로모션을 제안하기 적합합니다.",
+      "어항형 케이스 조립 수요가 많은 거래처 특성을 반영하여, 조립 편의성과 흡배기 쿨링 효율이 뛰어난 대원 유통 케이스 및 시스템 팬 번들 패키지 영업 기회로 연결할 수 있습니다."
+    ],
+    "trend_tags": [
+      "어항케이스",
+      "흡배기테스트",
+      "O11비전",
+      "7800X3D",
+      "쿨링솔루션"
+    ]
+  }
+}
