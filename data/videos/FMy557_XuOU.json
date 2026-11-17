@@ -1,0 +1,161 @@
+{
+  "id": "FMy557_XuOU",
+  "title": "신상! HYTE Y50 선없는 감성 끝판왕 컴퓨터 깔끔하게 조립해드렸습니다. 9800X3D RTX5090",
+  "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
+  "channel_name": "티와이 시스템",
+  "published": "2026-11-16T10:01:08+00:00",
+  "analyzed_at": "2026-11-17T16:54:14+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 221659,
+  "analysis": {
+    "summary": "HYTE의 신제품 Y50 RGB 화이트 케이스와 기가바이트 AORUS X870 스텔스 메인보드를 중심으로 구성한 최고급 감성 조립 PC 소개 영상입니다. CPU는 AMD 라이젠 7 9800X3D, 그래픽카드는 기가바이트 지포스 RTX 5090 AORUS MASTER ICE를 탑재하여 총 출고가 1,820만 원에 달하는 초고가 하이엔드 견적을 완성했습니다. 스텔스(후면 커넥터) 메인보드와 리안리 하이드로시프트 수랭 쿨러 및 유니팬을 활용해 전면에 케이블이 거의 보이지 않는 극도의 깔끔함을 연출했습니다. HYTE Y50은 15만 원대 가격에 훌륭한 섀시 두께와 마감, BTF/스텔스 보드 호환성까지 갖춰 3면 어항 케이스 시장의 높은 경쟁력을 보여줍니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "총 견적 금액 1,820만 원 상당의 초호화 하이엔드 게이밍 PC 조립",
+      "HYTE 신형 Y50 RGB 케이스는 15만 원대 가격 대비 우수한 마감과 BTF 지원 공간 제공",
+      "AMD 라이젠 7 9800X3D와 팀그룹 DDR5-8000MHz 고클럭 튜닝 램(QVL 지원) 조합",
+      "기가바이트 X870 AORUS STEALTH ICE 메인보드로 전면 케이블 노출 최소화",
+      "리안리 하이드로시프트 수랭쿨러 및 SL-INF LCD 팬을 활용한 사각 디스플레이 감성 튜닝"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠7 9800X3D",
+        "timestamp": "01:55",
+        "t": 115,
+        "sentiment": "긍정",
+        "evaluation": "게이밍 끝판왕 CPU로 높은 성능을 제공하며 초고가 하이엔드 시스템의 핵심 부품으로 사용되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "과거 70만 원 넘어가던 대장급 CPU 시절을 언급하며 현재 하이엔드 CPU 가격대와 위상을 설명함",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "X870 AORUS STEALTH ICE",
+        "timestamp": "01:35",
+        "t": 95,
+        "sentiment": "긍정",
+        "evaluation": "후면 커넥터(스텔스) 방식의 화이트 메인보드로 방열판 구성이 매우 탄탄하며 전면 케이블 노출을 완벽하게 없애줍니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "GIGABYTE",
+        "model": "AORUS 지포스 RTX 5090 MASTER ICE D7 32GB",
+        "timestamp": "21:21",
+        "t": 1281,
+        "sentiment": "긍정",
+        "evaluation": "엄청난 두께와 무게를 자랑하는 초고성능 플래그십 그래픽카드로, 케이스 내부를 꽉 채우며 화이트 감성과 측면 LCD가 돋보입니다. 지지대 설치가 필수적입니다.",
+        "price_mentioned": "",
+        "value_comment": "가격이 선을 넘긴 했다며 엄청나게 비싸지만 하이엔드 감성을 채워주는 제품으로 평가",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "HYTE",
+        "model": "Y50 RGB",
+        "timestamp": "13:43",
+        "t": 823,
+        "sentiment": "긍정",
+        "evaluation": "3면 유리 어항 디자인과 독특한 울퉁불퉁 메시 타공 패널, BTF 지원 및 넉넉한 후면 선 정리 공간을 갖춰 완성도가 매우 뛰어납니다.",
+        "price_mentioned": "15만 원대",
+        "value_comment": "기존 고가형 HYTE 케이스 대비 가성비 라인업으로 출시되어 15만 원대에 뛰어난 섀시 마감과 번들 팬을 제공한다고 칭찬함",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "Lian Li",
+        "model": "HydroShift II LCD-S 360N",
+        "timestamp": "04:58",
+        "t": 298,
+        "sentiment": "긍정",
+        "evaluation": "네모난 LCD 디스플레이가 각진 하드웨어 디자인과 일체감을 주며 호스 정리 방식이 깔끔해 조립 난이도를 낮춰줍니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "TeamGroup",
+        "model": "T-Force DDR5-8000 CL38 XTREEM ARGB 32GB",
+        "timestamp": "03:17",
+        "t": 197,
+        "sentiment": "긍정",
+        "evaluation": "현존 DDR5 램 중 압도적인 미관을 자랑하며 AMD QVL에서 8000MHz 고클럭 지원이 확인된 초고성능 튜닝 램입니다.",
+        "price_mentioned": "92만 원",
+        "value_comment": "8000MHz 초고클럭임에도 100만 원을 넘지 않고 92만 원 선으로 예상보다 합리적인 편이라고 언급",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "SK hynix",
+        "model": "Platinum P51 M.2 NVMe 2TB",
+        "timestamp": "02:21",
+        "t": 141,
+        "sentiment": "긍정",
+        "evaluation": "최상급 PCIe Gen5 속도를 지원하는 플래그십 SSD로 하이엔드 빌드에 적합합니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "맥스엘리트",
+        "model": "STARS CYGNUS 1000W 80PLUS골드 풀모듈러 ATX3.1",
+        "timestamp": "29:27",
+        "t": 1767,
+        "sentiment": "긍정",
+        "evaluation": "화이트 플랫 케이블과 모듈러 구성, 10년 무상 보증을 지원하여 차세대 그래픽카드까지 든든하게 받쳐줍니다.",
+        "price_mentioned": "",
+        "value_comment": "10년 보증으로 향후 8090 세대까지 물려줄 만한 내구성을 지녔다고 평가",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스팬",
+        "brand": "Lian Li",
+        "model": "UNI FAN SL-INF LCD FLEX 120 / 리버스 / 일반",
+        "timestamp": "08:28",
+        "t": 508,
+        "sentiment": "긍정",
+        "evaluation": "원형 및 사각 LCD와 인피니티 미러가 결합되어 하이엔드 튜닝 감성의 끝판왕을 보여줍니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스팬",
+        "brand": "ARCTIC",
+        "model": "P12 Pro ARGB",
+        "timestamp": "09:09",
+        "t": 549,
+        "sentiment": "긍정",
+        "evaluation": "하단 흡기 팬으로 장착되었으며 최대 3000 RPM까지 지원하는 뛰어난 풍압과 정숙성을 갖춘 고성능 쿨링 팬입니다.",
+        "price_mentioned": "",
+        "value_comment": "가격대가 비싸지 않으면서도 풍압 성능이 뛰어나 가성비와 쿨링 성능을 동시에 챙길 수 있는 팬으로 호평",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "티와이시스템은 1,800만 원대 플래그십 견적도 막힘없이 출고하는 강력한 하이엔드/커스텀 전문 거래처이므로, 플래그십 CPU인 라이젠 7 9800X3D 및 9950X3D의 안정적인 물량 확보 및 우선 공급 제안이 유효합니다.",
+      "화이트 BTF/스텔스 콘셉트 및 어항 케이스 조립 수요가 매우 높으므로, 당사 취급 브랜드 중 ASUS BTF 메인보드(TUF/ROG 시리즈 화이트)나 NZXT의 화이트 컴포넌트/케이스 라인업을 적극적으로 연계 제안할 필요가 있습니다.",
+      "그래픽카드와 파워 등 전반적인 화이트 하이엔드 제품에 대한 집착이 강한 거래처이므로 당사의 ASUS ROG STRIX/TUF 화이트 또는 만리(MANLI) 화이트 그래픽카드 라인업 제안이 효과적일 것입니다."
+    ],
+    "trend_tags": [
+      "HYTE Y50",
+      "RTX 5090",
+      "라이젠 9800X3D",
+      "스텔스 빌드",
+      "BTF 메인보드",
+      "화이트 감성 PC",
+      "리안리 유니팬 LCD",
+      "하이엔드 조립PC"
+    ]
+  }
+}

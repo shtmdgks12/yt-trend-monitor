@@ -1,5 +1,140 @@
 [
   {
+    "id": "FMy557_XuOU",
+    "title": "신상! HYTE Y50 선없는 감성 끝판왕 컴퓨터 깔끔하게 조립해드렸습니다. 9800X3D RTX5090",
+    "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
+    "channel_name": "티와이 시스템",
+    "published": "2026-11-16T10:01:08+00:00",
+    "analyzed_at": "2026-11-17T16:54:14+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "HYTE의 신제품 Y50 RGB 화이트 케이스와 기가바이트 AORUS X870 스텔스 메인보드를 중심으로 구성한 최고급 감성 조립 PC 소개 영상입니다. CPU는 AMD 라이젠 7 9800X3D, 그래픽카드는 기가바이트 지포스 RTX 5090 AORUS MASTER ICE를 탑재하여 총 출고가 1,820만 원에 달하는 초고가 하이엔드 견적을 완성했습니다. 스텔스(후면 커넥터) 메인보드와 리안리 하이드로시프트 수랭 쿨러 및 유니팬을 활용해 전면에 케이블이 거의 보이지 않는 극도의 깔끔함을 연출했습니다. HYTE Y50은 15만 원대 가격에 훌륭한 섀시 두께와 마감, BTF/스텔스 보드 호환성까지 갖춰 3면 어항 케이스 시장의 높은 경쟁력을 보여줍니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "HYTE Y50",
+      "RTX 5090",
+      "라이젠 9800X3D",
+      "스텔스 빌드",
+      "BTF 메인보드",
+      "화이트 감성 PC",
+      "리안리 유니팬 LCD",
+      "하이엔드 조립PC"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠7 9800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "X870 AORUS STEALTH ICE",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "GIGABYTE",
+        "model": "AORUS 지포스 RTX 5090 MASTER ICE D7 32GB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "HYTE",
+        "model": "Y50 RGB",
+        "sentiment": "긍정",
+        "price_mentioned": "15만 원대",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "Lian Li",
+        "model": "HydroShift II LCD-S 360N",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "TeamGroup",
+        "model": "T-Force DDR5-8000 CL38 XTREEM ARGB 32GB",
+        "sentiment": "긍정",
+        "price_mentioned": "92만 원",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "SK hynix",
+        "model": "Platinum P51 M.2 NVMe 2TB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "맥스엘리트",
+        "model": "STARS CYGNUS 1000W 80PLUS골드 풀모듈러 ATX3.1",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스팬",
+        "brand": "Lian Li",
+        "model": "UNI FAN SL-INF LCD FLEX 120 / 리버스 / 일반",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스팬",
+        "brand": "ARCTIC",
+        "model": "P12 Pro ARGB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "mhyXJQayg9U",
+    "title": "포커 칠 때 AI 쓰면 불법일까 아닐까?",
+    "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+    "channel_name": "까망이컴퓨터",
+    "published": "2026-11-16T04:12:23+00:00",
+    "analyzed_at": "2026-11-17T16:47:14+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "포커 대회에서 AI 솔루션이 탑재된 안경 등을 착용하고 경기하는 행위의 불법 여부에 대해 이야기를 나누는 영상입니다. 실제 경기 중 실시간으로 AI 보조를 받는 것은 치팅으로 간주되어 카지노 퇴출 대상이지만, 평소 AI를 활용해 전략을 공부하고 최적화하는 것은 현재 포커계의 주요 트렌드임을 설명합니다. 대화 중 게스트가 자신만의 AI 학습 최적화 방식을 찾고 있다고 하자, 진행자가 직접 시스템을 구축해 주겠다고 제안합니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "tags": [
+      "포커AI",
+      "AI솔루션",
+      "인공지능학습",
+      "NZXT",
+      "까망이컴퓨터"
+    ],
+    "products": [
+      {
+        "category": "케이스",
+        "brand": "NZXT",
+        "model": "NZXT 제품 박스",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      }
+    ]
+  },
+  {
     "id": "K2KOFNfnPyA",
     "title": "공식이 뭘 알아? // 리안리 공식 추천과 뭐가 다른지 비교해봤습니다!",
     "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
@@ -51,6 +186,106 @@
         "sentiment": "중립",
         "price_mentioned": "",
         "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "hkKKbJU0MEw",
+    "title": "리안리 비전 공식이 그랬다구요!!",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-15T08:13:16+00:00",
+    "analyzed_at": "2026-11-17T16:37:54+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "리안리 O11 VISION 어항 케이스에서 측면 수랭 라디에이터 및 팬 구성의 흡기/배기 세팅별 온도를 테스트한 쇼츠 영상입니다. 소비자들이 자주 문의하는 '측면 라디에이터 흡기 세팅'에 대해 측면 배기와 흡기, 샌드위치 팬 구성 여부에 따른 CPU 및 GPU 온도 변화를 벤치마크했습니다. 테스트 결과 측면 흡기 구성 시 CPU 온도는 더 낮게 유지되었으나 GPU 온도는 소폭 상승하는 트렌드를 확인했습니다. 세부적인 테스트 과정과 종합 결과는 본편 영상에서 확인하도록 안내하고 있습니다.",
+    "video_type": "비교/벤치마크",
+    "sponsored": false,
+    "tags": [
+      "어항케이스",
+      "흡배기세팅",
+      "리안리비전",
+      "라디에이터쿨링",
+      "7800X3D"
+    ],
+    "products": [
+      {
+        "category": "케이스",
+        "brand": "Lian Li",
+        "model": "O11 VISION",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 4080",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "ETcMH1ozbSI",
+    "title": "배그 프레임 높이고 싶다면, CPU부터 확인하세요!",
+    "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+    "channel_name": "마인드피씨",
+    "published": "2026-11-15T07:18:28+00:00",
+    "analyzed_at": "2026-11-17T16:31:06+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "마인드피씨에서 배틀그라운드 등 고주사율 게이밍을 위한 '퍼포먼스 게이밍 PC' 견적을 소개합니다. AMD 라이젠 7 7800X3D와 RTX 5060 Ti 8GB 조합으로 구성되었으며, 판매 가격은 2,050,000원입니다. 이전 X3D 밸런스 모델 대비 CPU 성능을 올리고 Wi-Fi와 블루투스를 지원하는 점이 특징입니다. 다만 플레이하는 게임이나 그래픽 옵션에 따라 라이젠 7500X3D로도 충분할 수 있으므로 무조건 상위 CPU만 고집할 필요는 없다고 조언합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "라이젠 7800X3D",
+      "RTX 5060 Ti",
+      "배틀그라운드 견적",
+      "조립PC 견적",
+      "게이밍PC"
+    ],
+    "products": [
+      {
+        "category": "완제품PC",
+        "brand": "마인드피씨",
+        "model": "퍼포먼스 게이밍PC",
+        "sentiment": "긍정",
+        "price_mentioned": "2,050,000원",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7 7800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "Palit",
+        "model": "지포스 RTX 5060 Ti DUAL D7 8GB",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 5 7500X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
       }
     ]
   },
