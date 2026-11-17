@@ -1,0 +1,134 @@
+{
+  "id": "pLtv3osCfY4",
+  "title": "취향은 사람마다 다르다. 그러나 리안리 O11D VISION COMPACT는 다들 좋아한다.",
+  "channel_id": "UCaOwfLJxMjZ8RCBwg8_c90A",
+  "channel_name": "영재컴퓨터",
+  "published": "2026-11-17T08:00:31+00:00",
+  "analyzed_at": "2026-11-18T04:16:49+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-flash-latest",
+  "tokens": 17251,
+  "analysis": {
+    "summary": "리안리 O11 VISION COMPACT 케이스를 기반으로 AMD Ryzen 7 9800X3D와 ASUS TUF Gaming B850M-PLUS WIFI7, 컬러풀 지포스 RTX 5080을 탑재한 하이엔드 튜닝 PC 빌드 영상입니다. 수랭 쿨러의 워터블록 LCD와 케이스 상단에 장착된 8.8인치 IPS 보조 디스플레이, 리안리 무선 스트리머 케이블이 결합되어 화려한 퍼플 톤의 비주얼을 구현했습니다. 각 주요 부품의 언박싱 및 장착 과정과 함께 완성된 시스템의 작동 모습을 감각적으로 보여줍니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "AMD Ryzen 7 9800X3D 및 RTX 5080 기반의 최고급 게이밍/하이엔드 사양 빌드",
+      "ASUS TUF Gaming B850M-PLUS WIFI7 메인보드를 중심으로 한 탄탄한 전원부 및 플랫폼 구성",
+      "리안리 O11 VISION COMPACT 케이스 및 8.8인치 내부 보조 디스플레이를 활용한 감각적인 튜닝",
+      "깔끔한 선정리와 리안리 무선 스트리머 및 유니팬 TL FLEX 구성으로 완성도 극대화"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "timestamp": "00:18",
+        "t": 18,
+        "sentiment": "긍정",
+        "evaluation": "RTX 5080과 매칭된 최상위 게이밍 CPU로, 하이엔드 튜닝 시스템의 메인 프로세서로 탑재되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "TUF Gaming B850M-PLUS WIFI7",
+        "timestamp": "00:16",
+        "t": 16,
+        "sentiment": "긍정",
+        "evaluation": "Wi-Fi 7을 지원하는 최신 B850M 칩셋 보드로, 고성능 프로세서와 대형 그래픽카드를 안정적으로 지원합니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "Colorful",
+        "model": "iGame GeForce RTX 5080 ULTRA OC D7 16GB",
+        "timestamp": "01:04",
+        "t": 64,
+        "sentiment": "긍정",
+        "evaluation": "화려한 RGB 조명과 울트라 디자인이 돋보이는 고성능 RTX 5080 그래픽카드입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "Lian Li",
+        "model": "O11 VISION COMPACT",
+        "timestamp": "00:13",
+        "t": 13,
+        "sentiment": "긍정",
+        "evaluation": "개방감 높은 파노라마 글래스 디자인으로 하이엔드 튜닝 PC 빌드에 적합한 콤팩트 케이스입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "Lian Li",
+        "model": "HydroShift II LCD-S 360 TL FLEX",
+        "timestamp": "00:41",
+        "t": 41,
+        "sentiment": "긍정",
+        "evaluation": "깔끔한 튜브 라우팅과 워터블록 상단 LCD 화면을 통해 시스템 상태를 실시간 모니터링할 수 있는 일체형 수랭 쿨러입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "ADATA",
+        "model": "DDR5-6000 CL34 LANCER BLADE RGB (16GB x 2)",
+        "timestamp": "00:21",
+        "t": 21,
+        "sentiment": "긍정",
+        "evaluation": "6000MHz 고클럭과 RGB 조명을 지원하는 방열판 메모리 32GB 듀얼 키트입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "990 PRO M.2 NVMe 2TB",
+        "timestamp": "00:26",
+        "t": 26,
+        "sentiment": "긍정",
+        "evaluation": "초고속 PCIe 4.0 NVMe 2TB SSD로 하이엔드 시스템의 메인 스토리지로 사용되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "Lian Li",
+        "model": "RS1000 80PLUS GOLD with hub",
+        "timestamp": "01:11",
+        "t": 71,
+        "sentiment": "중립",
+        "evaluation": "RTX 5080 등 고전력 부품 구동을 위한 1000W 80PLUS 골드 인증 전원공급장치입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "영재컴퓨터는 비주얼 쇼케이스와 고사양 하이엔드 조립에 특화된 거래처로, 최신 AMD Ryzen 7 9800X3D와 ASUS TUF B850 메인보드 조합을 핵심 견적으로 채택하고 있어 해당 CPU/보드의 안정적인 공급 물량 확보 및 납기 지원이 중요합니다.",
+      "RTX 50 시리즈 기반 고사양 쇼케이스 빌드가 활발하므로 ASUS ROG/TUF 메인보드 라인업과 AMD 최신 프로세서를 묶은 프리미엄 번들 프로모션 제안이 효과적일 수 있습니다.",
+      "튜닝 및 화려한 감성을 중시하는 고객층을 타깃으로 하는 만큼, 메모리 및 쿨러/파워 부문에서 자사 유통 브랜드(CORSAIR, NZXT 등) 제품의 크로스셀링을 제안해볼 만합니다."
+    ],
+    "trend_tags": [
+      "9800X3D",
+      "RTX5080",
+      "ASUSTUFB850",
+      "리안리비전",
+      "하이엔드PC",
+      "커스텀튜닝"
+    ]
+  }
+}

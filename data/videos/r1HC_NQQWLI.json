@@ -1,0 +1,73 @@
+{
+  "id": "r1HC_NQQWLI",
+  "title": "배그·스팀게임용 게이밍PC, 가장 많이 선택한 구성",
+  "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+  "channel_name": "마인드피씨",
+  "published": "2026-11-17T08:01:32+00:00",
+  "analyzed_at": "2026-11-18T04:17:20+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 6718,
+  "analysis": {
+    "summary": "마인드피씨의 11월 월간 견적 중 가장 인기가 높은 'TOP 1 메인스트림 게이밍 PC'를 소개하는 영상입니다. AMD 라이젠 7500F와 PALIT 지포스 RTX 4060 Ti 구성을 기반으로 하여 배틀그라운드, 로스트아크 및 다양한 스팀 게임을 쾌적하게 즐길 수 있는 조합입니다. 블랙 어항형 케이스에 측면 2개, 후면 1개 쿨링팬과 싱글타워 공랭 CPU 쿨러가 탑재되었습니다. 최근 부품 가격 상승세 속에서도 판매 가격 상승을 최소화하여 1,765,000원에 구성되었습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "마인드피씨 11월 월간견적 1위 제품인 메인스트림 게이밍 PC 추천",
+      "AMD 라이젠 7500F와 PALIT 지포스 RTX 4060 Ti 조합으로 배그 및 스팀 게임 플레이 가능",
+      "블랙 어항형 케이스 및 싱글타워 CPU 쿨러 구성",
+      "부품 가격 상승기에도 판매 가격 상승 최소화 (영상 내 표기 가격: 1,765,000원)"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠5 5세대 7500F",
+        "timestamp": "00:09",
+        "t": 9,
+        "sentiment": "긍정",
+        "evaluation": "상위 CPU로의 추가 비용 없이도 배틀그라운드, 로스트아크 및 다양한 스팀 게임을 원활히 플레이할 수 있는 메인스트림 추천 프로세서입니다.",
+        "price_mentioned": "",
+        "value_comment": "상위 CPU에 추가 비용을 쓰지 않아도 다양한 게임을 즐길 수 있어 가성비가 뛰어남",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "PALIT",
+        "model": "지포스 RTX 4060 Ti DUAL D6 8GB",
+        "timestamp": "00:10",
+        "t": 10,
+        "sentiment": "긍정",
+        "evaluation": "FHD 게이밍 및 옵션 타협을 통한 고사양 게임까지 소화 가능한 인기 메인스트림 그래픽카드입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드피씨",
+        "model": "메인스트림 게이밍 PC",
+        "timestamp": "00:07",
+        "t": 7,
+        "sentiment": "긍정",
+        "evaluation": "월간 견적에서 가장 인기가 높은 TOP 1 구성으로, 배그부터 스팀 게임까지 원활히 구동합니다.",
+        "price_mentioned": "1,765,000원",
+        "value_comment": "최근 부품 가격 상승세 속에서도 판매 가격 상승을 최소화함",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "와이케이비즈니스는 가성비 견적을 주력으로 하며 7500F 기반의 메인스트림 견적이 월간 판매 1위를 기록할 만큼 출하량이 높으므로, 당사 유통 라이젠 7500F의 대량 번들 특가 공급을 적극 제안할 필요가 있습니다.",
+      "RTX 4060 Ti 그래픽카드와 매칭되는 견적 수요가 매우 탄탄하므로, 경쟁사 대비 가격 경쟁력을 갖춘 당사 유통 MANLI 지포스 RTX 4060 Ti 라인업 제안을 통해 그래픽카드 공급처 전환을 유도할 수 있습니다.",
+      "부품 가격 상승에 민감하게 반응하여 마진과 판매가 방어에 주력하고 있으므로, 당사 유통 ASRock/ASUS 메인보드 및 메모리/SSD 패키지 구성을 통한 단가 절감 솔루션을 제공하는 것이 효과적입니다."
+    ],
+    "trend_tags": [
+      "라이젠7500F",
+      "RTX4060Ti",
+      "게이밍PC",
+      "조립견적",
+      "어항케이스"
+    ]
+  }
+}

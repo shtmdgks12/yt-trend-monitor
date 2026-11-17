@@ -1,5 +1,138 @@
 [
   {
+    "id": "r1HC_NQQWLI",
+    "title": "배그·스팀게임용 게이밍PC, 가장 많이 선택한 구성",
+    "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+    "channel_name": "마인드피씨",
+    "published": "2026-11-17T08:01:32+00:00",
+    "analyzed_at": "2026-11-18T04:17:20+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "마인드피씨의 11월 월간 견적 중 가장 인기가 높은 'TOP 1 메인스트림 게이밍 PC'를 소개하는 영상입니다. AMD 라이젠 7500F와 PALIT 지포스 RTX 4060 Ti 구성을 기반으로 하여 배틀그라운드, 로스트아크 및 다양한 스팀 게임을 쾌적하게 즐길 수 있는 조합입니다. 블랙 어항형 케이스에 측면 2개, 후면 1개 쿨링팬과 싱글타워 공랭 CPU 쿨러가 탑재되었습니다. 최근 부품 가격 상승세 속에서도 판매 가격 상승을 최소화하여 1,765,000원에 구성되었습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "라이젠7500F",
+      "RTX4060Ti",
+      "게이밍PC",
+      "조립견적",
+      "어항케이스"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠5 5세대 7500F",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "PALIT",
+        "model": "지포스 RTX 4060 Ti DUAL D6 8GB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "완제품PC",
+        "brand": "마인드피씨",
+        "model": "메인스트림 게이밍 PC",
+        "sentiment": "긍정",
+        "price_mentioned": "1,765,000원",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "pLtv3osCfY4",
+    "title": "취향은 사람마다 다르다. 그러나 리안리 O11D VISION COMPACT는 다들 좋아한다.",
+    "channel_id": "UCaOwfLJxMjZ8RCBwg8_c90A",
+    "channel_name": "영재컴퓨터",
+    "published": "2026-11-17T08:00:31+00:00",
+    "analyzed_at": "2026-11-18T04:16:49+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "리안리 O11 VISION COMPACT 케이스를 기반으로 AMD Ryzen 7 9800X3D와 ASUS TUF Gaming B850M-PLUS WIFI7, 컬러풀 지포스 RTX 5080을 탑재한 하이엔드 튜닝 PC 빌드 영상입니다. 수랭 쿨러의 워터블록 LCD와 케이스 상단에 장착된 8.8인치 IPS 보조 디스플레이, 리안리 무선 스트리머 케이블이 결합되어 화려한 퍼플 톤의 비주얼을 구현했습니다. 각 주요 부품의 언박싱 및 장착 과정과 함께 완성된 시스템의 작동 모습을 감각적으로 보여줍니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "9800X3D",
+      "RTX5080",
+      "ASUSTUFB850",
+      "리안리비전",
+      "하이엔드PC",
+      "커스텀튜닝"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "TUF Gaming B850M-PLUS WIFI7",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "Colorful",
+        "model": "iGame GeForce RTX 5080 ULTRA OC D7 16GB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "Lian Li",
+        "model": "O11 VISION COMPACT",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "Lian Li",
+        "model": "HydroShift II LCD-S 360 TL FLEX",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "ADATA",
+        "model": "DDR5-6000 CL34 LANCER BLADE RGB (16GB x 2)",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "990 PRO M.2 NVMe 2TB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "Lian Li",
+        "model": "RS1000 80PLUS GOLD with hub",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
     "id": "FMy557_XuOU",
     "title": "신상! HYTE Y50 선없는 감성 끝판왕 컴퓨터 깔끔하게 조립해드렸습니다. 9800X3D RTX5090",
     "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
