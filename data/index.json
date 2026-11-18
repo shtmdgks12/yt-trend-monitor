@@ -1,5 +1,35 @@
 [
   {
+    "id": "csTSNi1lFZs",
+    "title": "그래픽카드 고정 걸쇠 빠졌을 때? 다시 끼우는 방법",
+    "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+    "channel_name": "마인드피씨",
+    "published": "2026-11-18T09:18:21+00:00",
+    "analyzed_at": "2026-11-18T22:24:34+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "메인보드의 그래픽카드 고정 걸쇠(PCIe 슬롯 래치)가 빠졌을 때 다시 체결하는 방법을 보여주는 짧은 팁 영상입니다. 분리된 걸쇠 부품의 방향을 맞추고 PCIe 슬롯 끝부분 홈에 맞춰 눌러 끼우는 과정을 직관적으로 시연합니다. 조립이나 그래픽카드 분리 시 파손으로 오인하기 쉬운 걸쇠의 재장착 요령을 안내합니다.",
+    "video_type": "튜토리얼",
+    "sponsored": false,
+    "tags": [
+      "그래픽카드걸쇠",
+      "조립팁",
+      "메인보드수리",
+      "B650M",
+      "마인드피씨"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "B650M K",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
     "id": "Qj9lZ1eoPMU",
     "title": "[까망이컴퓨터] 젠슨황도 인정하는 올블랙 PC",
     "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",

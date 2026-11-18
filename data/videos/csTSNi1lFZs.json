@@ -1,0 +1,47 @@
+{
+  "id": "csTSNi1lFZs",
+  "title": "그래픽카드 고정 걸쇠 빠졌을 때? 다시 끼우는 방법",
+  "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+  "channel_name": "마인드피씨",
+  "published": "2026-11-18T09:18:21+00:00",
+  "analyzed_at": "2026-11-18T22:24:34+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 3549,
+  "analysis": {
+    "summary": "메인보드의 그래픽카드 고정 걸쇠(PCIe 슬롯 래치)가 빠졌을 때 다시 체결하는 방법을 보여주는 짧은 팁 영상입니다. 분리된 걸쇠 부품의 방향을 맞추고 PCIe 슬롯 끝부분 홈에 맞춰 눌러 끼우는 과정을 직관적으로 시연합니다. 조립이나 그래픽카드 분리 시 파손으로 오인하기 쉬운 걸쇠의 재장착 요령을 안내합니다.",
+    "video_type": "튜토리얼",
+    "sponsored": false,
+    "key_points": [
+      "그래픽카드 탈착 시 PCIe 고정 걸쇠가 빠졌을 때의 재장착 방법 시연",
+      "걸쇠 방향을 슬롯 홈에 맞춘 후 손으로 눌러 간편하게 고정 가능",
+      "GIGABYTE B650M K 메인보드를 시연 부품으로 사용"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "B650M K",
+        "timestamp": "00:10",
+        "t": 10,
+        "sentiment": "중립",
+        "evaluation": "PCIe 고정 걸쇠 재장착 튜토리얼 시연에 사용된 AM5 메인보드입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "마인드피씨는 가성비 견적 위주 구성 시 GIGABYTE B650M K 등 엔트리급 메인보드를 자주 활용하므로, 동일 가격대 대원씨티에스 유통 ASRock B650M-HDV/M.2나 PG Lightning, ASUS PRIME B650M 라인업의 단가 경쟁력을 제시해 견적 대체 입점을 유도할 수 있습니다.",
+      "조립 출고량이 많은 업체 특성상 그래픽카드 래치 내구성이나 편의성(예: PCIe Q-Release 기능 등)이 우수한 메인보드 라인업 프로모션을 제안하기에 적합합니다."
+    ],
+    "trend_tags": [
+      "그래픽카드걸쇠",
+      "조립팁",
+      "메인보드수리",
+      "B650M",
+      "마인드피씨"
+    ]
+  }
+}
