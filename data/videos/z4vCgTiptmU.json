@@ -1,0 +1,47 @@
+{
+  "id": "z4vCgTiptmU",
+  "title": "AMD 사면 X된다? 레이턴시가 컸던 시절",
+  "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+  "channel_name": "까망이컴퓨터",
+  "published": "2026-11-16T10:00:22+00:00",
+  "analyzed_at": "2026-11-18T10:30:06+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 3822,
+  "analysis": {
+    "summary": "과거 AMD CPU의 높은 레이턴시로 인해 게임 프레임 방어가 어려워 구매를 만류했던 일화를 회상하는 영상입니다. 당시 AMD를 구매했다가 낭패를 본 경험담을 나누며, 이후 2세대, 3세대를 거쳐 5세대 X3D 프로세서가 출시되면서 시장 판도가 완전히 뒤집혔다고 평가합니다. AMD X3D 시리즈의 게임 성능 혁신을 짚어보고 있습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "key_points": [
+      "과거 AMD CPU는 높은 레이턴시로 인해 게이밍 시 프레임 방어가 취약했던 시절이 있었음",
+      "2세대, 3세대를 거쳐 라이젠 5세대(5000 시리즈) X3D 출시 이후 게이밍 판도가 역전됨"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5000X3D",
+        "timestamp": "00:01",
+        "t": 1,
+        "sentiment": "긍정",
+        "evaluation": "과거 레이턴시 문제로 게임 프레임 방어가 안 되던 AMD였으나, 5세대 X3D가 출시되면서 시장 판도를 뒤집었다고 평가함.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "출연진이 AMD X3D 라인업의 게이밍 성능 혁신에 대해 강한 긍정적 인식을 가지고 있으므로, 최신 Ryzen X3D 시리즈(7000X3D, 9000X3D) 중심의 게이밍 견적 프로모션 제안이 효과적입니다.",
+      "토크형 브이로그 콘텐츠를 주로 제작하므로, 구형 시스템 대비 최신 X3D 프로세서의 프레임 방어 및 레이턴시 개선을 체감하는 썰/체험형 콘텐츠 협업을 유도할 수 있습니다."
+    ],
+    "trend_tags": [
+      "AMD",
+      "X3D",
+      "라이젠",
+      "레이턴시",
+      "게이밍CPU",
+      "프레임방어"
+    ]
+  }
+}

@@ -1,5 +1,26 @@
 [
   {
+    "id": "cZSsr5a2tb0",
+    "title": "컴퓨터 그래픽카드 입장에서 여러분의 생각은??",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-17T10:23:28+00:00",
+    "analyzed_at": "2026-11-18T10:48:29+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "NVIDIA CEO 젠슨 황의 거취 및 향후 행보와 관련한 게이머들의 엇갈린 반응을 다룬 쇼츠 영상입니다. 젠슨 황의 독점적 행보나 높은 가격 정책에 대한 소비자들의 불만도 크지만, 오랫동안 시장과 라인업을 안정적으로 이끌어온 예측 가능성 때문에 오히려 교체 시 시장 혼란을 우려하는 시각도 존재합니다. 게이머들 사이에서 '황통수'라는 비판과 '구관이 명관'이라는 평가가 공존하는 그래픽카드 시장의 복합적인 여론을 이야기합니다.",
+    "video_type": "뉴스/루머",
+    "sponsored": false,
+    "tags": [
+      "NVIDIA",
+      "젠슨황",
+      "그래픽카드",
+      "게이머여론",
+      "시장동향"
+    ],
+    "products": []
+  },
+  {
     "id": "r1HC_NQQWLI",
     "title": "배그·스팀게임용 게이밍PC, 가장 많이 선택한 구성",
     "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
@@ -133,6 +154,48 @@
     ]
   },
   {
+    "id": "EhX4sXH-7zc",
+    "title": "아이들 예산까지? 추미애를 향한 분노",
+    "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+    "channel_name": "까망이컴퓨터",
+    "published": "2026-11-16T22:00:31+00:00",
+    "analyzed_at": "2026-11-18T10:38:24+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "까망이컴퓨터 매장에서 진행된 토크 형식의 쇼츠 영상으로, 과거 국민학교 시절 도덕 교육의 중요성을 회고하며 현대의 인성 교육 결여 문제를 지적합니다. 외동 자녀가 많아진 환경에서 부모와 교사의 훈육이 어려워진 현실을 비판하고 교사에 대한 처우 개선의 필요성을 역설합니다. 이어 유치원 및 교육 관련 예산 삭감 이슈(추미애 의원 관련)에 대해 강한 분노를 표하며 미래 세대를 위한 교육 예산 투자의 중요성을 강조합니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "tags": [
+      "까망이컴퓨터",
+      "브이로그",
+      "시사토크",
+      "교육예산",
+      "인성교육"
+    ],
+    "products": []
+  },
+  {
+    "id": "kRQNZilF__I",
+    "title": "프리미엄 선정리 옵션없나요?",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-16T10:10:36+00:00",
+    "analyzed_at": "2026-11-18T10:32:46+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "소비자가 깔끔하게 조립해 주는지 묻자, 고고싱컴퓨터 측에서 발작 버튼이 눌려 작업 중인 PC의 뒷면 선정리 상태를 공개했습니다. 별도의 '프리미엄 선정리' 옵션 없이도 기본적으로 매우 깔끔하고 완벽한 배선 정리를 제공한다고 강조했습니다. 매장의 뛰어난 조립 퀄리티와 기본 서비스에 대한 강한 자부심을 보여주는 쇼츠 영상입니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "선정리",
+      "조립컴퓨터",
+      "고고싱컴퓨터",
+      "조립퀄리티",
+      "기본선정리"
+    ],
+    "products": []
+  },
+  {
     "id": "FMy557_XuOU",
     "title": "신상! HYTE Y50 선없는 감성 끝판왕 컴퓨터 깔끔하게 조립해드렸습니다. 9800X3D RTX5090",
     "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
@@ -234,6 +297,37 @@
         "sentiment": "긍정",
         "price_mentioned": "",
         "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "z4vCgTiptmU",
+    "title": "AMD 사면 X된다? 레이턴시가 컸던 시절",
+    "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+    "channel_name": "까망이컴퓨터",
+    "published": "2026-11-16T10:00:22+00:00",
+    "analyzed_at": "2026-11-18T10:30:06+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "과거 AMD CPU의 높은 레이턴시로 인해 게임 프레임 방어가 어려워 구매를 만류했던 일화를 회상하는 영상입니다. 당시 AMD를 구매했다가 낭패를 본 경험담을 나누며, 이후 2세대, 3세대를 거쳐 5세대 X3D 프로세서가 출시되면서 시장 판도가 완전히 뒤집혔다고 평가합니다. AMD X3D 시리즈의 게임 성능 혁신을 짚어보고 있습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "tags": [
+      "AMD",
+      "X3D",
+      "라이젠",
+      "레이턴시",
+      "게이밍CPU",
+      "프레임방어"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5000X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
       }
     ]
   },
