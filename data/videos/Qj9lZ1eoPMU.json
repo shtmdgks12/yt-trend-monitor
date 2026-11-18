@@ -1,0 +1,111 @@
+{
+  "id": "Qj9lZ1eoPMU",
+  "title": "[까망이컴퓨터] 젠슨황도 인정하는 올블랙 PC",
+  "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+  "channel_name": "까망이컴퓨터",
+  "published": "2026-11-18T07:21:43+00:00",
+  "analyzed_at": "2026-11-18T16:29:19+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 55273,
+  "analysis": {
+    "summary": "영상에서는 화려한 LED 조명을 배제하고 순수 성능에 집중한 올블랙 감성의 고성능 PC 조립 과정을 담고 있습니다. 3RSYS의 4팬 수냉 쿨러와 L600 Quiet 케이스, 기가바이트 그래픽카드 및 X870E 메인보드 등을 활용해 조립을 진행했습니다. 조립 중 CPU 주문 실수 이슈를 수습하고 며칠 후 완성된 PC의 쿨링 성능과 방열판 장착 상태를 점검합니다. 영상 후반부에는 엔비디아의 그래픽카드 및 메모리 공급 정책을 비판하며 AMD(리사 수)의 친게이머 정책을 긍정적으로 언급합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "LED를 배제하고 성능과 쿨링에 집중한 올블랙 PC 조립",
+      "3RSYS HYBRID SF 360 N 수냉 쿨러와 L600 Quiet 케이스의 호환성 및 조립성 확인",
+      "PCIe 레인 수와 메인보드 대역폭에 대한 설명",
+      "엔비디아의 칩/메모리 공급 정책에 대한 비판과 AMD의 3D 캐시(X3D) 및 게이머 친화적 행보 칭찬"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 9 9950X3D",
+        "timestamp": "00:11",
+        "t": 11,
+        "sentiment": "긍정",
+        "evaluation": "고성능 CPU로 3D V-Cache 구성 및 성능에 대해 호평하지만, 주문 실수 에피소드가 함께 언급됩니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "990 PRO",
+        "timestamp": "00:26",
+        "t": 26,
+        "sentiment": "긍정",
+        "evaluation": "고성능 저장장치로 채택되어 장착되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "X870E AORUS ELITE X3D",
+        "timestamp": "01:05",
+        "t": 65,
+        "sentiment": "중립",
+        "evaluation": "PCIe 레인 분배 및 대역폭 구조에 대해 상세히 설명하며 활용도를 분석합니다.",
+        "price_mentioned": "",
+        "value_comment": "가정용에서 실사용 시 가성비 보드가 될 것이라 언급",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "GIGABYTE",
+        "model": "GeForce RTX 5070 Ti Gaming OC",
+        "timestamp": "00:46",
+        "t": 46,
+        "sentiment": "긍정",
+        "evaluation": "외형이 RTX 5080급으로 웅장하고 묵직하게 잘 빠졌다고 평가합니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "3RSYS",
+        "model": "HYBRID SF 360 N",
+        "timestamp": "02:30",
+        "t": 150,
+        "sentiment": "긍정",
+        "evaluation": "LED 없이 순수 성능 위주의 울트라 퍼포먼스 4팬 수냉 쿨러로 뛰어난 쿨링력을 보여준다고 평가합니다.",
+        "price_mentioned": "약 20만원 정도",
+        "value_comment": "성능 대비 20만 원대 가격대로 적합하다고 평가",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "3RSYS",
+        "model": "L600 Quiet",
+        "timestamp": "03:30",
+        "t": 210,
+        "sentiment": "긍정",
+        "evaluation": "LED가 없는 고성능 팬 4개가 기본 탑재되어 튼튼하고 통풍 및 마감이 좋다고 평가합니다.",
+        "price_mentioned": "9만원 정도",
+        "value_comment": "저렴한 메쉬 케이스 대비 가격대가 있지만 튼튼함과 기본 팬 구성을 감안할 때 합리적임",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "영상 후반부에서 엔비디아의 공급 정책을 비판하고 AMD(리사 수)의 X3D 기술 및 게이머 친화적 행보를 강하게 지지하므로, 라이젠 9000 및 X3D 시리즈 프로세서 프로모션 제안 시 매우 우호적인 반응을 기대할 수 있습니다.",
+      "화려한 RGB보다 '올블랙', '논LED', '순수 쿨링 성능'을 선호하는 소비자 타깃 조립을 자주 진행하므로, 대원CTS 취급 품목 중 블랙 감성의 ASUS 메인보드(TUF Gaming 등)나 킹스톤/커세어의 논LED 메모리 라인업을 연계 제안하기 좋습니다.",
+      "브이로그 형태의 자연스러운 입담과 하드웨어 스펙(PCIe 레인 분배 등) 분석을 즐겨 다루는 채널 특성에 맞춰, 기술적 강점이 뚜렷한 ASUS/ASRock 메인보드 신제품 샘플 대여 콘텐츠를 기획해볼 만합니다."
+    ],
+    "trend_tags": [
+      "올블랙PC",
+      "논LED",
+      "성능충",
+      "X3D",
+      "수냉쿨러",
+      "RTX5070Ti",
+      "PCIe레인"
+    ]
+  }
+}

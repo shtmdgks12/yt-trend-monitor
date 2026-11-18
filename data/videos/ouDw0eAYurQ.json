@@ -1,0 +1,160 @@
+{
+  "id": "ouDw0eAYurQ",
+  "title": "게임용 컴퓨터 추천견적 뭘 사야될까요!! // 11월 월간견적",
+  "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+  "channel_name": "고고싱컴퓨터",
+  "published": "2026-11-18T04:06:05+00:00",
+  "analyzed_at": "2026-11-18T16:27:53+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 57561,
+  "analysis": {
+    "summary": "고고싱컴퓨터의 11월 월간 견적 영상으로, 수능을 마친 수험생 대상 조립공임비 무료 이벤트 및 특가 부품 프로모션을 안내하며 시작합니다. 견적 구성은 AM4 기반 5500GT와 인텔 코어 울트라 250K Plus 중심의 사무/작업용부터, 7500F 및 7500X3D/7800X3D 기반의 FHD 및 QHD 게임용, 9800X3D와 5070 Ti/9070 XT를 조합한 고사양 게이밍 및 작업용, 리안리 풀세트 감성 PC까지 폭넓게 다룹니다. 특히 엔비디아와 라데온(9070, 9070 XT)의 가성비 및 작업 성능 비교와 함께 용도에 맞는 합리적 부품 투자를 강조합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "수험생 대상 11~12월 조립공임비 전액 무료 이벤트 및 특정 메모리/케이스/그래픽카드 특가 안내",
+      "사무용: 내장그래픽 기반 라이젠 5500GT 가성비 구성 vs 다중 작업 및 확장성 유리한 인텔 250K Plus 비교",
+      "FHD/QHD 게임용: 7500F, 7800X3D 기반 견적과 함께 엔비디아 대비 가성비가 뛰어난 라데온(9070, 9070 XT) 대안 제시",
+      "작업용: 대학생/전문가 대상 인텔 코어 울트라 250KF/270K Plus와 VRAM이 넉넉한 16GB 그래픽카드 조합 추천"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 5 7500F",
+        "timestamp": "01:29",
+        "t": 89,
+        "sentiment": "긍정",
+        "evaluation": "FHD 기본형 게임 견적의 핵심 CPU로, 무난하게 여러 게임을 즐기기에 좋으며 차후 X3D 모델로 업그레이드하기도 용이하다고 평가했습니다.",
+        "price_mentioned": "179,300원",
+        "value_comment": "FHD 환경에서 높은 가성비를 제공하는 기본형 게이밍 CPU",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 5 5500GT",
+        "timestamp": "02:10",
+        "t": 130,
+        "sentiment": "긍정",
+        "evaluation": "내장 그래픽 성능이 준수하여 간단한 캐주얼 게임 및 사무·가정용으로 충분하며 비싼 컴퓨터를 살 필요 없이 최적의 가성비를 낸다고 소개했습니다.",
+        "price_mentioned": "217,020원",
+        "value_comment": "저예산 사무·가정용 견적에서 뛰어난 가성비",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME A520M-A II",
+        "timestamp": "02:10",
+        "t": 130,
+        "sentiment": "긍정",
+        "evaluation": "AM4 5500GT 기반 사무/가정용 견적의 안정적인 가성비 메인보드로 채택되었습니다.",
+        "price_mentioned": "86,260원",
+        "value_comment": "8만원대 가성비 메인보드",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME B860M-A-CSM",
+        "timestamp": "02:26",
+        "t": 146,
+        "sentiment": "긍정",
+        "evaluation": "인텔 코어 울트라 250K Plus와 조합하여 사무 작업용 고급형 및 대학생 작업용 견적에 메인보드로 추천되었습니다.",
+        "price_mentioned": "196,360원",
+        "value_comment": "최신 플랫폼 확장성을 고려한 메인보드",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7 7800X3D",
+        "timestamp": "04:16",
+        "t": 256,
+        "sentiment": "긍정",
+        "evaluation": "QHD 게이밍 견적에서 가장 인기 있는 선택지로, 순정 메모리만으로도 충분히 뛰어난 게이밍 성능을 발휘한다고 호평했습니다.",
+        "price_mentioned": "399,480원",
+        "value_comment": "QHD 환경에서 검증된 게이밍 특화 CPU",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "ASUS",
+        "model": "PRIME RX 9070 D6 16GB",
+        "timestamp": "04:46",
+        "t": 286,
+        "sentiment": "긍정",
+        "evaluation": "경쟁사 RTX 5070 대비 성능 차이는 크지 않으면서 가격이 약 40만원 이상 저렴해 순수 게임 위주 사용자에게 최고의 가성비 선택지로 추천했습니다.",
+        "price_mentioned": "1,108,380원",
+        "value_comment": "5070 대비 약 43만원 저렴하여 가성비가 매우 뛰어남",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7 9800X3D",
+        "timestamp": "05:22",
+        "t": 322,
+        "sentiment": "긍정",
+        "evaluation": "QHD 고사양 및 4K 게이밍, 리안리 풀세트 견적에 탑재된 최고 성능의 게이밍 CPU로 소개되었습니다.",
+        "price_mentioned": "619,150원",
+        "value_comment": "최상위 게임 성능을 요구하는 하이엔드 게이머를 위한 선택",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "TUF Gaming B850-PLUS WIFI",
+        "timestamp": "05:22",
+        "t": 322,
+        "sentiment": "긍정",
+        "evaluation": "9800X3D 기반 고성능 게이밍 견적에 채택되어 높은 전원부 신뢰성과 안정성을 제공하는 고급형 메인보드로 사용되었습니다.",
+        "price_mentioned": "327,990원",
+        "value_comment": "고사양 시스템에 적합한 탄탄한 전원부와 구성을 갖춘 보드",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "POWERCOLOR",
+        "model": "RX 9070 XT Reaper D6 16GB",
+        "timestamp": "05:40",
+        "t": 340,
+        "sentiment": "긍정",
+        "evaluation": "RTX 5070 Ti 견적 대비 약 80만원 이상 저렴하면서도 QHD 고주사율 게이밍을 원활하게 소화하는 가성비 고성능 그래픽카드로 추천했습니다.",
+        "price_mentioned": "1,504,230원",
+        "value_comment": "5070 Ti 대비 약 83만원 절감 가능한 고성능 게임용 카드",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "ASUS",
+        "model": "PRIME LC 360 ARGB",
+        "timestamp": "07:00",
+        "t": 420,
+        "sentiment": "긍정",
+        "evaluation": "전문가 작업용 견적에서 고발열 연산 작업을 감당할 수 있는 3열 수랭 쿨러로 견적에 포함되었습니다.",
+        "price_mentioned": "120,850원",
+        "value_comment": "12만원대의 합리적인 3열 수랭 쿨러",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "고고싱컴퓨터는 100~200만원대 견적을 주력으로 다루며, 이번 영상에서도 라이젠 7500F 및 7800X3D, AM4 5500GT를 가성비 게이밍/사무용 메인 라인업으로 적극 채택하고 있으므로 대원CTS 취급 AMD CPU의 패키지 공급 및 가격 경쟁력 유지가 중요합니다.",
+      "사무용 보급형(PRIME A520M-A II)부터 최신 B860/B850 라인업(TUF Gaming B850-PLUS WIFI 등)까지 ASUS 메인보드를 적극 견적서에 반영하고 있으므로, 대원CTS 정품 ASUS 보드의 재고 안정성과 번들 프로모션을 제안하기에 적기입니다.",
+      "영상에서 엔비디아 대비 가성비 대안으로 라데온(PowerColor RX 9070 XT Reaper, ASUS RX 9070)을 40~80만원 가격 절감 모델로 강력히 어필하고 특가 행사를 진행 중이므로, 대원CTS 취급 PowerColor 및 ASUS 라데온 그래픽카드 추가 수량 확보 및 공동 프로모션을 제안할 수 있습니다."
+    ],
+    "trend_tags": [
+      "월간견적",
+      "수험생할인",
+      "AMD라이젠",
+      "7800X3D",
+      "ASUS메인보드",
+      "PowerColor",
+      "라데온가성비",
+      "QHD게이밍"
+    ]
+  }
+}

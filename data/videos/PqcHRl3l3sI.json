@@ -1,0 +1,86 @@
+{
+  "id": "PqcHRl3l3sI",
+  "title": "NVIDIA 젠슨황 CEO 복귀 어떻게 생각하세요?",
+  "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+  "channel_name": "고고싱컴퓨터",
+  "published": "2026-11-17T09:15:38+00:00",
+  "analyzed_at": "2026-11-18T16:26:55+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 33457,
+  "analysis": {
+    "summary": "엔비디아 젠슨 황 CEO의 사임 루머와 복귀 가능성, 그리고 차기 CEO 체제에 대한 커뮤니티 및 업계 여론을 다룬 라이브 하이라이트 영상입니다. 엔비디아의 세대별 칩 컷 비율 및 AI 중심 정책으로 인해 게이머용 그래픽카드 시장이 축소될 수 있다는 우려를 논의했습니다. 출연진은 엔비디아가 게이머 시장을 완전히 포기하지는 않겠지만 가격 인상이나 수급 불안이 이어질 수 있다는 시각과 함께 빠른 안정화를 기대했습니다.",
+    "video_type": "뉴스/루머",
+    "sponsored": false,
+    "key_points": [
+      "엔비디아 젠슨 황 CEO 관련 사임 이슈 및 복귀 서명 운동 등 여론 소개",
+      "RTX 30시리즈 대비 40, 50시리즈로 가면서 심해지는 풀칩 대비 컷칩 비율 지적",
+      "AI 산업 중심의 생산라인 배정으로 인한 소비자용 그래픽카드 공급 및 가격 우려",
+      "차기 그래픽카드(RTX 50/60시리즈) 출시 및 가격 정책에 대한 불안감과 소비자 심리 분석"
+    ],
+    "products": [
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX 3090",
+        "timestamp": "02:32",
+        "t": 152,
+        "sentiment": "중립",
+        "evaluation": "과거 세대에서는 풀칩 대비 코어 컷 비율이 약 97% 수준으로 높게 유지되었던 대표 사례로 언급되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX 6090",
+        "timestamp": "04:54",
+        "t": 294,
+        "sentiment": "중립",
+        "evaluation": "차기 플래그십 그래픽카드로 천만 원대 수준으로 비싸지더라도 최상위급으로서 나올 것이라는 가상의 예시로 언급되었습니다.",
+        "price_mentioned": "천만원",
+        "value_comment": "극단적인 고가 정책이 예상되는 상징적 라인업으로 언급",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX 6080",
+        "timestamp": "04:56",
+        "t": 296,
+        "sentiment": "긍정",
+        "evaluation": "향후 200~300만 원대의 합리적인 가격대와 준수한 성능 폭 향상으로 출시되기를 희망하는 제품으로 언급되었습니다.",
+        "price_mentioned": "2백 3백만원대",
+        "value_comment": "200~300만 원대에 나와주길 바라는 기대감 표출",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "AMD",
+        "model": "Radeon",
+        "timestamp": "03:25",
+        "t": 205,
+        "sentiment": "중립",
+        "evaluation": "엔비디아가 게이밍 시장을 방치할 경우 점유율을 흡수할 수 있는 대안으로 커뮤니티에서 언급되었으나, 공급 여력 한계가 있다는 의견도 함께 제시되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "고고싱컴퓨터는 100~200만원대 조립PC가 주력인 매장이므로, 엔비디아 메인스트림 라인업의 가격 인상 루머 및 공급 이슈에 민감하게 반응하고 있습니다.",
+      "엔비디아 그래픽카드 가격 상승 및 수급 불안감이 커질 때 대체재로 제안할 수 있는 파워컬러(PowerColor) 라데온 그래픽카드 및 AMD CPU/GPU 번들 프로모션을 선제적으로 안내할 필요가 있습니다.",
+      "소비자들 사이에서 차세대 그래픽카드 가격 폭등에 대한 불안감이 형성되어 있으므로, 현재 유통 중인 가성비 라인업(RTX 4060/4060 Ti 또는 라데온 동급)의 안정적인 공급과 프로모션을 제안하여 즉시 출고 견적 비중을 방어하도록 지원해야 합니다."
+    ],
+    "trend_tags": [
+      "엔비디아",
+      "젠슨황",
+      "RTX50시리즈",
+      "그래픽카드가격",
+      "라데온",
+      "AI산업"
+    ]
+  }
+}

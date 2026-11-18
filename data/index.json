@@ -1,5 +1,182 @@
 [
   {
+    "id": "Qj9lZ1eoPMU",
+    "title": "[까망이컴퓨터] 젠슨황도 인정하는 올블랙 PC",
+    "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+    "channel_name": "까망이컴퓨터",
+    "published": "2026-11-18T07:21:43+00:00",
+    "analyzed_at": "2026-11-18T16:29:19+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "영상에서는 화려한 LED 조명을 배제하고 순수 성능에 집중한 올블랙 감성의 고성능 PC 조립 과정을 담고 있습니다. 3RSYS의 4팬 수냉 쿨러와 L600 Quiet 케이스, 기가바이트 그래픽카드 및 X870E 메인보드 등을 활용해 조립을 진행했습니다. 조립 중 CPU 주문 실수 이슈를 수습하고 며칠 후 완성된 PC의 쿨링 성능과 방열판 장착 상태를 점검합니다. 영상 후반부에는 엔비디아의 그래픽카드 및 메모리 공급 정책을 비판하며 AMD(리사 수)의 친게이머 정책을 긍정적으로 언급합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "올블랙PC",
+      "논LED",
+      "성능충",
+      "X3D",
+      "수냉쿨러",
+      "RTX5070Ti",
+      "PCIe레인"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 9 9950X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "990 PRO",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "X870E AORUS ELITE X3D",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "GIGABYTE",
+        "model": "GeForce RTX 5070 Ti Gaming OC",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "3RSYS",
+        "model": "HYBRID SF 360 N",
+        "sentiment": "긍정",
+        "price_mentioned": "약 20만원 정도",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "3RSYS",
+        "model": "L600 Quiet",
+        "sentiment": "긍정",
+        "price_mentioned": "9만원 정도",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "ouDw0eAYurQ",
+    "title": "게임용 컴퓨터 추천견적 뭘 사야될까요!! // 11월 월간견적",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-18T04:06:05+00:00",
+    "analyzed_at": "2026-11-18T16:27:53+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "고고싱컴퓨터의 11월 월간 견적 영상으로, 수능을 마친 수험생 대상 조립공임비 무료 이벤트 및 특가 부품 프로모션을 안내하며 시작합니다. 견적 구성은 AM4 기반 5500GT와 인텔 코어 울트라 250K Plus 중심의 사무/작업용부터, 7500F 및 7500X3D/7800X3D 기반의 FHD 및 QHD 게임용, 9800X3D와 5070 Ti/9070 XT를 조합한 고사양 게이밍 및 작업용, 리안리 풀세트 감성 PC까지 폭넓게 다룹니다. 특히 엔비디아와 라데온(9070, 9070 XT)의 가성비 및 작업 성능 비교와 함께 용도에 맞는 합리적 부품 투자를 강조합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "월간견적",
+      "수험생할인",
+      "AMD라이젠",
+      "7800X3D",
+      "ASUS메인보드",
+      "PowerColor",
+      "라데온가성비",
+      "QHD게이밍"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 5 7500F",
+        "sentiment": "긍정",
+        "price_mentioned": "179,300원",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 5 5500GT",
+        "sentiment": "긍정",
+        "price_mentioned": "217,020원",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME A520M-A II",
+        "sentiment": "긍정",
+        "price_mentioned": "86,260원",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME B860M-A-CSM",
+        "sentiment": "긍정",
+        "price_mentioned": "196,360원",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7 7800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "399,480원",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "ASUS",
+        "model": "PRIME RX 9070 D6 16GB",
+        "sentiment": "긍정",
+        "price_mentioned": "1,108,380원",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7 9800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "619,150원",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "TUF Gaming B850-PLUS WIFI",
+        "sentiment": "긍정",
+        "price_mentioned": "327,990원",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "POWERCOLOR",
+        "model": "RX 9070 XT Reaper D6 16GB",
+        "sentiment": "긍정",
+        "price_mentioned": "1,504,230원",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "ASUS",
+        "model": "PRIME LC 360 ARGB",
+        "sentiment": "긍정",
+        "price_mentioned": "120,850원",
+        "is_our_brand": true
+      }
+    ]
+  },
+  {
     "id": "cZSsr5a2tb0",
     "title": "컴퓨터 그래픽카드 입장에서 여러분의 생각은??",
     "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
@@ -17,6 +194,82 @@
       "그래픽카드",
       "게이머여론",
       "시장동향"
+    ],
+    "products": []
+  },
+  {
+    "id": "PqcHRl3l3sI",
+    "title": "NVIDIA 젠슨황 CEO 복귀 어떻게 생각하세요?",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-17T09:15:38+00:00",
+    "analyzed_at": "2026-11-18T16:26:55+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "엔비디아 젠슨 황 CEO의 사임 루머와 복귀 가능성, 그리고 차기 CEO 체제에 대한 커뮤니티 및 업계 여론을 다룬 라이브 하이라이트 영상입니다. 엔비디아의 세대별 칩 컷 비율 및 AI 중심 정책으로 인해 게이머용 그래픽카드 시장이 축소될 수 있다는 우려를 논의했습니다. 출연진은 엔비디아가 게이머 시장을 완전히 포기하지는 않겠지만 가격 인상이나 수급 불안이 이어질 수 있다는 시각과 함께 빠른 안정화를 기대했습니다.",
+    "video_type": "뉴스/루머",
+    "sponsored": false,
+    "tags": [
+      "엔비디아",
+      "젠슨황",
+      "RTX50시리즈",
+      "그래픽카드가격",
+      "라데온",
+      "AI산업"
+    ],
+    "products": [
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX 3090",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX 6090",
+        "sentiment": "중립",
+        "price_mentioned": "천만원",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX 6080",
+        "sentiment": "긍정",
+        "price_mentioned": "2백 3백만원대",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "AMD",
+        "model": "Radeon",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      }
+    ]
+  },
+  {
+    "id": "SfkR8RESNsE",
+    "title": "컴퓨터 램 장착 방법｜RAM 메모리 탈부착 쉽게 하는 법",
+    "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+    "channel_name": "마인드피씨",
+    "published": "2026-11-17T08:43:03+00:00",
+    "analyzed_at": "2026-11-18T16:26:32+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "컴퓨터 RAM 메모리의 탈착 및 재장착 과정을 직관적으로 보여주는 숏폼 튜토리얼 영상입니다. 메모리 슬롯의 걸쇠(래치)를 눌러 램을 분리한 후, 메모리 홈(노치) 방향을 맞춰 슬롯에 올바르게 결착하는 과정을 단계별로 시연합니다. 초보자도 쉽게 따라 할 수 있도록 직관적인 조립 가이드를 제공합니다.",
+    "video_type": "튜토리얼",
+    "sponsored": false,
+    "tags": [
+      "RAM장착",
+      "메모리교체",
+      "PC조립가이드",
+      "컴퓨터기초",
+      "마인드피씨"
     ],
     "products": []
   },
