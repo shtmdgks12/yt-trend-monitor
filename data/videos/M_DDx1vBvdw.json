@@ -1,0 +1,160 @@
+{
+  "id": "M_DDx1vBvdw",
+  "title": "리안리 신상! Lian Li VISION-M 매트한 블랙감성 끝판왕 컴퓨터 깔끔하게 조립 해드렸습니다. RTX5080 MASTER 9800X3D",
+  "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
+  "channel_name": "티와이 시스템",
+  "published": "2026-11-18T10:00:29+00:00",
+  "analyzed_at": "2026-11-19T16:34:25+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-flash-latest",
+  "tokens": 194823,
+  "analysis": {
+    "summary": "800만 원 이하 예산(797만 원 출고)으로 AMD 라이젠 7 9800X3D와 지포스 RTX 5080 어로스 마스터 그래픽카드를 조합한 초하이엔드 매트 블랙 PC 조립 빌드 영상입니다. 리안리 O11 VISION-M Digital 케이스와 HydroShift II OLED Curved 수랭 쿨러, UNI FAN TL LCD 팬 등 최신 리안리 튜닝 파츠로 마감했습니다. VISION-M 케이스는 듀얼 챔버 설계와 상단 8.8인치 디스플레이로 완성 후 비례감과 디자인은 최고 수준이지만, 내부 조립 및 선 정리 난이도가 극도로 높아 자가 조립은 권장하지 않는다고 평가했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "총 견적 797만 원에 출고된 AMD 라이젠 7 9800X3D + RTX 5080 어로스 마스터 하이엔드 빌드",
+      "예산 800만 원 미만을 맞추기 위해 기가바이트 B850M GAMING X 메인보드 및 1TB SSD로 타협 구성",
+      "리안리 O11 VISION-M Digital 케이스의 상단 8.8인치 스크린 및 듀얼 챔버 공기 흐름 구조 분석",
+      "좁은 내부 공간과 전용 파츠 장착 구조로 인해 선 정리 및 조립 난이도가 극도로 높은 '헬 난이도' 케이스",
+      "완성 후 압도적인 매트 블랙 비주얼과 콤팩트한 비율로 높은 만족도 제공"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "timestamp": "01:50",
+        "t": 110,
+        "sentiment": "긍정",
+        "evaluation": "당초 9950X3D를 고려했으나 800만 원 예산선 유지를 위해 타협 선택한 최고 성능의 게이밍 CPU입니다.",
+        "price_mentioned": "",
+        "value_comment": "하이엔드 빌드에서 예산과 게이밍 성능을 동시에 잡기 위해 선택됨",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "B850M GAMING X WIFI6E",
+        "timestamp": "00:54",
+        "t": 54,
+        "sentiment": "긍정",
+        "evaluation": "완전 가성비 메인보드로 원터치 M.2 방열판 등 편의성을 갖추었으며, 9800X3D 및 5080의 100% 성능을 내는 데 전혀 지장이 없습니다.",
+        "price_mentioned": "",
+        "value_comment": "상급 보드 대신 선택하여 전체 견적 비용을 절감한 가성비 제품",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "Lian Li",
+        "model": "HydroShift II OLED Curved 360 Fanless",
+        "timestamp": "03:07",
+        "t": 187,
+        "sentiment": "긍정",
+        "evaluation": "전동 각도 조절이 가능한 커브드 OLED 자켓이 적용된 하이퍼 테크 수랭 쿨러이며, TL 팬 품절로 논팬 버전에 별도 팬을 결합해 빌드했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "SK hynix",
+        "model": "Platinum P41 M.2 NVMe 1TB",
+        "timestamp": "02:06",
+        "t": 126,
+        "sentiment": "중립",
+        "evaluation": "원래 2TB 용량을 계획했으나 800만 원 예산 준수를 위해 1TB로 낮춰 세팅했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "G.SKILL",
+        "model": "DDR5-6000 CL36 TRIDENT Z5 RGB 블랙 32GB (16Gx2)",
+        "timestamp": "02:26",
+        "t": 146,
+        "sentiment": "긍정",
+        "evaluation": "CL36 타이밍의 6000MHz 고클럭 RGB 튜닝 메모리입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스팬",
+        "brand": "Lian Li",
+        "model": "UNI FAN TL LCD FLEX 120 / TL FLEX 120",
+        "timestamp": "04:58",
+        "t": 298,
+        "sentiment": "긍정",
+        "evaluation": "후면 LCD 정방향, 측면 및 하단 리버스 흡기 팬 등 부위별로 정방향과 역방향을 조합하여 깔끔한 흡배기와 튜닝 감성을 완성했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "Lian Li",
+        "model": "O11 VISION-M Digital",
+        "timestamp": "09:39",
+        "t": 579,
+        "sentiment": "긍정",
+        "evaluation": "3면 글래스와 상단 8.8인치 디스플레이가 내장된 듀얼 챔버 케이스로 완성 후 비례감과 디자인은 환상적이지만, 공간이 좁고 선 정리가 극도로 어려워 자가 조립 난이도는 최악 수준입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "맥스엘리트",
+        "model": "MAXWELL DUKE 1000W 80PLUS 플래티넘 풀모듈러 ATX 3.1",
+        "timestamp": "24:21",
+        "t": 1461,
+        "sentiment": "긍정",
+        "evaluation": "플래티넘 등급 1000W 파워로 번들 케이블 홀더를 제공해 깔끔한 선 정리에 도움을 줍니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "GIGABYTE",
+        "model": "AORUS 지포스 RTX 5080 MASTER D7 16GB",
+        "timestamp": "27:33",
+        "t": 1653,
+        "sentiment": "긍정",
+        "evaluation": "고객이 타협 없이 고집한 대장급 RTX 5080으로, 묵직하고 두꺼운 방열판과 측면 디스플레이로 케이스 하단을 꽉 채우는 압도적 존재감을 보여줍니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "기타",
+        "brand": "Lian Li",
+        "model": "STRIMER WIRELESS 24핀",
+        "timestamp": "23:38",
+        "t": 1418,
+        "sentiment": "긍정",
+        "evaluation": "무선 방식 24핀 메인보드 전원 슬리빙 케이블로 화려한 RGB 라인을 완성했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "초하이엔드 게이밍 PC 주력 매장으로 AMD Ryzen 7 9800X3D가 핵심 필수 프로세서로 채택되고 있으므로, 9800X3D 물량의 안정적 공급과 단가 경쟁력 확보가 최우선 제안 포인트임",
+      "고객 예산(800만 원 이하) 조정을 위해 메인보드를 B850M 가성비 기종으로 하향 조정한 점에 착안, RTX 5080과 매칭해도 전원부 발열과 완성도를 만족시키는 ASUS TUF Gaming B650/B850M 또는 ASRock Riptide/Pro RS 라인업을 가성비 대안으로 제안 가능",
+      "리안리 부품의 품절 사태(HydroShift 수랭 쿨러 TL 번들 품절 등)가 확인되므로, LCD 디스플레이 및 일체형 케이블 튜닝 감성을 제공하는 NZXT Kraken Elite 및 CORSAIR iCUE LINK 쿨러/팬 라인업을 하이엔드 대체재로 프로모션 추천"
+    ],
+    "trend_tags": [
+      "RTX5080",
+      "9800X3D",
+      "리안리비전M",
+      "VISION_M",
+      "HydroShift",
+      "하이엔드PC",
+      "어항케이스"
+    ]
+  }
+}

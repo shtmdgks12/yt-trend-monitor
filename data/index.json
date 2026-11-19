@@ -1,5 +1,109 @@
 [
   {
+    "id": "M_DDx1vBvdw",
+    "title": "리안리 신상! Lian Li VISION-M 매트한 블랙감성 끝판왕 컴퓨터 깔끔하게 조립 해드렸습니다. RTX5080 MASTER 9800X3D",
+    "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
+    "channel_name": "티와이 시스템",
+    "published": "2026-11-18T10:00:29+00:00",
+    "analyzed_at": "2026-11-19T16:34:25+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "800만 원 이하 예산(797만 원 출고)으로 AMD 라이젠 7 9800X3D와 지포스 RTX 5080 어로스 마스터 그래픽카드를 조합한 초하이엔드 매트 블랙 PC 조립 빌드 영상입니다. 리안리 O11 VISION-M Digital 케이스와 HydroShift II OLED Curved 수랭 쿨러, UNI FAN TL LCD 팬 등 최신 리안리 튜닝 파츠로 마감했습니다. VISION-M 케이스는 듀얼 챔버 설계와 상단 8.8인치 디스플레이로 완성 후 비례감과 디자인은 최고 수준이지만, 내부 조립 및 선 정리 난이도가 극도로 높아 자가 조립은 권장하지 않는다고 평가했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "RTX5080",
+      "9800X3D",
+      "리안리비전M",
+      "VISION_M",
+      "HydroShift",
+      "하이엔드PC",
+      "어항케이스"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "B850M GAMING X WIFI6E",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "Lian Li",
+        "model": "HydroShift II OLED Curved 360 Fanless",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "SK hynix",
+        "model": "Platinum P41 M.2 NVMe 1TB",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "G.SKILL",
+        "model": "DDR5-6000 CL36 TRIDENT Z5 RGB 블랙 32GB (16Gx2)",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스팬",
+        "brand": "Lian Li",
+        "model": "UNI FAN TL LCD FLEX 120 / TL FLEX 120",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "Lian Li",
+        "model": "O11 VISION-M Digital",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "맥스엘리트",
+        "model": "MAXWELL DUKE 1000W 80PLUS 플래티넘 풀모듈러 ATX 3.1",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "GIGABYTE",
+        "model": "AORUS 지포스 RTX 5080 MASTER D7 16GB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "기타",
+        "brand": "Lian Li",
+        "model": "STRIMER WIRELESS 24핀",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
     "id": "csTSNi1lFZs",
     "title": "그래픽카드 고정 걸쇠 빠졌을 때? 다시 끼우는 방법",
     "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
