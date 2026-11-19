@@ -1,0 +1,48 @@
+{
+  "id": "YY5qTVelBWU",
+  "title": "작년 까지만 해도 1억에 살 수 있던걸 이제 2억을 넘게 줘야함 ㅋㅋ #SHORTS #6000BLACKWELL",
+  "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",
+  "channel_name": "웰메이드컴퓨터",
+  "published": "2026-11-18T11:00:31+00:00",
+  "analyzed_at": "2026-11-19T22:30:19+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 4642,
+  "analysis": {
+    "summary": "웰메이드컴퓨터에서 NVIDIA RTX PRO 6000 8WAY를 장착한 AI 연산용 서버 시스템을 소개하는 영상입니다. 작년 1억 원 수준이던 구성이 현재 2억 원 이상으로 가격이 급등한 현황을 언급했습니다. 해당 시스템은 수랭 커스텀 작업 전 테스트 단계이며, 완성도 높은 엔터프라이즈 서버 제작 과정을 보여줍니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "key_points": [
+      "NVIDIA RTX PRO 6000 8WAY GPU 서버 빌드 테스트 현장 공개",
+      "AI 인프라 수요 급증으로 인해 작년 1억 원대에서 2억 원 이상으로 가격 급등 언급",
+      "고발열 해소를 위해 향후 수랭 커스텀 작업이 적용될 예정"
+    ],
+    "products": [
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX PRO 6000",
+        "timestamp": "00:00",
+        "t": 0,
+        "sentiment": "중립",
+        "evaluation": "매일 가격이 오르고 있는 고성능 AI 연산용 전문 워크스테이션/서버 GPU로, 8WAY 구성으로 탑재되어 커스텀 수랭 전 테스트가 진행 중입니다.",
+        "price_mentioned": "작년 까지만 해도 1억에 살 수 있던걸 이제 2억을 넘게 줘야함",
+        "value_comment": "AI 열풍으로 인한 가격 급등으로 시스템 전체 단가가 1억 원에서 2억 원 이상으로 대폭 상승했습니다.",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "웰메이드컴퓨터는 초고가 AI 서버 및 8WAY 워크스테이션 수랭 커스텀 제작 역량을 갖춘 전문 거래처로, 고성능 워크스테이션용 메인보드(ASUS/ASRock Rack) 및 대용량 Kingston 엔터프라이즈 메모리/SSD 연계 공급 제안이 적합합니다.",
+      "8WAY 고부하 GPU 환경에 필수적인 안정적인 전력 공급 및 발열 제어를 위해 대원씨티에스 유통의 고용량 파워서플라이 및 쿨링 관련 솔루션 제안을 검토할 수 있습니다.",
+      "억대 단위의 엔터프라이즈/연구소 납품 프로젝트가 주력이므로, 대규모 견적 대응 시 안정적인 재고 확보와 특별 여신 및 B2B 프로젝트 단가 지원을 통한 파트너십 강화가 유효합니다."
+    ],
+    "trend_tags": [
+      "AI서버",
+      "GPU서버",
+      "RTX PRO 6000",
+      "8WAY",
+      "워크스테이션"
+    ]
+  }
+}

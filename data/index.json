@@ -1,5 +1,35 @@
 [
   {
+    "id": "YY5qTVelBWU",
+    "title": "작년 까지만 해도 1억에 살 수 있던걸 이제 2억을 넘게 줘야함 ㅋㅋ #SHORTS #6000BLACKWELL",
+    "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",
+    "channel_name": "웰메이드컴퓨터",
+    "published": "2026-11-18T11:00:31+00:00",
+    "analyzed_at": "2026-11-19T22:30:19+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "웰메이드컴퓨터에서 NVIDIA RTX PRO 6000 8WAY를 장착한 AI 연산용 서버 시스템을 소개하는 영상입니다. 작년 1억 원 수준이던 구성이 현재 2억 원 이상으로 가격이 급등한 현황을 언급했습니다. 해당 시스템은 수랭 커스텀 작업 전 테스트 단계이며, 완성도 높은 엔터프라이즈 서버 제작 과정을 보여줍니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "tags": [
+      "AI서버",
+      "GPU서버",
+      "RTX PRO 6000",
+      "8WAY",
+      "워크스테이션"
+    ],
+    "products": [
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX PRO 6000",
+        "sentiment": "중립",
+        "price_mentioned": "작년 까지만 해도 1억에 살 수 있던걸 이제 2억을 넘게 줘야함",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
     "id": "M_DDx1vBvdw",
     "title": "리안리 신상! Lian Li VISION-M 매트한 블랙감성 끝판왕 컴퓨터 깔끔하게 조립 해드렸습니다. RTX5080 MASTER 9800X3D",
     "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
