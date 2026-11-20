@@ -1,5 +1,198 @@
 [
   {
+    "id": "72uUZiHwYhY",
+    "title": "컴퓨터 견적 추천 TOP 9! 가격대별 게임성능 비교 예산을 성능에 몰빵한 깡통 PC",
+    "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
+    "channel_name": "티와이 시스템",
+    "published": "2026-11-20T08:30:06+00:00",
+    "analyzed_at": "2026-11-20T22:25:59+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "티와이 시스템(추남) 채널에서 감성 비용을 최소화하고 성능에 집중 투자한 9가지 가성비/고성능 조립 PC 견적을 소개하는 영상입니다. 100만 원대 엔트리 구성부터 600만 원대 플래그십 구성까지 다양하게 라인업을 제시하며, 각 견적별로 주요 게임(발로란트, 오버워치, 배틀그라운드 등)의 실측 프레임 벤치마크를 비교 제공합니다. 메인보드로는 ASUS TUF Gaming B650M-E, ASUS PRIME A520M-K, ASUS PRIME B760M-A 등을 적극 활용하고 있으며, AMD Ryzen 7500X3D, 7800X3D, 9800X3D 및 인텔 250K/270K Plus 등 다양한 CPU와 그래픽카드 구성을 선보입니다. 견적 외에도 추천 게이밍 모니터 및 키보드/마우스 주변기기 가이드를 함께 제공하고 있습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "깡통견적",
+      "성능몰빵",
+      "9800X3D",
+      "RTX5080",
+      "RX9070GRE",
+      "ASUS_TUF",
+      "가성비PC",
+      "티와이시스템"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7500X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "AMD",
+        "model": "라데온 RX 9070 GRE",
+        "sentiment": "긍정",
+        "price_mentioned": "100만 원 이하",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "TUF GAMING B650M-E WIFI",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 5 5600",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME A520M-K",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "지포스 RTX 3050",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "지포스 RTX 5050",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "코어 i5-14400F",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "지포스 RTX 5060",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 5 7500F",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "지포스 RTX 5060 Ti",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "코어 Ultra 250K Plus",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "B860M-AYW GAMING WIFI",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "코어 Ultra 270K Plus",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "TUF GAMING B860M-PLUS WIFI",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "지포스 RTX 5070",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7 7800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "지포스 RTX 5070 Ti",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7 9800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "TUF GAMING B850M-PLUS WIFI",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "지포스 RTX 5080",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
     "id": "ScsKTe4U_n0",
     "title": "엔비디아 황회장 고양이로 퉁칠 거야?",
     "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
