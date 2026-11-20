@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-20T10:14:27+09:00",
+  "last_run": "2026-11-20T16:25:36+09:00",
   "channels": [
     {
       "name": "영재컴퓨터",
@@ -29,7 +29,7 @@
       "title": "신성조",
       "via": "RSS",
       "latest": "2026-11-19T13:53:16+00:00",
-      "new": 1
+      "new": 0
     },
     {
       "name": "고고싱컴퓨터",
@@ -78,11 +78,11 @@
       "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
       "title": "까망이컴퓨터",
       "via": "RSS",
-      "latest": "2026-11-18T07:21:43+00:00",
-      "new": 0
+      "latest": "2026-11-20T03:41:55+00:00",
+      "new": 1
     }
   ],
-  "analyzed": 3,
+  "analyzed": 1,
   "errors": [],
   "queue": 0
 }

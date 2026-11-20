@@ -1,5 +1,35 @@
 [
   {
+    "id": "ScsKTe4U_n0",
+    "title": "엔비디아 황회장 고양이로 퉁칠 거야?",
+    "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+    "channel_name": "까망이컴퓨터",
+    "published": "2026-11-20T03:41:55+00:00",
+    "analyzed_at": "2026-11-20T16:29:30+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "엔비디아가 AI 시장에 메모리와 칩을 우선 공급하면서 소비자용 그래픽카드 칩셋 및 메모리 세트 공급이 원활하지 않아 수입이 막히고 있다는 점을 비판하고 있습니다. 이로 인해 국내 그래픽카드 가격이 상승할 수밖에 없는 상황을 설명하며 우려를 표합니다. 엔비디아 젠슨 황 회장이 게이머를 위한다고 하면서 정작 물량 공급은 줄이고 AI 로봇 고양이 시연 등 엉뚱한 홍보만 하고 있다고 불만을 토로합니다.",
+    "video_type": "뉴스/루머",
+    "sponsored": false,
+    "tags": [
+      "엔비디아",
+      "그래픽카드 품귀",
+      "GPU 가격 상승",
+      "AI 메모리",
+      "젠슨황"
+    ],
+    "products": [
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce 그래픽카드 (칩셋/메모리 공급)",
+        "sentiment": "부정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
     "id": "STPjLzNj04k",
     "title": "수험생 PC 이렇게 사주세요!! (수험생, 수험생의 부모님 모두 수고하셨습니다)",
     "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
