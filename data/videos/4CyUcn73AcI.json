@@ -1,0 +1,111 @@
+{
+  "id": "4CyUcn73AcI",
+  "title": "RTX PRO 6000 x 4 VRAM만 384GB ! 이런 서버가 AI 작업에 적합 합니다.",
+  "channel_id": "UCaOwfLJxMjZ8RCBwg8_c90A",
+  "channel_name": "영재컴퓨터",
+  "published": "2026-11-19T08:09:39+00:00",
+  "analyzed_at": "2026-11-20T10:15:31+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 17607,
+  "analysis": {
+    "summary": "영재컴퓨터에서 AI 작업용 고성능 4U 랙 서버 워크스테이션 조립 과정을 소개하는 영상입니다. AMD EPYC 9355 듀얼 CPU와 총 768GB(64GB x 12)의 DDR5 ECC/REG 메모리, U.2 NVMe SSD 4개를 장착했습니다. 여기에 NVIDIA RTX PRO 6000 Blackwell Server Edition 4장을 장착하여 총 384GB의 대용량 VRAM 환경을 구축했습니다. ASUS ESC8000A-E13 섀시와 3200W 티타늄 3+1 리던던트 파워 구성을 통해 안정적인 엔터프라이즈 AI 연산 환경을 완성했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "ASUS ESC8000A-E13 4U 랙마운트 서버 베이스의 엔터프라이즈 AI 시스템",
+      "AMD EPYC 9355 듀얼 프로세서 및 DDR5-5600 ECC/REG 768GB 메모리 구성",
+      "NVIDIA RTX PRO 6000 Blackwell Server Edition 4장 구성으로 384GB VRAM 확보",
+      "3200W 80 PLUS Titanium 3+1 이중화 파워 및 U.2 NVMe SSD 4개 장착"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "EPYC 9355 x 2",
+        "timestamp": "00:27",
+        "t": 27,
+        "sentiment": "긍정",
+        "evaluation": "듀얼 구성으로 장착되어 강력한 멀티코어 연산 능력을 제공하는 서버용 프로세서입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "ASUS",
+        "model": "ESC8000A-E13 4U",
+        "timestamp": "00:17",
+        "t": 17,
+        "sentiment": "긍정",
+        "evaluation": "GPU 4장 이상 확장 및 듀얼 EPYC 프로세서, 강력한 쿨링과 이중화 전원을 지원하는 4U 랙 서버 본체입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX PRO 6000 Blackwell Server Edition x 4",
+        "timestamp": "01:25",
+        "t": 85,
+        "sentiment": "긍정",
+        "evaluation": "서버 패시브 쿨링 규격의 워크스테이션 GPU로, 4장 장착을 통해 384GB의 대용량 VRAM을 확보하여 대규모 AI 작업에 최적화되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "삼성전자",
+        "model": "DDR5-5600 ECC/REG 64GB x 12",
+        "timestamp": "00:48",
+        "t": 48,
+        "sentiment": "긍정",
+        "evaluation": "12개 풀뱅크 구성으로 총 768GB 용량을 구성하여 안정적인 서버 워크로드를 지원합니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "삼성전자",
+        "model": "PM9A3 U.2 NVMe 7.68TB x 4",
+        "timestamp": "01:11",
+        "t": 71,
+        "sentiment": "긍정",
+        "evaluation": "핫스왑 베이에 장착되는 엔터프라이즈급 U.2 PCIe 4.0 고성능/고용량 NVMe SSD입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "네트워크",
+        "brand": "Intel",
+        "model": "X710-T2L 10GbE RJ45 2포트",
+        "timestamp": "01:18",
+        "t": 78,
+        "sentiment": "중립",
+        "evaluation": "서버 전용 슬롯에 장착된 10기가비트 이더넷 2포트 및 관리 포트 구성 네트워크 카드입니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "영재컴퓨터는 엔터프라이즈/연구소 대상 멀티 GPU 기반 AI 서버 빌드를 활발히 진행 중이므로, 당사 공급 제품인 AMD EPYC 프로세서 라인업 및 ASUS 서버 베어본(ESC 시리즈)의 B2B 프로젝트 단가 및 납기 우대 프로모션을 적극 제안할 필요가 있습니다.",
+      "고성능 랙마운트 서버 구성 시 대원씨티에스가 취급하는 엔터프라이즈 메모리 및 엔비디아 서버 공급망 관련 연계 솔루션 패키지 제안이 주효할 수 있습니다.",
+      "AI 인프라 구축 수요가 지속적으로 증가하고 있으므로, 차세대 고밀도 GPU 서버 섀시 및 고효율 파워 솔루션에 대한 사전 세미나/정보 공유가 관계 강화에 도움이 됩니다."
+    ],
+    "trend_tags": [
+      "AI서버",
+      "랙마운트",
+      "ASUS서버",
+      "AMDEPYC",
+      "Blackwell",
+      "RTXPRO6000",
+      "머신러닝"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "odN_yQK4t0Y",
+  "title": "이번달 컴퓨터 견적 포인트!!",
+  "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+  "channel_name": "고고싱컴퓨터",
+  "published": "2026-11-19T10:10:44+00:00",
+  "analyzed_at": "2026-11-20T10:17:28+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 11743,
+  "analysis": {
+    "summary": "월간 조립 PC 견적 시 CPU, 그래픽카드, 메모리 선택 포인트를 정리한 영상입니다. CPU의 경우 게임 올인이면 AMD X3D 시리즈가 유리하나 작업 병행 시 인텔과의 성능 차이를 비교해 선택할 것을 권장합니다. 메모리는 고사양 작업 및 게이밍 시 32GB 이상을 추천하며, X3D CPU 환경에서는 메모리 클럭 영향이 미미하므로 무리한 고클럭 메모리보다는 기본 용량 확보를 강조합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "CPU는 용도에 따라 게임 특화(AMD X3D)와 작업 병행(인텔 코어 울트라 등)을 구분해 선택",
+      "그래픽카드는 모니터 해상도(FHD, QHD, 4K) 및 플레이할 게임 프레임 기준으로 합리적 선택 필요",
+      "메모리는 고사양 게임/작업 시 32GB 이상 권장하며, X3D CPU 사용 시 고클럭 메모리 튜닝 효과는 미미함"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "timestamp": "00:18",
+        "t": 18,
+        "sentiment": "긍정",
+        "evaluation": "게임 특화 CPU로 게이밍 성능은 매우 뛰어나나, 다중 연산 작업에서는 인텔 상위 라인업 대비 격차가 날 수 있어 용도 확인이 필요합니다.",
+        "price_mentioned": "402,910원",
+        "value_comment": "게이밍 성능 대비 가격 효율이 높아 게이머들에게 강력 추천됨",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core Ultra 7 270K+",
+        "timestamp": "00:18",
+        "t": 18,
+        "sentiment": "긍정",
+        "evaluation": "게임 성능은 7800X3D에 근접하면서 연산 작업 성능에서는 2배 이상 앞서 다목적/작업용 PC에 적합하다고 평가했습니다.",
+        "price_mentioned": "479,110원",
+        "value_comment": "작업과 게임을 병행하는 사용자에게 적합한 가격대 성능비",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "TeamGroup",
+        "model": "ELITE DDR5",
+        "timestamp": "00:58",
+        "t": 58,
+        "sentiment": "중립",
+        "evaluation": "고사양 게임이나 작업용 PC 구성 시 기본 32GB 이상 선택을 권장하며, X3D CPU 구성 시 메모리 클럭 투자보다는 용량 우선을 조언했습니다.",
+        "price_mentioned": "",
+        "value_comment": "무리해서 비싼 고클럭 메모리를 사기보다 기본 규격 용량 확보 권장",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "고고싱컴퓨터가 100~200만원대 견적을 주력으로 다루고 게이밍과 작업 용도를 명확히 구분해 추천하므로, 게임용 견적의 핵심인 라이젠 7800X3D 및 메인보드(B650/A620) 패키지 번들 프로모션을 제안하기 적합합니다.",
+      "X3D CPU 사용 시 비싼 고클럭 튜닝램보다 표준 규격 DDR5 32GB 구성을 추천하고 있으므로, 가성비 표준 DDR5 메모리와 메인보드 묶음 견적 공급 단가를 어필할 수 있습니다.",
+      "그래픽카드 가격 상승으로 가성비가 중요해진 시장 상황을 지적하고 있어, 메인스트림~퍼포먼스급 GPU 공급 가격 경쟁력과 라데온 및 지포스 행사 제품 정보 공유가 유효합니다."
+    ],
+    "trend_tags": [
+      "월간견적",
+      "7800X3D",
+      "DDR5_32GB",
+      "게이밍PC",
+      "컴퓨터견적팁"
+    ]
+  }
+}

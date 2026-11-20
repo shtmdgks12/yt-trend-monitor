@@ -1,5 +1,211 @@
 [
   {
+    "id": "STPjLzNj04k",
+    "title": "수험생 PC 이렇게 사주세요!! (수험생, 수험생의 부모님 모두 수고하셨습니다)",
+    "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
+    "channel_name": "신성조의 pc공방",
+    "published": "2026-11-19T13:53:16+00:00",
+    "analyzed_at": "2026-11-20T10:20:33+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "수능을 마친 수험생 및 예비 대학생을 위해 약 한 달간 아르바이트로 모을 수 있는 예산(200만 원대 중후반) 내에서 FHD 게임을 완벽 구동하고 향후 QHD 및 차세대 부품 업그레이드 여력까지 확보한 조립 PC 견적을 추천합니다. CPU는 현시점 가성비와 게이밍 성능이 가장 뛰어난 AMD 라이젠 7 7800X3D를, 메인보드는 차세대 규격(PCIe 5.0) 및 2029년 이후까지 소켓 호환이 유지되는 ASUS TUF Gaming B850M-PLUS II를 핵심으로 선정했습니다. 그래픽카드는 장기 사용을 고려해 5년 AS(3+2년)가 가능한 RTX 5060 Ti를 탑재하였으며, 차후 그래픽카드 업그레이드 시 이중 지출이 발생하지 않도록 850W 골드 파워와 쿨링 성능이 뛰어난 케이스로 구성했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "수험생PC",
+      "7800X3D",
+      "B850M",
+      "RTX5060Ti",
+      "차후업그레이드",
+      "가성비게이밍",
+      "대원씨티에스"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "TUF Gaming B850M-PLUS II",
+        "sentiment": "긍정",
+        "price_mentioned": "239,370원",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7 7800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "378,890원",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "darkFlash",
+        "model": "Ellsworth D21 ARGB",
+        "sentiment": "긍정",
+        "price_mentioned": "49,500원",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "ESSENCORE",
+        "model": "KLEVV DDR5-5600 CL46 AMD Edition (16GB)",
+        "sentiment": "긍정",
+        "price_mentioned": "160,290원 (개당 약 8만 원)",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "ZOTAC",
+        "model": "GAMING 지포스 RTX 5060 Ti Twin Edge OC D7 8GB",
+        "sentiment": "긍정",
+        "price_mentioned": "804,110원",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "PM9A1 M.2 NVMe (2TB)",
+        "sentiment": "긍정",
+        "price_mentioned": "375,590원",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "iGUJU",
+        "model": "HATCH S600 V2",
+        "sentiment": "긍정",
+        "price_mentioned": "70,490원",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "Micronics",
+        "model": "Classic II 850W 80PLUS GOLD 230V EU 풀모듈러 ATX 3.1",
+        "sentiment": "긍정",
+        "price_mentioned": "145,980원",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "odN_yQK4t0Y",
+    "title": "이번달 컴퓨터 견적 포인트!!",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-19T10:10:44+00:00",
+    "analyzed_at": "2026-11-20T10:17:28+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "월간 조립 PC 견적 시 CPU, 그래픽카드, 메모리 선택 포인트를 정리한 영상입니다. CPU의 경우 게임 올인이면 AMD X3D 시리즈가 유리하나 작업 병행 시 인텔과의 성능 차이를 비교해 선택할 것을 권장합니다. 메모리는 고사양 작업 및 게이밍 시 32GB 이상을 추천하며, X3D CPU 환경에서는 메모리 클럭 영향이 미미하므로 무리한 고클럭 메모리보다는 기본 용량 확보를 강조합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "월간견적",
+      "7800X3D",
+      "DDR5_32GB",
+      "게이밍PC",
+      "컴퓨터견적팁"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "402,910원",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core Ultra 7 270K+",
+        "sentiment": "긍정",
+        "price_mentioned": "479,110원",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "TeamGroup",
+        "model": "ELITE DDR5",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "4CyUcn73AcI",
+    "title": "RTX PRO 6000 x 4 VRAM만 384GB ! 이런 서버가 AI 작업에 적합 합니다.",
+    "channel_id": "UCaOwfLJxMjZ8RCBwg8_c90A",
+    "channel_name": "영재컴퓨터",
+    "published": "2026-11-19T08:09:39+00:00",
+    "analyzed_at": "2026-11-20T10:15:31+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "영재컴퓨터에서 AI 작업용 고성능 4U 랙 서버 워크스테이션 조립 과정을 소개하는 영상입니다. AMD EPYC 9355 듀얼 CPU와 총 768GB(64GB x 12)의 DDR5 ECC/REG 메모리, U.2 NVMe SSD 4개를 장착했습니다. 여기에 NVIDIA RTX PRO 6000 Blackwell Server Edition 4장을 장착하여 총 384GB의 대용량 VRAM 환경을 구축했습니다. ASUS ESC8000A-E13 섀시와 3200W 티타늄 3+1 리던던트 파워 구성을 통해 안정적인 엔터프라이즈 AI 연산 환경을 완성했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "AI서버",
+      "랙마운트",
+      "ASUS서버",
+      "AMDEPYC",
+      "Blackwell",
+      "RTXPRO6000",
+      "머신러닝"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "EPYC 9355 x 2",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "완제품PC",
+        "brand": "ASUS",
+        "model": "ESC8000A-E13 4U",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX PRO 6000 Blackwell Server Edition x 4",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "삼성전자",
+        "model": "DDR5-5600 ECC/REG 64GB x 12",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "삼성전자",
+        "model": "PM9A3 U.2 NVMe 7.68TB x 4",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "네트워크",
+        "brand": "Intel",
+        "model": "X710-T2L 10GbE RJ45 2포트",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
     "id": "YY5qTVelBWU",
     "title": "작년 까지만 해도 1억에 살 수 있던걸 이제 2억을 넘게 줘야함 ㅋㅋ #SHORTS #6000BLACKWELL",
     "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",

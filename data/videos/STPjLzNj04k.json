@@ -1,0 +1,137 @@
+{
+  "id": "STPjLzNj04k",
+  "title": "수험생 PC 이렇게 사주세요!! (수험생, 수험생의 부모님 모두 수고하셨습니다)",
+  "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
+  "channel_name": "신성조의 pc공방",
+  "published": "2026-11-19T13:53:16+00:00",
+  "analyzed_at": "2026-11-20T10:20:33+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 94717,
+  "analysis": {
+    "summary": "수능을 마친 수험생 및 예비 대학생을 위해 약 한 달간 아르바이트로 모을 수 있는 예산(200만 원대 중후반) 내에서 FHD 게임을 완벽 구동하고 향후 QHD 및 차세대 부품 업그레이드 여력까지 확보한 조립 PC 견적을 추천합니다. CPU는 현시점 가성비와 게이밍 성능이 가장 뛰어난 AMD 라이젠 7 7800X3D를, 메인보드는 차세대 규격(PCIe 5.0) 및 2029년 이후까지 소켓 호환이 유지되는 ASUS TUF Gaming B850M-PLUS II를 핵심으로 선정했습니다. 그래픽카드는 장기 사용을 고려해 5년 AS(3+2년)가 가능한 RTX 5060 Ti를 탑재하였으며, 차후 그래픽카드 업그레이드 시 이중 지출이 발생하지 않도록 850W 골드 파워와 쿨링 성능이 뛰어난 케이스로 구성했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "FHD 기준 최상급 게이밍 환경 구축 및 옵션 타협 시 QHD 진입 가능성 확보",
+      "4~5년 이상 장기 사용 및 차후 CPU/GPU 교체 시 메인보드·파워 중복 투자를 방지하는 업그레이드 확장성 중심 구성",
+      "메인보드는 2029년+ 호환 보장 및 PCIe 5.0 지원의 ASUS TUF B850M-PLUS II 선정 (대원/STCOM/인텍 중 저렴한 유통사 제품 권장)",
+      "CPU는 9800X3D 대비 가격 부담이 적고 5060~5070급 성능을 완벽히 뽑아주는 7800X3D 채택",
+      "향후 업그레이드를 감안해 850W 골드 등급 파워와 강판/풍량이 우수한 케이스 사전 투자"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "TUF Gaming B850M-PLUS II",
+        "timestamp": "04:30",
+        "t": 270,
+        "sentiment": "긍정",
+        "evaluation": "PCIe 5.0 정식 지원과 탄탄한 전원부, 풍부한 USB 확장성을 갖춰 차후 고성능 CPU 및 차세대 그래픽카드 업그레이드 시에도 제약 없이 쓸 수 있는 B850 최고의 가성비 메인보드입니다.",
+        "price_mentioned": "239,370원",
+        "value_comment": "B850 보드 중 전원부 품질 및 포트 구성 대비 가격이 가장 합리적임",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "라이젠 7 7800X3D",
+        "timestamp": "06:05",
+        "t": 365,
+        "sentiment": "긍정",
+        "evaluation": "9800X3D 대비 20만 원 이상 저렴하면서도 메인스트림 및 퍼포먼스급 그래픽카드를 병목 없이 완벽히 구동하며, 차후 중고 처분 시 감가방어와 업그레이드 용이성이 뛰어납니다.",
+        "price_mentioned": "378,890원",
+        "value_comment": "약 60만 원에 육박하는 9800X3D 대비 30만 원대 후반으로 게이밍 가성비가 압도적임",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "darkFlash",
+        "model": "Ellsworth D21 ARGB",
+        "timestamp": "07:45",
+        "t": 465,
+        "sentiment": "긍정",
+        "evaluation": "저소음 특화 듀얼타워 공랭 쿨러로 소음이 확실하게 적고 배송 시 휨 현상이 적어 안정적이며 디자인도 우수합니다.",
+        "price_mentioned": "49,500원",
+        "value_comment": "4만 원대 후반에 훌륭한 정숙성과 충분한 쿨링 성능을 제공함",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "ESSENCORE",
+        "model": "KLEVV DDR5-5600 CL46 AMD Edition (16GB)",
+        "timestamp": "08:26",
+        "t": 506,
+        "sentiment": "긍정",
+        "evaluation": "X3D CPU는 램 클럭 영향을 덜 받기 때문에 무리한 고클럭 튜닝램 대신 불량률이 낮고 가성비가 뛰어난 AMD 에디션 16GB 2장 구성을 추천합니다.",
+        "price_mentioned": "160,290원 (개당 약 8만 원)",
+        "value_comment": "안정적인 브랜드 중 가성비가 가장 무난하고 불량 걱정이 적음",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "ZOTAC",
+        "model": "GAMING 지포스 RTX 5060 Ti Twin Edge OC D7 8GB",
+        "timestamp": "09:44",
+        "t": 584,
+        "sentiment": "긍정",
+        "evaluation": "FHD 환경에서 고주사율(120~180+ 프레임) 게이밍을 완벽 지원하며, 3년 무상 AS에 2년 확대보증(RMA)을 더해 총 5년 AS가 가능해 대학 생활 내내 안심하고 쓸 수 있습니다.",
+        "price_mentioned": "804,110원",
+        "value_comment": "타사 3년 보증 제품과 가격 차이가 거의 없으면서 5년 AS 혜택을 챙길 수 있음",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "PM9A1 M.2 NVMe (2TB)",
+        "timestamp": "10:20",
+        "t": 620,
+        "sentiment": "긍정",
+        "evaluation": "980 PRO와 동일 스펙의 OEM 대량 납품 제품으로, 메이저급 성능과 안정성을 유지하면서 가격 거품을 뺀 가성비 2TB SSD입니다.",
+        "price_mentioned": "375,590원",
+        "value_comment": "정품 박스 패키지(990 PRO 등) 대비 대용량을 상대적으로 저렴하게 구성 가능",
+        "is_our_brand": false
+      },
+      {
+        "category": "케이스",
+        "brand": "iGUJU",
+        "model": "HATCH S600 V2",
+        "timestamp": "10:48",
+        "t": 648,
+        "sentiment": "긍정",
+        "evaluation": "평균 0.7T의 두꺼운 강판과 풍량 80CFM에 달하는 강력한 쿨링팬을 갖추어 차후 발열이 큰 고성능 부품으로 업그레이드하기에 적합합니다.",
+        "price_mentioned": "70,490원",
+        "value_comment": "7만 원대 가격에 섀시 강성과 쿨링 풍량이 일반 보급형 케이스보다 압도적임",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "Micronics",
+        "model": "Classic II 850W 80PLUS GOLD 230V EU 풀모듈러 ATX 3.1",
+        "timestamp": "11:31",
+        "t": 691,
+        "sentiment": "긍정",
+        "evaluation": "현재 사양에는 600W로도 충분하지만, 5~6만 원 추가 투자로 850W 골드를 선택하면 전기료 절감, 저소음, 수명 연장 및 차후 고사양 그래픽카드 교체 시 파워 재구매 비용을 아낄 수 있습니다.",
+        "price_mentioned": "145,980원",
+        "value_comment": "초기 5~6만 원 투자로 수년 뒤 파워 교체에 따른 이중 지출 방지",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "ASUS 메인보드 유통사(대원씨티에스) 직접 언급: 영상 05:01경 유튜버가 'ASUS 메인보드는 대원, STCOM, 인텍앤컴퍼니 중 모델명만 같다면 가장 저렴한 수입사 제품을 사면 된다'고 명시했습니다. 당사 공급 ASUS TUF Gaming B850M-PLUS II의 가격 경쟁력을 다나와 최저가 기준으로 유지해주면 채널 시청자 구매 수요를 대원 유통 제품으로 대거 흡수할 수 있습니다.",
+      "AMD 7800X3D + ASUS B850 메인보드 패키지 영업 기회: 9800X3D의 고가 부담으로 인해 현실적인 가성비 게이밍 CPU로 7800X3D가 집중 추천되고 있습니다. 당사 주력 취급 라인인 AMD CPU와 ASUS TUF B850 보드의 묶음 공급 프로모션을 해당 채널 및 제휴 몰에 제안하기 매우 적절한 시점입니다.",
+      "저장장치(SSD/메모리) 대체재 제안: 유튜버가 PM9A1과 KLEVV를 가성비로 선택했으나, 당사 취급 브랜드인 SANDISK/킹스톤 SSD 및 마이크론/킹스톤 DDR5 메모리 중 비슷한 가격대의 대안 제품을 견적 검토용으로 제안해볼 여지가 있습니다.",
+      "신뢰도 높은 견적 채널 특성 활용: 신성조 채널은 단순 판매량보다 시청자의 조립 견적 신뢰도와 바이럴 파급력이 높으므로, 수능 시즌 및 신학기 타깃 PC 기획전 시 대원 유통 정품 부품 협찬 및 프로모션을 진행하면 브랜드 인지도 제고에 효과적입니다."
+    ],
+    "trend_tags": [
+      "수험생PC",
+      "7800X3D",
+      "B850M",
+      "RTX5060Ti",
+      "차후업그레이드",
+      "가성비게이밍",
+      "대원씨티에스"
+    ]
+  }
+}
