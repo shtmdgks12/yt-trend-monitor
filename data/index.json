@@ -1,5 +1,130 @@
 [
   {
+    "id": "3GeQa6ZAx90",
+    "title": "내꺼가 불량 이라고?",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-21T09:25:54+00:00",
+    "analyzed_at": "2026-11-22T04:07:23+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "라이브 방송 중 시청자가 9600X가 9700X의 불량품인지 질문한 것에 대해 AMD의 반도체 생산 전략(커팅칩/비닝)을 설명하는 영상입니다. 상위 기준을 만족하지 못하거나 클럭 및 코어 수율이 떨어지는 다이를 하위 라인업(예: 5700X, 5600X, 5500 등)으로 재편성해 출시하는 구조를 유쾌하게 풀어냅니다. 반도체 제조 공정상 자연스러운 수율 관리(Binning) 과정을 시청자 눈높이에 맞춰 설명하고 있습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "tags": [
+      "AMD",
+      "라이젠",
+      "비닝",
+      "커팅칩",
+      "반도체수율",
+      "고고싱컴퓨터"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 9600X",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9700X",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 5700X",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 5800X",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5600X",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      }
+    ]
+  },
+  {
+    "id": "oQ3rSM0TQJY",
+    "title": "블프, 광군제, 연말할인까지 존버 해볼까요? // 고고싱 라이브 QNA",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-21T09:16:09+00:00",
+    "analyzed_at": "2026-11-22T04:00:55+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "라이브 Q&A 클립으로 수랭쿨러 라디에이터를 상단 배기로 장착하는 이유와 라디에이터 크기별 쿨링 효율에 대해 설명했습니다. AM4 메인보드 고장 대비 선구매 고민에는 곧 단종되고 잔여 수명이 짧으므로 차라리 예산을 모아 AM5 플랫폼으로 넘어가는 것을 권장했습니다. AMD의 CPU 비닝(수율 컷칩) 생산 전략 및 라인업 파생 과정을 설명했으며, 연말 블랙프라이데이/광군제 할인에 대해서는 국내 유통 특성상 사전 인상 후 할인 등의 착시가 많아 큰 폭의 실질 할인을 기대하기 어렵다고 평가했습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "tags": [
+      "수랭쿨러상단배기",
+      "AM4단종",
+      "AM5업그레이드",
+      "블랙프라이데이전망",
+      "AMD비닝전략"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "AMD",
+        "model": "AM4 메인보드",
+        "sentiment": "부정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "AMD",
+        "model": "AM5 플랫폼",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 9600X",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9700X",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "ARCTIC",
+        "model": "Liquid Freezer III Pro 360",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
     "id": "yKbFm7GbdxM",
     "title": "말만 번지르르한 젠슨황의 언행불일치",
     "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",

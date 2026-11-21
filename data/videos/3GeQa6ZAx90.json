@@ -1,0 +1,96 @@
+{
+  "id": "3GeQa6ZAx90",
+  "title": "내꺼가 불량 이라고?",
+  "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+  "channel_name": "고고싱컴퓨터",
+  "published": "2026-11-21T09:25:54+00:00",
+  "analyzed_at": "2026-11-22T04:07:23+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 6551,
+  "analysis": {
+    "summary": "라이브 방송 중 시청자가 9600X가 9700X의 불량품인지 질문한 것에 대해 AMD의 반도체 생산 전략(커팅칩/비닝)을 설명하는 영상입니다. 상위 기준을 만족하지 못하거나 클럭 및 코어 수율이 떨어지는 다이를 하위 라인업(예: 5700X, 5600X, 5500 등)으로 재편성해 출시하는 구조를 유쾌하게 풀어냅니다. 반도체 제조 공정상 자연스러운 수율 관리(Binning) 과정을 시청자 눈높이에 맞춰 설명하고 있습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "key_points": [
+      "9600X가 9700X의 불량품이냐는 질문에 대해 반도체 수율 및 비닝(커팅칩) 개념 설명",
+      "특정 기준에 미달하는 코어나 클럭이 낮은 CPU를 하위 라인업으로 네이밍을 변경해 출시하는 전략 언급",
+      "5800X 기준 미달 시 5700X, 코어 비활성화 시 5600X 등으로 파생되는 과거 사례를 예시로 들어 설명"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 9600X",
+        "timestamp": "00:00",
+        "t": 0,
+        "sentiment": "중립",
+        "evaluation": "9700X의 수율 미달 다이나 커팅칩 형태로 파생되는 라인업 구조를 설명하며 언급됨.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9700X",
+        "timestamp": "00:00",
+        "t": 0,
+        "sentiment": "중립",
+        "evaluation": "상위 라인업 기준으로 언급되며 9600X와의 생산 관계를 설명하는 기준점으로 제시됨.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 5700X",
+        "timestamp": "00:29",
+        "t": 29,
+        "sentiment": "중립",
+        "evaluation": "5800X 생산 중 클럭이 기준치만큼 나오지 않은 다이를 활용해 만든 하위 라인업 예시로 설명됨.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 5800X",
+        "timestamp": "00:30",
+        "t": 30,
+        "sentiment": "중립",
+        "evaluation": "5700X 및 5600X의 기준이 되는 상위 모델 예시로 언급됨.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5600X",
+        "timestamp": "00:29",
+        "t": 29,
+        "sentiment": "중립",
+        "evaluation": "5800X 생산 중 코어가 일부 죽은 다이를 커팅하여 출시한 라인업 예시로 설명됨.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "소비자들 사이에서 '하위 모델=불량품'이라는 오해가 있을 수 있으므로, 안정성과 검증을 거친 정상 규격 제품임을 강조하는 마케팅 소구점 및 설명 자료를 거래처에 지원할 필요가 있습니다.",
+      "100~200만원대 메인스트림 견적에서 9600X와 같은 가성비 6코어 라인업의 포지셔닝과 실성능 우수성을 부각해 견적 채택을 유도할 수 있습니다."
+    ],
+    "trend_tags": [
+      "AMD",
+      "라이젠",
+      "비닝",
+      "커팅칩",
+      "반도체수율",
+      "고고싱컴퓨터"
+    ]
+  }
+}

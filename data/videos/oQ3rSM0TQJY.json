@@ -1,0 +1,96 @@
+{
+  "id": "oQ3rSM0TQJY",
+  "title": "블프, 광군제, 연말할인까지 존버 해볼까요? // 고고싱 라이브 QNA",
+  "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+  "channel_name": "고고싱컴퓨터",
+  "published": "2026-11-21T09:16:09+00:00",
+  "analyzed_at": "2026-11-22T04:00:55+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 37160,
+  "analysis": {
+    "summary": "라이브 Q&A 클립으로 수랭쿨러 라디에이터를 상단 배기로 장착하는 이유와 라디에이터 크기별 쿨링 효율에 대해 설명했습니다. AM4 메인보드 고장 대비 선구매 고민에는 곧 단종되고 잔여 수명이 짧으므로 차라리 예산을 모아 AM5 플랫폼으로 넘어가는 것을 권장했습니다. AMD의 CPU 비닝(수율 컷칩) 생산 전략 및 라인업 파생 과정을 설명했으며, 연말 블랙프라이데이/광군제 할인에 대해서는 국내 유통 특성상 사전 인상 후 할인 등의 착시가 많아 큰 폭의 실질 할인을 기대하기 어렵다고 평가했습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "key_points": [
+      "수랭쿨러는 전통적인 공기 흐름 및 내부 발열/그래픽카드 간섭 문제로 상단 배기 장착이 표준화됨",
+      "AM4 보드를 미리 교체용으로 사두기보다는 예산을 모아 AM5 플랫폼으로 업그레이드하는 것이 합리적",
+      "라디에이터 크기가 커질수록 쿨링에 유리하지만 케이스 호환성 제약과 비용 문제가 따름",
+      "국내 블랙프라이데이는 가격 사전 인상 후 할인 형태가 잦아 이전 같은 파격 특가를 기대하기 어려움"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "AMD",
+        "model": "AM4 메인보드",
+        "timestamp": "02:33",
+        "t": 153,
+        "sentiment": "부정",
+        "evaluation": "단종 전 미리 사두기에는 사용 가능한 CPU 수명이 얼마 남지 않아 굳이 지금 살 필요가 없다고 평가했습니다.",
+        "price_mentioned": "",
+        "value_comment": "지금 AM4 보드를 사기보다는 돈을 모아 AM5로 업그레이드하는 것을 추천",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "AMD",
+        "model": "AM5 플랫폼",
+        "timestamp": "02:42",
+        "t": 162,
+        "sentiment": "긍정",
+        "evaluation": "현재 시점에서는 AM4를 유지하기 위해 보드를 새로 사기보다 예산을 모아 AM5 플랫폼으로 넘어가는 것이 맞다고 보았습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 9600X",
+        "timestamp": "04:08",
+        "t": 248,
+        "sentiment": "중립",
+        "evaluation": "9700X 기준을 만족하지 못한 다이나 클럭 미달 칩을 활용한 하위 라인업(비닝) 형태라는 유저 질문에 대해 AMD의 일반적인 생산 전략이라고 설명했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9700X",
+        "timestamp": "04:08",
+        "t": 248,
+        "sentiment": "중립",
+        "evaluation": "상위 규격을 만족하는 기준 CPU로 비닝 설명 과정에서 언급되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "ARCTIC",
+        "model": "Liquid Freezer III Pro 360",
+        "timestamp": "00:10",
+        "t": 10,
+        "sentiment": "중립",
+        "evaluation": "수랭쿨러의 기본 구조와 순환 원리를 설명하는 자료 화면으로 등장했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "고고싱컴퓨터는 100~200만원대 메인스트림 견적이 주력인 매장으로, 기존 AM4 사용자들에게 업그레이드 수요 발생 시 AM5(라이젠 5/7 및 B650/A620/B850 보드) 전환을 적극 유도하고 있으므로 관련 AM5 가성비 패키지 제안이 효과적입니다.",
+      "연말 블프 할인에 대한 회의적 시각이 있어 '무작정 할인'보다는 실질적으로 가격 안정성이 높고 조립 호환성(케이스-수랭쿨러 간섭 최소화)이 좋은 부품 구성(ASRock/ASUS 보드 및 대원 유통 쿨러/케이스)을 강조한 프로모션 제안이 유리합니다."
+    ],
+    "trend_tags": [
+      "수랭쿨러상단배기",
+      "AM4단종",
+      "AM5업그레이드",
+      "블랙프라이데이전망",
+      "AMD비닝전략"
+    ]
+  }
+}
