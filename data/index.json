@@ -1,5 +1,115 @@
 [
   {
+    "id": "yKbFm7GbdxM",
+    "title": "말만 번지르르한 젠슨황의 언행불일치",
+    "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+    "channel_name": "까망이컴퓨터",
+    "published": "2026-11-20T22:00:07+00:00",
+    "analyzed_at": "2026-11-21T10:21:33+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "출연자가 엔비디아 젠슨 황 CEO의 게이머 친화적 행보와 실제 그래픽카드 공급·가격 정책 사이의 언행불일치를 비판하는 영상입니다. 과거 스타크래프트, 페이커 사인 등 게이머들을 바탕으로 성장하고 비트코인 채굴(GTX 1060 시절)로 막대한 수익을 거두었음에도 현재는 게이머를 홀대하고 있다고 지적합니다. 그래픽카드 메모리 단가 상승 요인은 인정하지만, 기반을 다져준 일반 게이머들을 등한시하는 태도에 대해 아쉬움을 표합니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "tags": [
+      "엔비디아",
+      "젠슨황",
+      "그래픽카드 가격",
+      "GPU 채굴",
+      "게이머 민심"
+    ],
+    "products": [
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce GTX 1060",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
+    "id": "wHK9VklV3JI",
+    "title": "[까망이컴퓨터] 최고의 어항 케이스.",
+    "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+    "channel_name": "까망이컴퓨터",
+    "published": "2026-11-20T09:05:29+00:00",
+    "analyzed_at": "2026-11-21T10:19:16+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "커세어에서 공수받은 신형 어항 케이스(Corsair Air 5400 Series)와 커세어 iCUE LINK 에코시스템 부품을 활용하여 고사양 게이밍 PC를 조립하는 영상입니다. 조립 난이도는 다소 높지만, 그래픽카드와 CPU 수랭 쿨러 열기가 완벽히 분리 배출되는 독창적인 공기역학 설계에 대해 역대 어항 케이스 중 최고라며 극찬했습니다. 또한 게임 방송 환경에서는 프레임 방어를 위해 AMD Ryzen X3D 프로세서를 적극 추천하며, AS 공임비 및 진상 고객에 대한 솔직한 현장의 고충을 나눴습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "어항케이스",
+      "커세어",
+      "iCUELINK",
+      "RyzenX3D",
+      "9800X3D",
+      "BTF스텔스",
+      "공기역학쿨링"
+    ],
+    "products": [
+      {
+        "category": "케이스",
+        "brand": "CORSAIR",
+        "model": "Air 5400 Series",
+        "sentiment": "긍정",
+        "price_mentioned": "33만원 정도",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU쿨러",
+        "brand": "CORSAIR",
+        "model": "iCUE LINK TITAN 360 LCD",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "파워",
+        "brand": "CORSAIR",
+        "model": "HX1200i",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "케이스팬",
+        "brand": "CORSAIR",
+        "model": "iCUE LINK LX120 RGB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "B850 AORUS STEALTH",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "990 PRO 2TB",
+        "sentiment": "긍정",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
     "id": "72uUZiHwYhY",
     "title": "컴퓨터 견적 추천 TOP 9! 가격대별 게임성능 비교 예산을 성능에 몰빵한 깡통 PC",
     "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
