@@ -1,0 +1,135 @@
+{
+  "id": "mPkTxTP4a8M",
+  "title": "11월 컴퓨터 견적 추천｜조립PC·게이밍컴퓨터 가격대별 비교｜예산에 맞는 조립컴퓨터 추천",
+  "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+  "channel_name": "마인드피씨",
+  "published": "2026-11-20T09:30:23+00:00",
+  "analyzed_at": "2026-11-21T16:22:48+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-flash-latest",
+  "tokens": 44412,
+  "analysis": {
+    "summary": "마인드피씨에서 11월을 맞아 사무용부터 고사양 게이밍까지 총 8종의 월간 추천 조립PC 견적을 소개했습니다. FHD 게이밍 환경에 적합한 메인스트림 라인업부터 배틀그라운드 특화 X3D CPU 탑재 모델, QHD 고사양 게이밍 PC까지 가격대별로 세분화해 구성했습니다. 전 제품 윈도우 및 바이오스 세팅, 기본 점검 후 완제품 출고되며 무상 3년 A/S(출장 1년 포함)와 기존 PC 보상판매 및 댓글 할인 혜택을 제공합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "출고 전 윈도우/드라이버 세팅, 안정화 테스트 완료 및 무료 배송 지원",
+      "무상 A/S 총 3년(출장 A/S 1년 포함) 및 기존 PC 보상판매 지원",
+      "배틀그라운드 등 CPU 민감 게임을 위한 AMD X3D 프로세서 탑재 견적 강조",
+      "사무용 50만 원대부터 QHD 게이밍 250만 원대까지 다양한 가격대 구성"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500F",
+        "timestamp": "00:31",
+        "t": 31,
+        "sentiment": "긍정",
+        "evaluation": "가장 많이 판매되는 메인스트림 게이밍 PC의 핵심 CPU로, 다양한 장르의 게임과 일반 작업을 원활히 소화합니다.",
+        "price_mentioned": "1,695,000원(PC 완제)",
+        "value_comment": "FHD 게이밍 입문 및 범용 구성으로 가성비가 뛰어남",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500X3D",
+        "timestamp": "01:59",
+        "t": 119,
+        "sentiment": "긍정",
+        "evaluation": "배틀그라운드 교전 및 유저 밀집 구간에서 프레임 유지력과 방어 성능이 우수한 모델로 소개되었습니다.",
+        "price_mentioned": "1,880,000원(PC 완제)",
+        "value_comment": "메인스트림 대비 185,000원 차이로 고주사율 배그 환경에 적합",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "timestamp": "02:51",
+        "t": 171,
+        "sentiment": "긍정",
+        "evaluation": "배틀그라운드 고주사율 모니터 환경 및 고사양 패키지 게임에서 최상의 평균 프레임과 하위 1% 프레임 안정성을 보여줍니다.",
+        "price_mentioned": "2,050,000원(PC 완제)",
+        "value_comment": "퍼포먼스 게이밍 시스템 구축 시 가장 추천하는 고성능 게이밍 CPU",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "MANLI",
+        "model": "GeForce RTX 5070 Nebula D7 12GB",
+        "timestamp": "04:10",
+        "t": 250,
+        "sentiment": "긍정",
+        "evaluation": "QHD 고해상도 환경에서 최신 고사양 패키지 게임을 원활히 즐기기에 최적화된 그래픽카드입니다.",
+        "price_mentioned": "2,550,000원(PC 완제)",
+        "value_comment": "QHD 고주사율 게이밍과 영상 편집 작업을 모두 만족하는 상위 구성",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5600",
+        "timestamp": "05:11",
+        "t": 311,
+        "sentiment": "긍정",
+        "evaluation": "롤, 발로란트, FC 온라인 등 주요 온라인 게임을 쾌적하게 구동하며 전체 구매 비용을 낮춘 실속형 제품입니다.",
+        "price_mentioned": "1,199,000원(PC 완제)",
+        "value_comment": "120만 원 이하 예산에서 가성비 극대화",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME A520M-K",
+        "timestamp": "05:11",
+        "t": 311,
+        "sentiment": "중립",
+        "evaluation": "온라인 실속 PC와 오피스 스탠다드 PC의 메인보드로 대원CTS 유통 모델이 채택되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "보급형 AMD 시스템의 가격 경쟁력을 뒷받침하는 메인보드",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core i5-14400F",
+        "timestamp": "01:09",
+        "t": 69,
+        "sentiment": "긍정",
+        "evaluation": "DDR4 메모리와 조합하여 150만 원 미만 예산에서 가성비를 맞춘 인텔 게이밍 에디션 구성입니다.",
+        "price_mentioned": "1,495,000원(PC 완제)",
+        "value_comment": "동일 GPU 구성 대비 약 20만 원 저렴한 가격대 실현",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5500GT",
+        "timestamp": "06:06",
+        "t": 366,
+        "sentiment": "긍정",
+        "evaluation": "내장 그래픽을 활용해 사무 작업, 인강, 유튜브 시청 등 일상적인 용도에 적합한 가성비 견적의 CPU입니다.",
+        "price_mentioned": "589,000원(PC 완제)",
+        "value_comment": "50만 원대 가정 및 사무용 PC 구축에 최적",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "마인드피씨는 가성비 온라인 게임 및 실속형 견적(5600, 5500GT)에 당사 유통 'ASUS PRIME A520M-K 대원CTS' 보드를 기본 채택 중이므로, A520M 재고 안정 공급 및 벌크 패키지 가격 혜택을 제안해 물량을 확대할 수 있습니다.",
+      "250만 원대 최상위 QHD 게이밍 견적에 당사 유통 'MANLI 지포스 RTX 5070'이 메인으로 채택되어 있으므로, MANLI 그래픽카드 추가 프로모션이나 상위/하위 라인업 공급 확대를 협의하기 좋은 타이밍입니다.",
+      "배틀그라운드 및 고사양 게이밍 견적에서 라이젠 7500F, X3D 시리즈의 비중이 매우 높으므로, AMD CPU와 ASRock/ASUS 메인보드 패키지 공급 번들 프로모션을 제안하면 가성비 주력 거래처의 단가 경쟁력을 높여줄 수 있습니다."
+    ],
+    "trend_tags": [
+      "조립PC",
+      "마인드피씨",
+      "게이밍컴퓨터",
+      "11월추천견적",
+      "라이젠X3D",
+      "MANLI",
+      "ASUSA520M"
+    ]
+  }
+}

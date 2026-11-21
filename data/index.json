@@ -30,6 +30,94 @@
     ]
   },
   {
+    "id": "mPkTxTP4a8M",
+    "title": "11월 컴퓨터 견적 추천｜조립PC·게이밍컴퓨터 가격대별 비교｜예산에 맞는 조립컴퓨터 추천",
+    "channel_id": "UC1c20pCtUxaKkyVKOFRegxQ",
+    "channel_name": "마인드피씨",
+    "published": "2026-11-20T09:30:23+00:00",
+    "analyzed_at": "2026-11-21T16:22:48+09:00",
+    "is_short": false,
+    "manual": false,
+    "summary": "마인드피씨에서 11월을 맞아 사무용부터 고사양 게이밍까지 총 8종의 월간 추천 조립PC 견적을 소개했습니다. FHD 게이밍 환경에 적합한 메인스트림 라인업부터 배틀그라운드 특화 X3D CPU 탑재 모델, QHD 고사양 게이밍 PC까지 가격대별로 세분화해 구성했습니다. 전 제품 윈도우 및 바이오스 세팅, 기본 점검 후 완제품 출고되며 무상 3년 A/S(출장 1년 포함)와 기존 PC 보상판매 및 댓글 할인 혜택을 제공합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "tags": [
+      "조립PC",
+      "마인드피씨",
+      "게이밍컴퓨터",
+      "11월추천견적",
+      "라이젠X3D",
+      "MANLI",
+      "ASUSA520M"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500F",
+        "sentiment": "긍정",
+        "price_mentioned": "1,695,000원(PC 완제)",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "1,880,000원(PC 완제)",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "sentiment": "긍정",
+        "price_mentioned": "2,050,000원(PC 완제)",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "MANLI",
+        "model": "GeForce RTX 5070 Nebula D7 12GB",
+        "sentiment": "긍정",
+        "price_mentioned": "2,550,000원(PC 완제)",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5600",
+        "sentiment": "긍정",
+        "price_mentioned": "1,199,000원(PC 완제)",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "PRIME A520M-K",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "Intel",
+        "model": "Core i5-14400F",
+        "sentiment": "긍정",
+        "price_mentioned": "1,495,000원(PC 완제)",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5500GT",
+        "sentiment": "긍정",
+        "price_mentioned": "589,000원(PC 완제)",
+        "is_our_brand": true
+      }
+    ]
+  },
+  {
     "id": "wHK9VklV3JI",
     "title": "[까망이컴퓨터] 최고의 어항 케이스.",
     "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
