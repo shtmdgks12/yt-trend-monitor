@@ -1,0 +1,71 @@
+{
+  "id": "paZMYjYji2Q",
+  "title": "뭘 머리 사둔다구요?",
+  "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+  "channel_name": "고고싱컴퓨터",
+  "published": "2026-11-21T09:19:57+00:00",
+  "analyzed_at": "2026-11-22T10:20:56+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 4876,
+  "analysis": {
+    "summary": "8년 동안 AM4 보드를 사용 중인 시청자가 단종 전에 예비용 메인보드를 미리 구매해 두는 것에 대해 문의했습니다. 이에 대해 크리에이터는 보드가 1년 뒤 고장 날 것을 대비해 미리 사두기보다는, 돈을 모아 차세대인 AM5 플랫폼으로 넘어가는 것을 권장했습니다. 최근 B550M 등 AM4 보드가 소량 출시되기는 하지만, CPU 수명 및 장기적 가치를 고려할 때 굳이 미리 구매할 필요는 없다고 조언했습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "key_points": [
+      "AM4 메인보드 고장을 대비해 미리 예비용 보드를 구매하는 것은 비추천",
+      "추가 지출 대신 예산을 모아 AM5 플랫폼으로 업그레이드하는 것이 합리적",
+      "B550M 등 일부 AM4 보드가 여전히 유통되고 있으나 장기적 메리트는 낮음"
+    ],
+    "products": [
+      {
+        "category": "메인보드",
+        "brand": "ASRock",
+        "model": "B550M Pro4",
+        "timestamp": "00:24",
+        "t": 24,
+        "sentiment": "중립",
+        "evaluation": "화면 견적 리스트에 노출되었으며, AM4 보드가 여전히 소량 유통되고 있음을 보여주는 사례로 언급되었습니다.",
+        "price_mentioned": "148,070원",
+        "value_comment": "AM4 유지 목적으로 구매하기엔 차라리 AM5 전환이 권장됨",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "GIGABYTE",
+        "model": "B550M AORUS ELITE",
+        "timestamp": "00:24",
+        "t": 24,
+        "sentiment": "중립",
+        "evaluation": "최근 간간이 유통되는 AM4 보드 중 하나로 예시를 들었습니다.",
+        "price_mentioned": "155,400원",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "AM5",
+        "timestamp": "00:09",
+        "t": 9,
+        "sentiment": "긍정",
+        "evaluation": "기존 AM4 시스템에서 보드만 교체하기보다는 돈을 모아 AM5 플랫폼으로 완전히 넘어가는 것이 맞다고 추천했습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "고객들이 구형 AM4 유지와 최신 AM5 전환 사이에서 고민하는 경향이 크므로, 100~200만원대 주력 견적 상담 시 AM5 진입형 CPU(라이젠 5 7500F/7600 등)와 A620/B650 메인보드 세트 구성을 프로모션할 필요가 있습니다.",
+      "ASRock B550M Pro4 등 기존 AM4 보드는 단종 대비 비축 수요보다는 순수 수리/교체용 수요 위주로 보수적인 재고 관리를 제안할 수 있습니다."
+    ],
+    "trend_tags": [
+      "AM4",
+      "AM5",
+      "메인보드교체",
+      "플랫폼업그레이드",
+      "B550M"
+    ]
+  }
+}
