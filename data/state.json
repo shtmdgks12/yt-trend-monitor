@@ -101,6 +101,7 @@
     },
     "UCeLQZSYRW-WKaHOJwjVXYhA": {
       "seen": [
+        "C45eKSh0bfc",
         "3GeQa6ZAx90",
         "paZMYjYji2Q",
         "oQ3rSM0TQJY",
@@ -284,5 +285,17 @@
       "since": "2026-11-08T06:12:26.643490+00:00"
     }
   },
-  "queue": []
+  "queue": [
+    {
+      "id": "C45eKSh0bfc",
+      "title": "국내 블프 현실....",
+      "published": "2026-11-22T08:48:59+00:00",
+      "channel_title": "고고싱컴퓨터",
+      "description": "--------------------------------------------------------------------------------------------\n\n\n\n\n--------------------------------------------------------------------------------------------\n견적 상담 문의 :: \n카카오톡 친구 추가하기 → ID 로 검색 →  \"gocom\" 검색 후 채팅\n혹은  http://pf.kakao.com/_xjQuLxj/chat\n\n컴퓨터 조립 20년차 저의 노하우가 살아있는 공간 \n고고싱 구독 하신 순간 컴퓨터 걱정이 사라집니다. \n조립 컴퓨터의 안좋은 인식과 수리가 힘들다고 생각했던 부정적인 인식을 바꾸기위한 곳입니다.\n\n오전 10시 ~ 오후 7시 까지 답변 드립니다\n(상황에 따라 유동적으로 운영하고 있습니다)\n\n***틱톡 및 인스타그램 DM 을 통한 상담 및 금전적인 요구는 하지 않고 있습니다!!\n사칭에 주의하세요***\n(틱톡은 계정 없음 // 인스타는 계정은 있지만 관리 안하는중)\n\n\n고고싱 찾아오는길 : https://naver.me/xtWJDHeE\n\n좀 더 많은 이야기는 블로그 : https://blog.naver.com/b200700\n\n👀 영상 보시다가 재밌던 부분 👀\n👇 댓글 제보 해주시면 참고하겠습니다 👇",
+      "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+      "channel_name": "고고싱컴퓨터",
+      "attempts": 1,
+      "last_error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    }
+  ]
 }
