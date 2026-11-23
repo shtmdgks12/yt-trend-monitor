@@ -245,6 +245,7 @@
     },
     "UCIWkZS_bVdG3YvSsnXhup2g": {
       "seen": [
+        "hm3UUdKNT_4",
         "yKbFm7GbdxM",
         "wHK9VklV3JI",
         "ScsKTe4U_n0",
@@ -288,15 +289,15 @@
   },
   "queue": [
     {
-      "id": "hWrOidNWjSw",
-      "title": "PC 조립시 주의할점 15종 (초보자 필독 영상)",
-      "published": "2026-11-22T18:35:13+00:00",
-      "channel_title": "신성조",
-      "description": "중수분들도 한번쯤 보시면 놓친 부분이 1-2개 는 있을겁니다",
-      "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
-      "channel_name": "신성조의 pc공방",
-      "attempts": 2,
-      "last_error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+      "id": "hm3UUdKNT_4",
+      "title": "현존 최강 기능성? 어항 케이스 끝판왕",
+      "published": "2026-11-23T04:01:46+00:00",
+      "channel_title": "까망이컴퓨터",
+      "description": "",
+      "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+      "channel_name": "까망이컴퓨터",
+      "attempts": 1,
+      "last_error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quo"
     }
   ]
 }
