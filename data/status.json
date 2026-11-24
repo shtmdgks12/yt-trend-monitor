@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-24T10:19:14+09:00",
+  "last_run": "2026-11-24T16:27:35+09:00",
   "channels": [
     {
       "name": "영재컴퓨터",
@@ -82,13 +82,7 @@
       "new": 0
     }
   ],
-  "analyzed": 1,
-  "errors": [
-    {
-      "id": "-1aO6bJMCs0",
-      "title": "컴퓨터 포맷 하는법 USB포맷 윈도우 재설치 꿀팁! #shorts",
-      "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quo"
-    }
-  ],
+  "analyzed": 0,
+  "errors": [],
   "queue": 0
 }
