@@ -102,6 +102,7 @@
     },
     "UCeLQZSYRW-WKaHOJwjVXYhA": {
       "seen": [
+        "vUKsXVrzHTU",
         "C45eKSh0bfc",
         "3GeQa6ZAx90",
         "paZMYjYji2Q",
@@ -247,6 +248,7 @@
     },
     "UCIWkZS_bVdG3YvSsnXhup2g": {
       "seen": [
+        "yZ4adKFPkFo",
         "hm3UUdKNT_4",
         "yKbFm7GbdxM",
         "wHK9VklV3JI",
@@ -289,5 +291,28 @@
       "since": "2026-11-08T06:12:26.643490+00:00"
     }
   },
-  "queue": []
+  "queue": [
+    {
+      "id": "vUKsXVrzHTU",
+      "title": "d4버티기 vs am5로넘어가기",
+      "published": "2026-11-24T08:30:10+00:00",
+      "channel_title": "고고싱컴퓨터",
+      "description": "",
+      "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+      "channel_name": "고고싱컴퓨터",
+      "attempts": 1,
+      "last_error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    },
+    {
+      "id": "yZ4adKFPkFo",
+      "title": "사장님이 개패고 싶은 진상 손님 특징",
+      "published": "2026-11-24T10:00:30+00:00",
+      "channel_title": "까망이컴퓨터",
+      "description": "",
+      "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
+      "channel_name": "까망이컴퓨터",
+      "attempts": 1,
+      "last_error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quo"
+    }
+  ]
 }
