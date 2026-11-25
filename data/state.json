@@ -300,7 +300,7 @@
       "description": "",
       "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
       "channel_name": "고고싱컴퓨터",
-      "attempts": 1,
+      "attempts": 2,
       "last_error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
     },
     {
@@ -311,8 +311,8 @@
       "description": "",
       "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
       "channel_name": "까망이컴퓨터",
-      "attempts": 1,
-      "last_error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quo"
+      "attempts": 2,
+      "last_error": "HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
     }
   ]
 }
