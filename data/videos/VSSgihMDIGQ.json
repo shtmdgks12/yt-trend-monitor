@@ -1,0 +1,110 @@
+{
+  "id": "VSSgihMDIGQ",
+  "title": "*소음주의* 엔터프라이즈급 AI 딥러닝 서버",
+  "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
+  "channel_name": "양컴",
+  "published": "2026-11-27T09:35:09+00:00",
+  "analyzed_at": "2026-11-28T04:14:45+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 31434,
+  "analysis": {
+    "summary": "엔터프라이즈급 고성능 AI 딥러닝 서버 시스템의 조립 및 부품 장착 과정을 보여주는 영상입니다. AMD EPYC 9355 듀얼 프로세서와 대용량 DDR5 ECC 메모리, 그리고 8개의 NVIDIA RTX PRO 6000 GPU를 장착하여 최고 수준의 연산 능력을 갖췄습니다. 후반부에는 고출력 파워와 전용 쿨링 팬 모듈을 장착한 뒤 서버 구동 시 발생하는 강력한 팬 소음을 시연합니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "AMD EPYC 9355 프로세서 2개를 탑재한 듀얼 소켓 서버 시스템",
+      "NVIDIA RTX PRO 6000 8Way 구성을 통한 초고성능 AI 딥러닝 연산 환경 구축",
+      "DDR5-5600 ECC/REG 64GB 10개(총 640GB) 및 엔터프라이즈 U.2 SSD 장착",
+      "고전력 서버 섀시와 리던던트 파워 및 쿨링 팬 구동 소음 확인"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "EPYC 9355",
+        "timestamp": "00:46",
+        "t": 46,
+        "sentiment": "긍정",
+        "evaluation": "엔터프라이즈 AI 딥러닝 서버의 핵심 연산을 위해 듀얼(2EA) 구성으로 탑재되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX PRO 6000 Blackwell D7 96GB",
+        "timestamp": "02:56",
+        "t": 176,
+        "sentiment": "긍정",
+        "evaluation": "대규모 AI 딥러닝 학습 및 추론을 위해 8개가 병렬(8Way)로 장착되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "메모리",
+        "brand": "Samsung",
+        "model": "DDR5-5600 ECC/REG 64GB",
+        "timestamp": "00:13",
+        "t": 13,
+        "sentiment": "중립",
+        "evaluation": "서버 안정성을 위한 ECC/REG 규격 메모리로 10개가 장착되어 총 640GB를 구성합니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "SK hynix",
+        "model": "Platinum P41 M.2 NVMe 1TB",
+        "timestamp": "00:00",
+        "t": 0,
+        "sentiment": "중립",
+        "evaluation": "시스템 부팅 및 OS 구동용 고속 M.2 NVMe 드라이브로 사용되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "SSD",
+        "brand": "Samsung",
+        "model": "PM9A3 U.2 NVMe 3.84TB",
+        "timestamp": "04:08",
+        "t": 248,
+        "sentiment": "중립",
+        "evaluation": "엔터프라이즈 환경을 위한 U.2 규격 고용량 NVMe SSD 2개가 전면 베이에 장착되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      },
+      {
+        "category": "파워",
+        "brand": "CRPS",
+        "model": "Titanium 3200W",
+        "timestamp": "03:41",
+        "t": 221,
+        "sentiment": "중립",
+        "evaluation": "고출력 8Way GPU 서버의 안정적인 전력 공급을 위해 4개의 리던던트 파워 모듈이 장착되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "거래처(양컴)가 일반 컨슈머 PC를 넘어 AMD EPYC 프로세서 기반의 8Way 멀티 GPU 엔터프라이즈 AI 서버를 적극 구축·출고하고 있으므로, 당사 대원씨티에스의 EPYC CPU 유통 물량 및 특별 견적 공급 협의가 필수적입니다.",
+      "서버 랙마운트 시스템에 필요한 엔터프라이즈 메인보드(ASUS, ASRock Rack 라인업 등) 및 고신뢰성 서버용 메모리/스토리지 공급 가능 여부를 함께 패키지로 제안할 수 있습니다.",
+      "AI 딥러닝 서버 수요가 지속 증가하는 추세이므로, 대량 발주에 대비한 EPYC 서버용 CPU 재고 확보 현황을 공유하며 선점 영업을 진행하기 적합합니다."
+    ],
+    "trend_tags": [
+      "AI서버",
+      "딥러닝",
+      "AMDEPYC",
+      "8WayGPU",
+      "엔터프라이즈",
+      "랙서버"
+    ]
+  }
+}

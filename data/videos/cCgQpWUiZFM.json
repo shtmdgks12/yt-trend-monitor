@@ -1,0 +1,133 @@
+{
+  "id": "cCgQpWUiZFM",
+  "title": "26년 12월 컴퓨터 견적 추천! 화이트 전문가 추남이 제대로 각잡고 추천하는 끝판왕 PC",
+  "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
+  "channel_name": "티와이 시스템",
+  "published": "2026-11-27T08:30:37+00:00",
+  "analyzed_at": "2026-11-28T04:10:09+09:00",
+  "is_short": false,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 79551,
+  "analysis": {
+    "summary": "티와이 시스템(추남)에서 가상의 2026년 12월 콘셉트로 올 화이트 감성과 어항 케이스를 결합한 9가지 하이엔드/게이밍 조립 PC 월간 견적을 소개했습니다. 차세대 RTX 50 시리즈 및 가상의 부품 조합을 통해 100만 원대 보급형부터 700만 원대 플래그십 PC까지 화려한 튜닝과 게임별 벤치마크 프레임을 제시했습니다. 전체적으로 화이트 콘셉트 부품의 호환성과 수랭 쿨러, 디스플레이 커스텀을 적극 활용해 감성 비용이 더해진 비주얼 특화 라인업을 강조했습니다.",
+    "video_type": "조립/견적",
+    "sponsored": false,
+    "key_points": [
+      "어항형 화이트 케이스와 LCD/디스플레이 쿨러를 적용한 비주얼 극대화 견적 구성",
+      "RTX 50 시리즈(가상 콘셉트) 기반 1번부터 9번까지 단계별 견적 및 벤치마크 성능 제시",
+      "ASUS, ASRock 화이트 메인보드 및 AMD 라이젠 프로세서(5600, 7500F, 7800X3D, 9800X3D 등) 비중 높음",
+      "3년 무상 A/S 및 프리미엄 선 정리, 테스트 서비스 강조"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "timestamp": "10:21",
+        "t": 621,
+        "sentiment": "긍정",
+        "evaluation": "최상위 9번 견적에 탑재되어 QHD 환경에서 압도적인 프레임을 보여주는 끝판왕 게이밍 CPU로 평가했습니다.",
+        "price_mentioned": "790만원",
+        "value_comment": "790만 원대 초고사양 풀옵션 방송/작업/게임 머신 구성",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 7800X3D",
+        "timestamp": "09:20",
+        "t": 560,
+        "sentiment": "긍정",
+        "evaluation": "모든 게임을 QHD 풀옵션으로 즐길 수 있는 게이밍 종결급 프로세서로 추천했습니다.",
+        "price_mentioned": "599만원",
+        "value_comment": "고급 화이트 감성 부품들과 매칭된 하이엔드 견적",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 7500F",
+        "timestamp": "05:49",
+        "t": 349,
+        "sentiment": "긍정",
+        "evaluation": "현시점 가장 인기가 많은 베스트셀러 조합의 핵심 CPU로 언급했습니다.",
+        "price_mentioned": "227만원",
+        "value_comment": "옵션 타협 없이 스팀 고사양 게임을 즐길 수 있는 균형 잡힌 견적",
+        "is_our_brand": true
+      },
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 5 5600",
+        "timestamp": "03:07",
+        "t": 187,
+        "sentiment": "긍정",
+        "evaluation": "가성비 좋게 온라인 게임과 배틀그라운드를 입문/플레이하기에 적합한 가성비 CPU로 평가했습니다.",
+        "price_mentioned": "129만원",
+        "value_comment": "100만 원 초반대 실속형 화이트 PC 구성",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "TUF Gaming B850M-PLUS WIFI",
+        "timestamp": "01:47",
+        "t": 107,
+        "sentiment": "긍정",
+        "evaluation": "1번 견적에서 라이젠과 함께 조립 난도가 높은 비전 M 어항 케이스 시스템에 매칭된 보드입니다.",
+        "price_mentioned": "419만원",
+        "value_comment": "전체 견적 419만 원 구성",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "AYW B860M GAMING WIFI",
+        "timestamp": "07:06",
+        "t": 426,
+        "sentiment": "긍정",
+        "evaluation": "화이트 계열 시스템 빌드에 어울리는 B860M 메인보드로 작업 및 게이밍 견적에 구성되었습니다.",
+        "price_mentioned": "244만원",
+        "value_comment": "작업/게임 병행 견적의 핵심 보드",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASUS",
+        "model": "ROG STRIX B860-G GAMING WIFI",
+        "timestamp": "08:10",
+        "t": 490,
+        "sentiment": "긍정",
+        "evaluation": "화이트 톤 디자인 완성도를 높여주는 고급형 ROG STRIX 라인업 메인보드입니다.",
+        "price_mentioned": "385만원",
+        "value_comment": "고성능 화이트 콘셉트 PC에 적합",
+        "is_our_brand": true
+      },
+      {
+        "category": "메인보드",
+        "brand": "ASRock",
+        "model": "B550M Pro RS",
+        "timestamp": "03:59",
+        "t": 239,
+        "sentiment": "긍정",
+        "evaluation": "3번 화이트 견적에서 가성비와 화이트 방열판 디자인을 모두 챙길 수 있는 메인보드로 채택되었습니다.",
+        "price_mentioned": "169만원",
+        "value_comment": "160만 원대 가성비 게이밍 빌드",
+        "is_our_brand": true
+      }
+    ],
+    "sales_insights": [
+      "티와이 시스템은 올 화이트 튜닝과 어항 케이스 조립 완성도에 특화된 샵이므로, 대원씨티에스가 유통하는 ASUS 화이트 메인보드(TUF/ROG STRIX/AYW 화이트 라인업) 및 ASRock Pro RS 화이트 메인보드의 안정적인 재고 지원과 번들 프로모션을 제안하기에 최적입니다.",
+      "고사양 게이밍 라인업에서 AMD Ryzen 7800X3D, 9800X3D 및 7500F에 대한 선호도가 매우 높으므로 대원씨티에스 정품 AMD CPU와 메인보드/SSD 묶음 공급 딜을 구성해 타사 유통사 대비 단가 경쟁력을 제공할 필요가 있습니다.",
+      "화이트 튜닝 및 하이엔드 감성 소비자를 타깃으로 하는 채널 특성을 고려해, 향후 수랭 쿨러(NZXT 화이트 라인업 등)나 화이트 메모리/파워 제품군에 대한 입점 및 콜라보 견적 콘텐츠 제안이 유효합니다."
+    ],
+    "trend_tags": [
+      "화이트감성PC",
+      "어항케이스",
+      "라이젠X3D",
+      "ASUS화이트보드",
+      "하이엔드게이밍"
+    ]
+  }
+}

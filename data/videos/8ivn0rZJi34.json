@@ -1,0 +1,48 @@
+{
+  "id": "8ivn0rZJi34",
+  "title": "그러니까 이것도 분해하셨다고요?? #SHORTS #BLACKWELL",
+  "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",
+  "channel_name": "웰메이드컴퓨터",
+  "published": "2026-11-27T11:00:30+00:00",
+  "analyzed_at": "2026-11-28T04:17:24+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 5305,
+  "analysis": {
+    "summary": "최저가 약 2,800만 원에 달하는 고가 워크스테이션 GPU인 RTX PRO 6000을 분해하는 과정을 담은 영상입니다. 히트건으로 열을 가하며 하우징을 분해하던 중 전원부 인덕터(초크)가 기판에서 떨어져 나가는 파손 사고가 발생했습니다. 다행히 전원부 소자만 깔끔하게 분리되어 납땜 작업을 통해 정상 복구했다고 설명하고 있습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "key_points": [
+      "최저가 약 2,800만 원 상당의 초고가 워크스테이션 GPU RTX PRO 6000 분해 시도",
+      "히트건 가열 및 분해 중 전원부 소자가 떨어져 나가는 사고 발생",
+      "이후 납땜 작업을 통해 수리 복구 완료"
+    ],
+    "products": [
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "RTX PRO 6000",
+        "timestamp": "00:00",
+        "t": 0,
+        "sentiment": "부정",
+        "evaluation": "분해 과정에서 전원부 초크 코일이 파손되어 떨어져 나갔으나 납땜으로 해결함.",
+        "price_mentioned": "최저가 2800만원",
+        "value_comment": "2800만 원에 달하는 초고가 엔터프라이즈 GPU",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "2,000만 원대 이상의 초고가 엔터프라이즈 GPU를 직접 다루고 커스텀 및 수리 역량을 보유한 전문 워크스테이션/서버 전문 거래처임.",
+      "고성능 워크스테이션 제작에 필수적인 ASUS Pro WS 메인보드, 고용량 Kingston 서버/ECC 메모리 및 엔터프라이즈 SSD 제품군 연계 영업이 매우 적합함.",
+      "고사양 워크스테이션 시스템의 안정적인 전력 공급과 쿨링을 위한 Corsair 고출력 파워서플라이(1200W~1600W급) 및 수랭 쿨러 라인업 제안 유효."
+    ],
+    "trend_tags": [
+      "RTXPRO6000",
+      "워크스테이션",
+      "서버",
+      "GPU분해",
+      "전원부파손"
+    ]
+  }
+}
