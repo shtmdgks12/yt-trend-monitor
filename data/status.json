@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-27T10:28:00+09:00",
+  "last_run": "2026-11-27T16:29:19+09:00",
   "channels": [
     {
       "name": "영재컴퓨터",
@@ -7,8 +7,8 @@
       "ok": true,
       "channel_id": "UCaOwfLJxMjZ8RCBwg8_c90A",
       "title": "YJMOD x 영재컴퓨터",
-      "via": "RSS",
-      "latest": "2026-11-25T07:59:36+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-11-26T07:29:56.564696+00:00",
       "new": 0
     },
     {
@@ -17,8 +17,8 @@
       "ok": true,
       "channel_id": "UCS7e9ieT1-t7ALELe2ubRtg",
       "title": "양컴",
-      "via": "RSS",
-      "latest": "2026-11-10T09:41:22+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-11-13T07:30:34.491028+00:00",
       "new": 0
     },
     {
@@ -27,8 +27,8 @@
       "ok": true,
       "channel_id": "UCNCZoEdHHuF76DZ78IBJvlQ",
       "title": "신성조",
-      "via": "RSS",
-      "latest": "2026-11-22T18:35:13+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-11-23T07:31:12.451523+00:00",
       "new": 0
     },
     {
@@ -37,8 +37,8 @@
       "ok": true,
       "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
       "title": "고고싱컴퓨터",
-      "via": "RSS",
-      "latest": "2026-11-26T02:30:39+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-11-26T07:31:50.225584+00:00",
       "new": 0
     },
     {
@@ -57,8 +57,8 @@
       "ok": true,
       "channel_id": "UCwtZFjYTZAy0m4G8bDEZ7mA",
       "title": "추천하는남자",
-      "via": "RSS",
-      "latest": "2026-11-25T10:54:55+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-11-26T07:32:39.443492+00:00",
       "new": 0
     },
     {
@@ -67,8 +67,8 @@
       "ok": true,
       "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",
       "title": "웰메이드컴퓨터 TV",
-      "via": "RSS",
-      "latest": "2026-11-18T11:00:31+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-10-30T07:33:17.275653+00:00",
       "new": 0
     },
     {
@@ -77,8 +77,8 @@
       "ok": true,
       "channel_id": "UCIWkZS_bVdG3YvSsnXhup2g",
       "title": "까망이컴퓨터",
-      "via": "RSS",
-      "latest": "2026-11-25T10:00:35+00:00",
+      "via": "채널 페이지",
+      "latest": "2026-11-26T07:33:55.179698+00:00",
       "new": 0
     }
   ],
