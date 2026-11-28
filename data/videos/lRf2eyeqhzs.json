@@ -1,0 +1,59 @@
+{
+  "id": "lRf2eyeqhzs",
+  "title": "4K vs OLED",
+  "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+  "channel_name": "고고싱컴퓨터",
+  "published": "2026-11-28T04:33:56+00:00",
+  "analyzed_at": "2026-11-28T22:15:10+09:00",
+  "is_short": true,
+  "manual": false,
+  "model": "gemini-3.8-flash",
+  "tokens": 4114,
+  "analysis": {
+    "summary": "라이젠 9800X3D와 RTX 5080 조합 시스템 사용자의 QHD OLED vs 4K 모니터 업그레이드 고민에 대한 상담 내용입니다. 고고싱컴퓨터는 OLED 패널 교체도 나쁘지 않으나 비용을 들여 동일 해상도(QHD)를 유지하기보다는 확실한 체감을 위해 4K 해상도로 넘어가는 것을 추천했습니다. 고사양 시스템에서의 해상도 업그레이드 체감과 투자 가치에 대해 조언하고 있습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "key_points": [
+      "라이젠 9800X3D 및 RTX 5080 하이엔드 시스템 기반 모니터 교체 상담",
+      "동일 QHD 해상도 내 OLED 교체보다 4K 해상도로의 업그레이드를 추천",
+      "투자 비용 대비 체감 효과를 고려한 선택 강조"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "timestamp": "00:01",
+        "t": 1,
+        "sentiment": "중립",
+        "evaluation": "질문자의 시스템 사양(9800X3D + 5080)으로 언급되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 5080",
+        "timestamp": "00:01",
+        "t": 1,
+        "sentiment": "중립",
+        "evaluation": "4K 모니터를 충분히 구동할 수 있는 고사양 시스템의 그래픽카드로 언급되었습니다.",
+        "price_mentioned": "",
+        "value_comment": "",
+        "is_our_brand": false
+      }
+    ],
+    "sales_insights": [
+      "최근 하이엔드 견적(9800X3D + RTX 5080) 구매 고객층의 4K 및 고주사율 모니터 연계 수요가 늘고 있으므로, 고해상도 게이밍 환경에 맞춘 패키지 구성 제안이 유효합니다.",
+      "대원씨티에스 취급 브랜드인 AMD 라이젠 7 9800X3D는 4K 및 하이엔드 게이밍의 기본 표준으로 자리잡고 있으므로 안정적인 재고 지원 및 프로모션을 논의할 수 있습니다."
+    ],
+    "trend_tags": [
+      "9800X3D",
+      "RTX5080",
+      "4K모니터",
+      "OLED모니터",
+      "게이밍모니터"
+    ]
+  }
+}

@@ -1,5 +1,43 @@
 [
   {
+    "id": "lRf2eyeqhzs",
+    "title": "4K vs OLED",
+    "channel_id": "UCeLQZSYRW-WKaHOJwjVXYhA",
+    "channel_name": "고고싱컴퓨터",
+    "published": "2026-11-28T04:33:56+00:00",
+    "analyzed_at": "2026-11-28T22:15:10+09:00",
+    "is_short": true,
+    "manual": false,
+    "summary": "라이젠 9800X3D와 RTX 5080 조합 시스템 사용자의 QHD OLED vs 4K 모니터 업그레이드 고민에 대한 상담 내용입니다. 고고싱컴퓨터는 OLED 패널 교체도 나쁘지 않으나 비용을 들여 동일 해상도(QHD)를 유지하기보다는 확실한 체감을 위해 4K 해상도로 넘어가는 것을 추천했습니다. 고사양 시스템에서의 해상도 업그레이드 체감과 투자 가치에 대해 조언하고 있습니다.",
+    "video_type": "기타",
+    "sponsored": false,
+    "tags": [
+      "9800X3D",
+      "RTX5080",
+      "4K모니터",
+      "OLED모니터",
+      "게이밍모니터"
+    ],
+    "products": [
+      {
+        "category": "CPU",
+        "brand": "AMD",
+        "model": "Ryzen 7 9800X3D",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": true
+      },
+      {
+        "category": "그래픽카드",
+        "brand": "NVIDIA",
+        "model": "GeForce RTX 5080",
+        "sentiment": "중립",
+        "price_mentioned": "",
+        "is_our_brand": false
+      }
+    ]
+  },
+  {
     "id": "8ivn0rZJi34",
     "title": "그러니까 이것도 분해하셨다고요?? #SHORTS #BLACKWELL",
     "channel_id": "UCH68EUyCP5Uv27gP-oucXCw",
